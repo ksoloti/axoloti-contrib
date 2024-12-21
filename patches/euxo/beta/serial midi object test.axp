@@ -184,7 +184,7 @@ static msg_t ThreadX(void *arg) {
 WORKING_AREA(waThreadX, 1024);
 Thread *Thd;]]></code.declaration>
          <code.init><![CDATA[Thd = chThdCreateStatic(waThreadX, sizeof(waThreadX),
-                    NORMALPRIO, ThreadX, NULL);]]></code.init>
+                    NORMALPRIO, (tfunc_t)ThreadX, NULL);]]></code.init>
          <code.dispose><![CDATA[chThdTerminate(Thd);
 chThdWait(Thd);]]></code.dispose>
       </object>

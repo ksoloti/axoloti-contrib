@@ -65,7 +65,7 @@ Thread *Thd;]]></code.declaration>
 	spiStart(&SPID1, &spicfg);
 	
   Thd = chThdCreateStatic(waThreadX, sizeof(waThreadX),
-                    NORMALPRIO, ThreadX, (void *)this);]]></code.init>
+                    NORMALPRIO, (tfunc_t)ThreadX, (void *)this);]]></code.init>
       <code.dispose><![CDATA[chThdTerminate(Thd);
 chThdWait(Thd);]]></code.dispose>
       <code.krate><![CDATA[this->Go1 = inlet_Go1;

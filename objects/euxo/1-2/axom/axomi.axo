@@ -48,7 +48,7 @@ Thread *Thd;
 button1=0;button2=0;button3=0;button4=0;
 pot1=0;pot2=0;pot3=0;pot4=0;pot5=0;pot6=0;pot7=0;pot8=0;
   Thd = chThdCreateStatic(waThreadX, sizeof(waThreadX),
-                    NORMALPRIO, ThreadX, (void *)this);
+                    NORMALPRIO, (tfunc_t)ThreadX, (void *)this);
 ]]></code.init>
    <code.dispose><![CDATA[chThdTerminate(Thd);
 chThdWait(Thd);

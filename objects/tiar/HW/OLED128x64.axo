@@ -304,7 +304,7 @@ static const I2CConfig i2cfg = {
     STD_DUTY_CYCLE,
 };*/
 i2cStart(&I2CD1, &i2cfg);
-Thd = chThdCreateStatic(waThreadX, sizeof(waThreadX), NORMALPRIO, ThreadX, (void *)this);]]></code.init>
+Thd = chThdCreateStatic(waThreadX, sizeof(waThreadX), NORMALPRIO, (tfunc_t)ThreadX, (void *)this);]]></code.init>
       <code.dispose><![CDATA[chThdTerminate( Thd );
 chThdWait( Thd );
 i2cStop(&I2CD1);

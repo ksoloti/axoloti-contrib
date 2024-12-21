@@ -34,7 +34,7 @@ WORKING_AREA(waThreadX, 1024);
 Thread *Thd;]]></code.declaration>
       <code.init><![CDATA[in1=0;in2=0;in3=0,in4=0,in5=0;
   Thd = chThdCreateStatic(waThreadX, sizeof(waThreadX),
-                    NORMALPRIO, ThreadX, (void *)this);]]></code.init>
+                    NORMALPRIO, (tfunc_t)ThreadX, (void *)this);]]></code.init>
       <code.dispose><![CDATA[chThdTerminate(Thd);
 chThdWait(Thd);]]></code.dispose>
       <code.krate><![CDATA[this->in1 = inlet_Key;

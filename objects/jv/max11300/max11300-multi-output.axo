@@ -532,7 +532,7 @@
 		WORKING_AREA(waThreadX, 1024);
 
 		Thread *Thd;]]></code.declaration>
-      <code.init><![CDATA[Thd = chThdCreateStatic(waThreadX, sizeof(waThreadX), NORMALPRIO, ThreadX, (void *)this);]]></code.init>
+      <code.init><![CDATA[Thd = chThdCreateStatic(waThreadX, sizeof(waThreadX), NORMALPRIO, (tfunc_t)ThreadX, (void *)this);]]></code.init>
       <code.dispose><![CDATA[chThdTerminate( Thd );
 chThdWait( Thd );]]></code.dispose>
       <code.krate><![CDATA[this->cv_input_0 = inlet_cv0;
