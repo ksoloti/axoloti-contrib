@@ -1,8 +1,10 @@
 <objdefs appVersion="1.0.11">
    <obj.normal id="multisource" uuid="ea54ec70-e9a6-4260-8160-97f82c7a62ea">
-      <sDescription>generic modulation source
-updates automatically when input changes</sDescription>
-      <author>Remco van der Most</author>
+      <sDescription>Multiple generic modulation sources.
+Updates automatically when input changes.
+Set &quot;Number of Modulation Sources&quot; and &quot;Number of Targets per Source&quot; to above zero for this object to have any effect!
+      </sDescription>
+      <author>Remco van der Most, Ksoloti</author>
       <license>BSD</license>
       
 <ModulationSources>
