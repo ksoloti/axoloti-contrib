@@ -3,7 +3,7 @@
       <sDescription>generic modulation source that sends its modulation automatically when the value changes.
 Set &quot;Number of Modulation Sources&quot; and &quot;Number of Targets per Source&quot; to above zero for this object to have any effect!
       </sDescription>
-      <author>Johannes Elliesen</author>
+      <author>Johannes Elliesen, Ksoloti</author>
       <license>BSD</license>
       <providesModulationSource>true</providesModulationSource>
       <inlets>
