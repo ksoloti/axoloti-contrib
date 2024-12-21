@@ -1085,7 +1085,7 @@
          <obj type="delay/write sdram" sha="63d300dd732507b7237b5fd45676bc14c9e77ce7" uuid="5ae03f8d7b815edcfc40585d8bbac2ed48460fba" name="sound3" x="784" y="56">
             <params/>
             <attribs>
-               <combo attributeName="size" selection="131072 (2.37s)"/>
+               <combo attributeName="size" selection="131072 (2.73s)"/>
             </attribs>
          </obj>
          <obj type="patch/inlet a" sha="709c10aa648c6e5a3c00da4b5dd238899a7c109c" uuid="b577fe41e0a6bc7b5502ce33cb8a3129e2e28ee5" name="inlet_1" x="266" y="126">
@@ -1225,7 +1225,7 @@
          <obj type="delay/write sdram" sha="63d300dd732507b7237b5fd45676bc14c9e77ce7" uuid="5ae03f8d7b815edcfc40585d8bbac2ed48460fba" name="sound3" x="784" y="56">
             <params/>
             <attribs>
-               <combo attributeName="size" selection="131072 (2.37s)"/>
+               <combo attributeName="size" selection="131072 (2.73s)"/>
             </attribs>
          </obj>
          <obj type="patch/inlet a" sha="709c10aa648c6e5a3c00da4b5dd238899a7c109c" uuid="b577fe41e0a6bc7b5502ce33cb8a3129e2e28ee5" name="inlet_1" x="266" y="126">
