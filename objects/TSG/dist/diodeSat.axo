@@ -24,23 +24,23 @@ else
 	gain = expt[ei]>>(-s);]]></code.krate>
       <code.srate><![CDATA[// reads from the lookup table (interpolated)
 bool invert = (inlet_in <= 0.0);
-s32 fractional;
-s32 left;
-s32 right;
-s32 inputRect = ___SMMUL(gain, (invert?-inlet_in:inlet_in))<<6;
+int32_t fractional;
+int32_t left;
+int32_t right;
+int32_t inputRect = ___SMMUL(gain, (invert?-inlet_in:inlet_in))<<6;
 
 if (inputRect <= (8<<21))
 {
-	s32 integral = (inputRect>>15);
-	s32 tableIdx = (integral > 0x1FF)?0x1FF:integral;
+	int32_t integral = (inputRect>>15);
+	int32_t tableIdx = (integral > 0x1FF)?0x1FF:integral;
 	fractional = (inputRect - (integral<<15))<<12;
 	left = lutTSGDiodeSatSmall[tableIdx];
 	right = lutTSGDiodeSatSmall[tableIdx + 1];
 }
 else
 {
-	s32 integral = (inputRect>>19);
-	s32 tableIdx = (integral > 0x1FF)?0x1FF:integral;
+	int32_t integral = (inputRect>>19);
+	int32_t tableIdx = (integral > 0x1FF)?0x1FF:integral;
 	fractional = (inputRect - (integral<<19))<<10;
 	// lowest 64 indices are contained in the small table
 	// to avoid duplicate data

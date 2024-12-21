@@ -48,24 +48,24 @@ After some time without movement of the potentiometer, the potentiometer has to 
          </combo>
       </attribs>
       <code.declaration><![CDATA[static const int kNumLayers = 3;
-static const s32 deadbandSize = (attr_deadbandSize << 19);
+static const int32_t deadbandSize = (attr_deadbandSize << 19);
 
-s32 latch[kNumLayers];
-u32 timeoutCounter;
-s32 lastLoad;
+int32_t latch[kNumLayers];
+uint32_t timeoutCounter;
+int32_t lastLoad;
 s8 isMoving; // 0 == stopped, 1 == up, -1 == down
-s32 motionTrackPos;
+int32_t motionTrackPos;
 #if attr_mode == 2
 	bool catched;
-	u32 lastLayer;
-	s32 lastPotValue;
+	uint32_t lastLayer;
+	int32_t lastPotValue;
 #endif
 
 #if attr_mode == 3
-	u32 lastLayer;
-	s32 lastPotValue;
+	uint32_t lastLayer;
+	int32_t lastPotValue;
 	float scale;
-	s32 potiStart, valueStart;
+	int32_t potiStart, valueStart;
 	s8 lastDirection; // 0 == invalid, 1 == up, 2 == down
 #endif]]></code.declaration>
       <code.init><![CDATA[for (int i = 0; i < kNumLayers; i++)
@@ -87,7 +87,7 @@ motionTrackPos = 0;
 	valueStart = 0;
 	lastDirection = 0; // 0 == invalid, 1 == up, 2 == down
 #endif]]></code.init>
-      <code.krate><![CDATA[u32 layer = inlet_layer;
+      <code.krate><![CDATA[uint32_t layer = inlet_layer;
 
 // detect layer switching and update "catch" status
 #if attr_mode == 2 || attr_mode == 3
@@ -97,7 +97,7 @@ motionTrackPos = 0;
 			catched = false;
 			if ((layer >= 0) && (layer < 3))
 			{
-				s32 deviation = latch[layer] - inlet_poti;
+				int32_t deviation = latch[layer] - inlet_poti;
 				if ((deviation < deadbandSize) && (deviation > -deadbandSize))
 				{
 					catched = true;
@@ -113,7 +113,7 @@ motionTrackPos = 0;
 if (!isMoving)
 {
 	// check for a change in the value
-	s32 change = inlet_poti - motionTrackPos;
+	int32_t change = inlet_poti - motionTrackPos;
 	if (change > deadbandSize)
 	{
 		timeoutCounter = 0;
@@ -133,7 +133,7 @@ if (isMoving) // no else!
 	timeoutCounter++;
 	if (timeoutCounter >= 50)
 	{
-		s32 change = inlet_poti - motionTrackPos;
+		int32_t change = inlet_poti - motionTrackPos;
 		if (change > deadbandSize>>1)
 		{
 			timeoutCounter = 0;
@@ -187,8 +187,8 @@ if (isMoving)
 				{
 					potiStart = inlet_poti;
 					valueStart = latch[layer];
-					s32 remainingPotiTravel = (64<<21) - inlet_poti;
-					s32 remainingValueTravel = (64<<21) - latch[layer];
+					int32_t remainingPotiTravel = (64<<21) - inlet_poti;
+					int32_t remainingValueTravel = (64<<21) - latch[layer];
 					scale = ((float) remainingValueTravel)/ ((float) remainingPotiTravel);
 				}
 				else if ((lastDirection > -1) && (isMoving <= -1) && (inlet_poti > 0))

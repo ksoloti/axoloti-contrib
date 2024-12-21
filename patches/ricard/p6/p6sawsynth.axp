@@ -150,7 +150,7 @@ if (state == READ_UNPACK) {
 	u32 hash = buf[pageaddr++] << 16;
 	hash |= buf[pageaddr++] << 8;
 	hash |= buf[pageaddr++];
-	s32 value = ((signed char)buf[pageaddr++]) << 21;
+	int32_t value = ((signed char)buf[pageaddr++]) << 21;
 	//if (value & (1 << 27)) value |= 0xf0000000U; // sign extend from bit 6 in the stored parameter
 	LogTextMessage("Read: got hash 0x%08x", hash);
 	if (hash == 0) state = NONE; // done!
