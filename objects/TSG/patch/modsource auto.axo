@@ -1,6 +1,8 @@
 <objdefs appVersion="1.0.12">
    <obj.normal id="modsource auto" uuid="4ab1c80f-6017-44dc-aba7-1b9ad3949c81">
-      <sDescription>generic modulation source, that sends its modulation automatically when the value changes.</sDescription>
+      <sDescription>generic modulation source that sends its modulation automatically when the value changes.
+Set &quot;Number of Modulation Sources&quot; and &quot;Number of Targets per Source&quot; to above zero for this object to have any effect!
+      </sDescription>
       <author>Johannes Elliesen</author>
       <license>BSD</license>
       <providesModulationSource>true</providesModulationSource>
