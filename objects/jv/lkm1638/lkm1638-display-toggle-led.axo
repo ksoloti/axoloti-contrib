@@ -318,7 +318,7 @@
 	  ]]></code.declaration>
       <code.init><![CDATA[
 
-		Thd = chThdCreateStatic(waThreadX, sizeof(waThreadX), NORMALPRIO, (tfunc_t)ThreadX, (void *)this);
+		Thd = chThdCreateStatic(waThreadX, sizeof(waThreadX), NORMALPRIO, (void*) ThreadX, (void *)this);
 
 		 btn1 = false;
 		 btn2 = false;

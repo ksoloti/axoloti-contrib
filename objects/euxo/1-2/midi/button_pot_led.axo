@@ -37,7 +37,7 @@ WORKING_AREA(waThreadX, 1024);
 Thread *Thd;]]></code.declaration>
       <code.init><![CDATA[led1=0;led2=0;led3=0;led4=0;
   Thd = chThdCreateStatic(waThreadX, sizeof(waThreadX),
-                    NORMALPRIO, (tfunc_t)ThreadX, (void *)this);]]></code.init>
+                    NORMALPRIO, (void*) ThreadX, (void *)this);]]></code.init>
       <code.dispose><![CDATA[chThdTerminate(Thd);
 chThdWait(Thd);]]></code.dispose>
       <code.krate><![CDATA[this->led1 = inlet_led1;

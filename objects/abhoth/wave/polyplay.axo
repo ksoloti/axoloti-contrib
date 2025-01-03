@@ -39,7 +39,7 @@ stream->sampleFrac = 0;
 starttrig = 0;
 stoptrig = 0;
 stream->pThreadSD = chThdCreateStatic(waThreadSD, sizeof(waThreadSD),
-                    LOWPRIO, (tfunc_t)ThreadSD, (void *)stream);]]></code.init>
+                    LOWPRIO, (void*) ThreadSD, (void *)stream);]]></code.init>
       <code.dispose><![CDATA[sdStopStreamer(stream);]]></code.dispose>
       <code.krate><![CDATA[int32_t i;
 

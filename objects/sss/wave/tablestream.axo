@@ -131,7 +131,7 @@ starttrig = 0;
 stoptrig = 0;
 cnt=LENGTH;
 stream->pThreadSD = chThdCreateStatic(waThreadSD, sizeof(waThreadSD),
-                    HIGHPRIO, (tfunc_t)ThreadSD, (void *)stream);
+                    HIGHPRIO, (void*) ThreadSD, (void *)stream);
 
 static int16_t _array[LENGTH*SAMPLES] __attribute__ ((section (".sdram")));
 array = &_array[0];

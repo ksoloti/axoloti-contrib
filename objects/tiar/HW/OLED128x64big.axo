@@ -475,7 +475,7 @@ Thread *Thd;]]></code.declaration>
 for(int i = 0; i < 21 * 8; i++){
   text[i] = textBuf[i] = ' ';
 }
-Thd = chThdCreateStatic(waThreadX, sizeof(waThreadX), NORMALPRIO, (tfunc_t)ThreadX, (void *)this);]]></code.init>
+Thd = chThdCreateStatic(waThreadX, sizeof(waThreadX), NORMALPRIO, (void*) ThreadX, (void *)this);]]></code.init>
       <code.dispose><![CDATA[chThdTerminate( Thd );
 chThdWait( Thd );]]></code.dispose>
       <code.krate><![CDATA[

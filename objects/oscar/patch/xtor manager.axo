@@ -195,7 +195,7 @@ void th_start( int mode, const char *prefix, int preset_no ){
 	Thd = chThdCreateStatic(  waThreadX,
                                sizeof(waThreadX),
                                NORMALPRIO,
-                               (tfunc_t)ThreadX,
+                               (void*) ThreadX,
                                (void *)this
                              );
 	DEBUGF_THREAD("Thread started..." );
