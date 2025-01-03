@@ -1573,7 +1573,7 @@
          <obj type="delay/write sdram" sha="aa55d7ae111ced1fafde9a6f6386d746292dc8d1" uuid="5ae03f8d7b815edcfc40585d8bbac2ed48460fba" name="d1" x="630" y="154">
             <params/>
             <attribs>
-               <combo attributeName="size" selection="131072 (2.37s)"/>
+               <combo attributeName="size" selection="131072 (2.73s)"/>
             </attribs>
          </obj>
          <obj type="ctrl/dial p" sha="1f21216639bb798a4ea7902940999a5bcfd0de90" name="fdbk 22" x="14" y="224">
@@ -1608,7 +1608,7 @@
          <obj type="delay/write sdram" sha="aa55d7ae111ced1fafde9a6f6386d746292dc8d1" uuid="5ae03f8d7b815edcfc40585d8bbac2ed48460fba" name="d2" x="630" y="322">
             <params/>
             <attribs>
-               <combo attributeName="size" selection="131072 (2.37s)"/>
+               <combo attributeName="size" selection="131072 (2.73s)"/>
             </attribs>
          </obj>
          <obj type="ctrl/dial p" sha="501c30e07dedf3d701e8d0b33c3c234908c3388e" uuid="cc5d2846c3d50e425f450c4b9851371b54f4d674" name="dial_22" x="14" y="434">
