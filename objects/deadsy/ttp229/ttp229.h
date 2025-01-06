@@ -156,7 +156,7 @@ static void ttp229_init(struct ttp229_state *s) {
 	s->dev = &I2CD1;
 	s->adr = TTP229_I2C_ADR;
 	// create the polling thread
-	s->thd = chThdCreateStatic(s->thd_wa, sizeof(s->thd_wa), NORMALPRIO, (void*) ttp229_thread, (void *)s);
+	s->thd = chThdCreateStatic(s->thd_wa, sizeof(s->thd_wa), NORMALPRIO, (tfunc_t)ttp229_thread, (void *)s);
 }
 
 static void ttp229_dispose(struct ttp229_state *s) {

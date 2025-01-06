@@ -241,7 +241,7 @@ static void mpr121_init(struct mpr121_state *s, const struct mpr121_cfg *cfg, i2
 	s->dev = &I2CD1;
 	s->adr = adr;
 	// create the polling thread
-	s->thd = chThdCreateStatic(s->thd_wa, sizeof(s->thd_wa), NORMALPRIO, (void*) mpr121_thread, (void *)s);
+	s->thd = chThdCreateStatic(s->thd_wa, sizeof(s->thd_wa), NORMALPRIO, (tfunc_t)mpr121_thread, (void *)s);
 }
 
 static void mpr121_dispose(struct mpr121_state *s) {

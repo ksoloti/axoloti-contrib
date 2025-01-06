@@ -890,7 +890,7 @@
         Thd = chThdCreateStatic(  waThreadX,
                                   sizeof(waThreadX),
                                   NORMALPRIO,
-                                  (void*) ThreadX,
+                                  (tfunc_t)ThreadX,
                                   (void *)this
                                );
         DEBUGF_THREAD("Thread started..." );

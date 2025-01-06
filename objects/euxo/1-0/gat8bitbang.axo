@@ -71,7 +71,7 @@ Thread *Thd;]]></code.declaration>
 	
 	
   Thd = chThdCreateStatic(waThreadX, sizeof(waThreadX),
-                    NORMALPRIO, (void*) ThreadX, (void *)this);]]>
+                    NORMALPRIO, (tfunc_t)ThreadX, (void *)this);]]>
                     </code.init>
    <code.dispose>
    <![CDATA[chThdTerminate(Thd);

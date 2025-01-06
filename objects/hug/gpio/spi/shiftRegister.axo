@@ -56,7 +56,7 @@ WORKING_AREA(waThreadX, 1024);
 Thread *Thd;]]></code.declaration>
       <code.init><![CDATA[in1=0;
 Thd = chThdCreateStatic(waThreadX, sizeof(waThreadX),
-                    NORMALPRIO, (void*) ThreadX, (void *)this);
+                    NORMALPRIO, (tfunc_t)ThreadX, (void *)this);
 ]]></code.init>
       <code.dispose><![CDATA[chThdTerminate(Thd);
 chThdWait(Thd);]]></code.dispose>
