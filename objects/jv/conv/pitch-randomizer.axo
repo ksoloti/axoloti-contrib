@@ -42,7 +42,7 @@
 			} else {
 	
 				// random number between 0 and 100
-				uint8_t rand_chance = rand() % 101;
+				uint8_t rand_chance = rand_u32() % 101;
 
 				if ( rand_chance < param_chance ) {
 
@@ -59,7 +59,7 @@
 					} else if ( param_mode == 3 ) {
 
 						// Randomizer UP + DOWN
-						uint8_t rand_updown = rand() % 101;
+						uint8_t rand_updown = rand_u32() % 101;
 					
 						if ( rand_updown < 50 ) {
 
