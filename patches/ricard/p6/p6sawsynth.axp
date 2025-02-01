@@ -147,7 +147,7 @@ if (state == READING && !eeprom_status_p->busy) {
 #endif
 }
 if (state == READ_UNPACK) {
-	u32 hash = buf[pageaddr++] << 16;
+	uint32_t hash = buf[pageaddr++] << 16;
 	hash |= buf[pageaddr++] << 8;
 	hash |= buf[pageaddr++];
 	int32_t value = ((signed char)buf[pageaddr++]) << 21;
@@ -331,19 +331,19 @@ struct ParamData
 {
 		struct KeyValuePair *toplevel_kvpp;
 		//struct ParamSetup *setup;
-		u32 name_hash;
+		uint32_t name_hash;
 };
 // The order of parameter info in param_data is the same as in toplevel_kvp.
 struct ParamData param_data[NPEXCH];
 // The following two have been put in param_data[]
 //struct KeyValuePair *toplevel_kvpp[NPEXCH]; // pointers to kvp's, either to toplevel_kvp[foo], or to existing 
-//u32 hashes[NPEXCH];
+//uint32_t hashes[NPEXCH];
 
 /* djb2 string hash. */
 /* From Dan Bernstein many years ago in comp.lang.c (via http://www.cse.yorku.ca/~oz/hash.html) */
-__attribute__ ((noinline)) u32 hash(const char *str)
+__attribute__ ((noinline)) uint32_t hash(const char *str)
 {
-	u32 hash = 5381;
+	uint32_t hash = 5381;
 	const unsigned char *ustr = (const unsigned char *)str;
 	int c;
 

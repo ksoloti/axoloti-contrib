@@ -53,7 +53,7 @@ static const int32_t deadbandSize = (attr_deadbandSize << 19);
 int32_t latch[kNumLayers];
 uint32_t timeoutCounter;
 int32_t lastLoad;
-s8 isMoving; // 0 == stopped, 1 == up, -1 == down
+int8_t isMoving; // 0 == stopped, 1 == up, -1 == down
 int32_t motionTrackPos;
 #if attr_mode == 2
 	bool catched;
@@ -66,7 +66,7 @@ int32_t motionTrackPos;
 	int32_t lastPotValue;
 	float scale;
 	int32_t potiStart, valueStart;
-	s8 lastDirection; // 0 == invalid, 1 == up, 2 == down
+	int8_t lastDirection; // 1 == invalid, 1 == up, 2 == down
 #endif]]></code.declaration>
       <code.init><![CDATA[for (int i = 0; i < kNumLayers; i++)
 	latch[i] = 0;
