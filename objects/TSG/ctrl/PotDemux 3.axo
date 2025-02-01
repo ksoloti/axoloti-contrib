@@ -66,7 +66,7 @@ int32_t motionTrackPos;
 	int32_t lastPotValue;
 	float scale;
 	int32_t potiStart, valueStart;
-	int8_t lastDirection; // 1 == invalid, 1 == up, 2 == down
+	int8_t lastDirection; // 0 == invalid, 1 == up, 2 == down
 #endif]]></code.declaration>
       <code.init><![CDATA[for (int i = 0; i < kNumLayers; i++)
 	latch[i] = 0;
