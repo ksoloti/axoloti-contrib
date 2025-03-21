@@ -73,7 +73,7 @@ int32_t note;
 int32_t buf;
 int32_t o;
 
-int32_t penta3oct[16] = {
+uint32_t penta3oct[16] = {
 				// Axo / midi / note
 	0xFE000000, 	// -16 / 48 / Do 
 	0xFE400000, 	// -14 / 50 / Ré
@@ -131,7 +131,7 @@ if(inlet_trig > 0 && !ntrig){
     
 	if((((counter++ + param_rotation) * param_hits) % param_length) < param_hits){
 		buf = buffer;
-		note = penta3oct[buffer%16];
+		note = (int32_t) penta3oct[buffer%16];
 		o = 1;
 		sv |= 1<<(counter%param_length); // display
     }
@@ -257,7 +257,7 @@ int32_t note;
 int32_t buf;
 int32_t o;
 
-int32_t penta3oct[16] = {
+uint32_t penta3oct[16] = {
 				// Axo / midi / note
 	0xFE000000, 	// -16 / 48 / Do 
 	0xFE400000, 	// -14 / 50 / Ré
@@ -315,7 +315,7 @@ if(inlet_trig > 0 && !ntrig){
     
 	if((((counter++ + param_rotation) * param_hits) % param_length) < param_hits){
 		buf = buffer;
-		note = penta3oct[buffer%16];
+		note = (int32_t) penta3oct[buffer%16];
 		o = 1;
 		sv |= 1<<(counter%param_length); // display
     }
