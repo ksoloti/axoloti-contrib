@@ -1,4 +1,4 @@
-<objdefs appVersion="1.0.10">
+<objdefs appVersion="1.1.0">
    <obj.normal id="debug_threads" uuid="ccfd56d2-6206-4133-a813-8f057f7b195e">
       <sDescription>For developers: dumps a list of current threads and their status.</sDescription>
       <author>Johannes Taelman</author>
@@ -18,9 +18,9 @@ if (param_dump & !p){
 	Thread *thd1 = chRegFirstThread();
 	Thread *thd = thd1;
 #if CH_DBG_FILL_THREADS	&& CH_DBG_ENABLE_STACK_CHECK
-	LogTextMessage("Thread Name Status StkUnused");
+	LogTextMessage("Thread Name\tStatus\tStkUnused");
 #else
-	LogTextMessage("Thread Name Status");
+	LogTextMessage("Thread Name\tStatus");
 #endif
 	while(thd){
 		const char *name = "????";
@@ -34,9 +34,9 @@ if (param_dump & !p){
 			nfree++;
 			stk++;
 		}
-		LogTextMessage("%-16s %-16s %6d",name,states[thd->p_state],nfree);
+		LogTextMessage("%-16s\t%-16s\t%6d",name,states[thd->p_state],nfree);
 #else
-		LogTextMessage("%-16s %-16s",name,states[thd->p_state]);
+		LogTextMessage("%-16s\t%-16s",name,states[thd->p_state]);
 #endif		
 		thd = chRegNextThread(thd);
 		if (thd == thd1) break;
