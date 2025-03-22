@@ -17,7 +17,7 @@ if (param_dump & !p){
 	p=1;
 	Thread *thd1 = chRegFirstThread();
 	Thread *thd = thd1;
-#if CH_DBG_FILL_THREADS	
+#if CH_DBG_FILL_THREADS	&& CH_DBG_ENABLE_STACK_CHECK
 	LogTextMessage("Thread Name Status StkUnused");
 #else
 	LogTextMessage("Thread Name Status");
@@ -27,7 +27,7 @@ if (param_dump & !p){
 		if (chRegGetThreadName(thd)){
 			name = chRegGetThreadName(thd);
 		}
-#if CH_DBG_FILL_THREADS	
+#if CH_DBG_FILL_THREADS	&& CH_DBG_ENABLE_STACK_CHECK
 		char *stk = (char *)(thd->p_stklimit);
 		int nfree = 0;
 		while(*stk == 0x55){
