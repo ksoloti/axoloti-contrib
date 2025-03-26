@@ -1,84 +1,119 @@
-<objdefs appVersion="1.0.8">
-  <obj.normal id="preset_manager" uuid="awca12227f535a1288055669829101d3ee7f0189">
-    <sDescription>Preset save/load manager
+<objdefs appVersion="1.0.12">
+   <obj.normal id="preset_manager" uuid="awca12227f535a1288055669829101d3ee7f0189">
+      <sDescription>Preset save/load manager
     </sDescription>
-    <author>Are Leistad</author>
-    <license>BSD</license>
-    <inlets>
-      <int32 name="preset" description="Preset number"/>
-      <bool32.rising name="load" description="Trigger to load preset"/>
-      <bool32.rising name="save" description="Trigger to save preset"/>
-      <charptr32 name="prefix" description="File name prefix"/>
-    </inlets>
-    <outlets>
-      <int32 name="preset" description="The current preset number"/>
-      <bool32.pulse name="load" description="Pulse signals loading"/>
-      <bool32.pulse name="save" description="Pulse signals saving"/>
-      <frac32.positive name="volume" description="Volume for avoiding glitches on save/load"/>
-    </outlets>
-    <displays>
-      <int32.label name="current  "/>
-    </displays>
-    <params>
-      <bool32.mom name="load" description="Click to load preset"/>
-      <int32 name="preset" description="Preset number to save or load">
-        <MinValue i="0"/>
-        <MaxValue i="999"/>
-      </int32>
-      <bool32.mom name="save" description="Click to save preset"/>
-    </params>
-    <attribs>
-      <combo name="volfade">
-         <MenuEntries>
-            <string>Immediate</string>
-            <string>Fade 0.02s</string>
-            <string>Fade 0.10s</string>
-            <string>Fade 0.50s</string>
-         </MenuEntries>
-         <CEntries>
-            <string>(0x08000000)</string>
-            <string>((0x08000000)/60)</string>
-            <string>((0x08000000)/300)</string>
-            <string>((0x08000000)/1500)</string>
-         </CEntries>
-      </combo>
-      <combo name="savemode">
-         <MenuEntries>
-            <string>Global</string>
-            <string>SubPatch</string>
-            <string>SubPatchV1</string>
-         </MenuEntries>
-         <CEntries>
-            <string>0</string>
-            <string>1</string>
-            <string>2</string>
-         </CEntries>
-      </combo>
-      <combo name="pgmchange">
-         <MenuEntries>
-            <string>Disabled</string>
-            <string>Enabled</string>
-         </MenuEntries>
-         <CEntries>
-            <string>0</string>
-            <string>1</string>
-         </CEntries>
-      </combo>
-      <spinner name="channel" MinValue="1" MaxValue="16" DefaultValue="1"/>
-      <spinner name="presetcc" MinValue="-1" MaxValue="127" DefaultValue="125"/>
-      <spinner name="loadcc" MinValue="-1" MaxValue="127" DefaultValue="126"/>
-      <spinner name="savecc" MinValue="-1" MaxValue="127" DefaultValue="-1"/>
-      <spinner name="autoload" MinValue="-1" MaxValue="999" DefaultValue="-1"/>
-    </attribs>
-    <includes>
-       <include>codec.h</include>
-    </includes>
-    <depends>
-      <depend>fatfs</depend>
-    </depends>
-    <code.declaration><![CDATA[
-
-      /*
+      <author>Are Leistad</author>
+      <license>BSD</license>
+      <inlets>
+         <int32 name="preset" description="Preset number"/>
+         <bool32.rising name="load" description="Trigger to load preset"/>
+         <bool32.rising name="save" description="Trigger to save preset"/>
+         <charptr32 name="prefix" description="File name prefix"/>
+      </inlets>
+      <outlets>
+         <int32 name="preset" description="The current preset number"/>
+         <bool32.pulse name="load" description="Pulse signals loading"/>
+         <bool32.pulse name="save" description="Pulse signals saving"/>
+         <frac32.positive name="volume" description="Volume for avoiding glitches on save/load"/>
+      </outlets>
+      <displays>
+         <int32.label name="current  "/>
+      </displays>
+      <params>
+         <bool32.mom name="load" description="Click to load preset"/>
+         <int32 name="preset" description="Preset number to save or load">
+            <MinValue i="0"/>
+            <MaxValue i="999"/>
+         </int32>
+         <bool32.mom name="save" description="Click to save preset"/>
+      </params>
+      <attribs>
+         <combo name="volfade">
+            <MenuEntries>
+               <string>Immediate</string>
+               <string>Fade 0.02s</string>
+               <string>Fade 0.10s</string>
+               <string>Fade 0.50s</string>
+            </MenuEntries>
+            <CEntries>
+               <string>(0x08000000)</string>
+               <string>((0x08000000)/60)</string>
+               <string>((0x08000000)/300)</string>
+               <string>((0x08000000)/1500)</string>
+            </CEntries>
+         </combo>
+         <combo name="savemode">
+            <MenuEntries>
+               <string>Global</string>
+               <string>SubPatch</string>
+               <string>SubPatchV1</string>
+            </MenuEntries>
+            <CEntries>
+               <string>0</string>
+               <string>1</string>
+               <string>2</string>
+            </CEntries>
+         </combo>
+         <combo name="pgmchange">
+            <MenuEntries>
+               <string>Disabled</string>
+               <string>Enabled</string>
+            </MenuEntries>
+            <CEntries>
+               <string>0</string>
+               <string>1</string>
+            </CEntries>
+         </combo>
+         <combo name="channel">
+            <MenuEntries>
+               <string>1</string>
+               <string>2</string>
+               <string>3</string>
+               <string>4</string>
+               <string>5</string>
+               <string>6</string>
+               <string>7</string>
+               <string>8</string>
+               <string>9</string>
+               <string>10</string>
+               <string>11</string>
+               <string>12</string>
+               <string>13</string>
+               <string>14</string>
+               <string>15</string>
+               <string>16</string>
+            </MenuEntries>
+            <CEntries>
+               <string>0</string>
+               <string>1</string>
+               <string>2</string>
+               <string>3</string>
+               <string>4</string>
+               <string>5</string>
+               <string>6</string>
+               <string>7</string>
+               <string>8</string>
+               <string>9</string>
+               <string>10</string>
+               <string>11</string>
+               <string>12</string>
+               <string>13</string>
+               <string>14</string>
+               <string>15</string>
+            </CEntries>
+         </combo>
+         <spinner name="presetcc" MinValue="-1" MaxValue="127" DefaultValue="125"/>
+         <spinner name="loadcc" MinValue="-1" MaxValue="127" DefaultValue="126"/>
+         <spinner name="savecc" MinValue="-1" MaxValue="127" DefaultValue="-1"/>
+         <spinner name="autoload" MinValue="-1" MaxValue="999" DefaultValue="-1"/>
+      </attribs>
+      <includes>
+         <include>codec.h</include>
+      </includes>
+      <depends>
+         <depend>fatfs</depend>
+      </depends>
+      <code.declaration><![CDATA[/*
        *  The preset manager saves and loads the parameters in the
        *  patch/subpatch it appears in or all parameters in all sub patches
        *  depending on the selected save mode, "Global" or "SubPatch".
@@ -885,12 +920,8 @@
               }
           }
       }
-#endif
-
-    ]]></code.declaration>
-    <code.init><![CDATA[
-
-      start_sequence  = 0;
+#endif]]></code.declaration>
+      <code.init><![CDATA[start_sequence  = 0;
       preset_no       = 0;
       midi_preset_no  = 0;
       old_inlet_save  = 0;
@@ -909,12 +940,8 @@
 #endif
 #ifdef USE_PATCHES_FILE
       patches_filename= "patches.ppr";  // The "Patch Preset Registry" file
-#endif
-
-    ]]></code.init>
-    <code.krate><![CDATA[
-
-      if( start_sequence < 3 )
+#endif]]></code.init>
+      <code.krate><![CDATA[if( start_sequence < 3 )
         {
           /*
            *  We need to wait one k-rate iteration for signal driven startup actions.
@@ -1114,12 +1141,8 @@
       old_inlet_save  = inlet_save;
       old_param_save  = param_save;
       load_pulse      = 0;
-      save_pulse      = 0;
-
-    ]]></code.krate>
-    <code.midihandler><![CDATA[
-
-      /*
+      save_pulse      = 0;]]></code.krate>
+      <code.midihandler><![CDATA[/*
        *  The MIDI code is untested!
        *  Include listening for program/bank change messages, CC 0 (MSB) and 32 (LSB)?
        */
@@ -1144,8 +1167,6 @@
             {
               preset_no = midi_preset_no;
             }
-        }
-
-    ]]></code.midihandler>
-  </obj.normal>
+        }]]></code.midihandler>
+   </obj.normal>
 </objdefs>
