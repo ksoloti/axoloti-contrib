@@ -19,10 +19,10 @@ if (param_dump & !p){
 	thread_t *thd = thd1;
 #if CH_DBG_FILL_THREADS
 #if CH_DBG_ENABLE_STACK_CHECK
-	LogTextMessage("\nThread Name\tStatus    \tStkUnused");
+	LogTextMessage("\nThread Name     Status          StkUnused");
 #endif
 #else
-	LogTextMessage("\nThread Name\tStatus");
+	LogTextMessage("\nThread Name     Status");
 #endif
 	while(thd){
 		const char *name = "????";
@@ -37,10 +37,10 @@ if (param_dump & !p){
 			nfree++;
 			stk++;
 		}
-		LogTextMessage("%-16s\t%-16s\t%-16d",name,states[thd->p_state],nfree);
+		LogTextMessage("%-16s%-16s%-6d",name,states[thd->p_state],nfree);
 #endif
 #else
-		LogTextMessage("%-16s\t%-16s",name,states[thd->p_state]);
+		LogTextMessage("%-16s%-16s",name,states[thd->p_state]);
 #endif		
 		thd = chRegNextThread(thd);
 		if (thd == thd1) break;
