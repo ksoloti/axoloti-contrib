@@ -11,30 +11,34 @@
       </params>
       <attribs/>
       <code.declaration><![CDATA[bool p;]]></code.declaration>
-      <code.krate><![CDATA[static const char *states[] = {THD_STATE_NAMES};
+      <code.krate><![CDATA[static const char *states[] = {CH_STATE_NAMES};
 
 if (param_dump & !p){
 	p=1;
-	Thread *thd1 = chRegFirstThread();
-	Thread *thd = thd1;
-#if CH_DBG_FILL_THREADS	&& CH_DBG_ENABLE_STACK_CHECK
-	LogTextMessage("Thread Name\tStatus\tStkUnused");
+	thread_t *thd1 = chRegFirstThread();
+	thread_t *thd = thd1;
+#if CH_DBG_FILL_THREADS
+#if CH_DBG_ENABLE_STACK_CHECK
+	LogTextMessage("\nThread Name\tStatus    \tStkUnused");
+#endif
 #else
-	LogTextMessage("Thread Name\tStatus");
+	LogTextMessage("\nThread Name\tStatus");
 #endif
 	while(thd){
 		const char *name = "????";
 		if (chRegGetThreadName(thd)){
 			name = chRegGetThreadName(thd);
 		}
-#if CH_DBG_FILL_THREADS	&& CH_DBG_ENABLE_STACK_CHECK
+#if CH_DBG_FILL_THREADS
+#if CH_DBG_ENABLE_STACK_CHECK
 		char *stk = (char *)(thd->p_stklimit);
 		int nfree = 0;
 		while(*stk == 0x55){
 			nfree++;
 			stk++;
 		}
-		LogTextMessage("%-16s\t%-16s\t%6d",name,states[thd->p_state],nfree);
+		LogTextMessage("%-16s\t%-16s\t%-16d",name,states[thd->p_state],nfree);
+#endif
 #else
 		LogTextMessage("%-16s\t%-16s",name,states[thd->p_state]);
 #endif		
