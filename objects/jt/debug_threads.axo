@@ -24,11 +24,12 @@ if (param_dump & !p){
 #else
 	LogTextMessage("\nThread Name     Status");
 #endif
-	while(thd){
+	while (thd) {
 		const char *name = "????";
 		if (chRegGetThreadName(thd)){
 			name = chRegGetThreadName(thd);
 		}
+
 #if CH_DBG_FILL_THREADS
 #if CH_DBG_ENABLE_STACK_CHECK
 		char *stk = (char *)(thd->p_stklimit);
@@ -41,12 +42,14 @@ if (param_dump & !p){
 #endif
 #else
 		LogTextMessage("%-16s%-16s",name,states[thd->p_state]);
-#endif		
+#endif
+
 		thd = chRegNextThread(thd);
 		if (thd == thd1) break;
 	}
-} else if (!param_dump) {
-	p=0;	
+}
+else if (!param_dump) {
+	p = 0;	
 }]]></code.krate>
    </obj.normal>
 </objdefs>
