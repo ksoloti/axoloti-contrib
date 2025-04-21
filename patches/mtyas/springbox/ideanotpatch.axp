@@ -43,7 +43,9 @@
          <inlets>
             <charptr32 name="i1"/>
          </inlets>
-         <outlets/>
+         <outlets>
+            <charptr32 name="out" description="string"/>
+         </outlets>
          <displays/>
          <params/>
          <attribs>
@@ -99,7 +101,9 @@
          <inlets>
             <charptr32 name="i1"/>
          </inlets>
-         <outlets/>
+         <outlets>
+            <charptr32 name="out" description="string"/>
+         </outlets>
          <displays/>
          <params/>
          <attribs>
@@ -155,7 +159,9 @@
          <inlets>
             <charptr32 name="i1"/>
          </inlets>
-         <outlets/>
+         <outlets>
+            <charptr32 name="out" description="string"/>
+         </outlets>
          <displays/>
          <params/>
          <attribs>
