@@ -1,3 +1,6 @@
+#ifndef __TML_IMPL_H
+#define __TML_IMPL_H
+
 #define TML_IMPLEMENTATION
 //#define TML_IMPL_LOG LogTextMessage
 #define TML_IMPL_LOG (void)
@@ -54,3 +57,5 @@ void tml_free( void* ptr ) {
 #define TML_MEMCPY tml_memcpy
 
 #include "tml.h"
+
+#endif /* __TML_IMPL_H */
