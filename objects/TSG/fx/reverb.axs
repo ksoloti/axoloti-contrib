@@ -1,4 +1,4 @@
-<patch-1.0 appVersion="1.0.12">
+<patch-1.0 appVersion="1.1.0">
    <obj type="patch/inlet a" uuid="b577fe41e0a6bc7b5502ce33cb8a3129e2e28ee5" name="InL" x="280" y="56">
       <params/>
       <attribs/>
@@ -31,13 +31,13 @@
    </obj>
    <obj type="math/smooth" uuid="6c5d08c282bb08bff24af85b4891447f99bcbc97" name="smooth_1" x="84" y="182">
       <params>
-         <frac32.u.map name="time" value="52.5"/>
+         <frac32.u.map name="time" frozen="true" value="52.5"/>
       </params>
       <attribs/>
    </obj>
    <obj type="delay/read" uuid="9323a43569373145e559ad309eaf65a47b14cb54" name="read_3" x="168" y="182">
       <params>
-         <frac32.u.map name="time" value="0.0"/>
+         <frac32.u.map name="time" frozen="true" value="0.0"/>
       </params>
       <attribs>
          <objref attributeName="delayname" obj="PrDly"/>
@@ -45,7 +45,7 @@
    </obj>
    <obj type="filter/allpass" uuid="59cc8e3d8044e145e1eb908baa5a7d3ed2ec5f72" name="allpass_1" x="322" y="182">
       <params>
-         <frac32.s.map name="g" value="32.0"/>
+         <frac32.s.map name="g" frozen="true" value="32.0"/>
       </params>
       <attribs>
          <spinner attributeName="delay" value="75"/>
@@ -53,7 +53,7 @@
    </obj>
    <obj type="filter/allpass" uuid="59cc8e3d8044e145e1eb908baa5a7d3ed2ec5f72" name="allpass_2" x="434" y="182">
       <params>
-         <frac32.s.map name="g" value="32.0"/>
+         <frac32.s.map name="g" frozen="true" value="32.0"/>
       </params>
       <attribs>
          <spinner attributeName="delay" value="57"/>
@@ -117,25 +117,25 @@
    </obj>
    <obj type="filter/lp1 m" uuid="18b561d14f9175f5380e6a1d9d55ca41e0e61974" name="lp1_1" x="798" y="392">
       <params>
-         <frac32.u.map name="freq" value="20.5"/>
+         <frac32.u.map name="freq" frozen="true" value="20.5"/>
       </params>
       <attribs/>
    </obj>
    <obj type="filter/hp1 m" uuid="db72e08c265817674e56af3855bfca7a58b65e87" name="hp1_1" x="882" y="392">
       <params>
-         <frac32.u.map name="freq" value="0.0"/>
+         <frac32.u.map name="freq" frozen="true" value="0.0"/>
       </params>
       <attribs/>
    </obj>
    <obj type="filter/lp1 m" uuid="18b561d14f9175f5380e6a1d9d55ca41e0e61974" name="lp1_2" x="1050" y="392">
       <params>
-         <frac32.u.map name="freq" value="20.0"/>
+         <frac32.u.map name="freq" frozen="true" value="20.0"/>
       </params>
       <attribs/>
    </obj>
    <obj type="filter/hp1 m" uuid="db72e08c265817674e56af3855bfca7a58b65e87" name="hp1_2" x="1134" y="392">
       <params>
-         <frac32.u.map name="freq" value="0.0"/>
+         <frac32.u.map name="freq" frozen="true" value="0.0"/>
       </params>
       <attribs/>
    </obj>
@@ -151,7 +151,7 @@
    </obj>
    <obj type="math/+c" uuid="13eec32bd8ad57dd0bb18a02566cc0a117d320e3" name="+c_1" x="308" y="420">
       <params>
-         <frac32.u.map name="c" value="64.0"/>
+         <frac32.u.map name="c" frozen="true" value="63.99999952316284"/>
       </params>
       <attribs/>
    </obj>
@@ -173,20 +173,20 @@
    </obj>
    <obj type="ctrl/dial p" uuid="cc5d2846c3d50e425f450c4b9851371b54f4d674" name="size" x="70" y="518">
       <params>
-         <frac32.u.map name="value" onParent="true" value="64.0"/>
+         <frac32.u.map name="value" onParent="true" value="63.99999952316284"/>
       </params>
       <attribs/>
    </obj>
    <obj type="math/smooth" uuid="6c5d08c282bb08bff24af85b4891447f99bcbc97" name="smooth_2" x="140" y="518">
       <params>
-         <frac32.u.map name="time" value="52.5"/>
+         <frac32.u.map name="time" frozen="true" value="52.5"/>
       </params>
       <attribs/>
    </obj>
    <obj type="TSG/math/map" uuid="e93b4617-4075-4591-b602-3e1fc252e881" name="map_3" x="238" y="518">
       <params>
-         <frac32.u.map name="a" value="1.0"/>
-         <frac32.u.map name="b" value="15.0"/>
+         <frac32.u.map name="a" frozen="true" value="1.0"/>
+         <frac32.u.map name="b" frozen="true" value="15.0"/>
       </params>
       <attribs/>
    </obj>
@@ -245,20 +245,20 @@ outlet_o8 = -outlet_o4;]]></code.krate>
    </patchobj>
    <obj type="math/*c" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225" name="*c_1" x="868" y="518">
       <params>
-         <frac32.u.map name="amp" value="54.5"/>
+         <frac32.u.map name="amp" frozen="true" value="54.5"/>
       </params>
       <attribs/>
    </obj>
    <obj type="math/*c" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225" name="*c_5" x="1120" y="518">
       <params>
-         <frac32.u.map name="amp" value="49.5"/>
+         <frac32.u.map name="amp" frozen="true" value="49.5"/>
       </params>
       <attribs/>
    </obj>
    <obj type="TSG/math/map" uuid="e93b4617-4075-4591-b602-3e1fc252e881" name="map_2" x="238" y="644">
       <params>
-         <frac32.u.map name="a" value="0.0"/>
-         <frac32.u.map name="b" value="26.5"/>
+         <frac32.u.map name="a" frozen="true" value="0.0"/>
+         <frac32.u.map name="b" frozen="true" value="26.5"/>
       </params>
       <attribs/>
    </obj>
@@ -280,20 +280,20 @@ outlet_o8 = -outlet_o4;]]></code.krate>
    </obj>
    <obj type="math/*c" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225" name="*c_2" x="1022" y="658">
       <params>
-         <frac32.u.map name="amp" value="39.0"/>
+         <frac32.u.map name="amp" frozen="true" value="39.0"/>
       </params>
       <attribs/>
    </obj>
    <obj type="math/*c" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225" name="*c_6" x="1274" y="658">
       <params>
-         <frac32.u.map name="amp" value="44.5"/>
+         <frac32.u.map name="amp" frozen="true" value="44.5"/>
       </params>
       <attribs/>
    </obj>
    <obj type="TSG/math/map" uuid="e93b4617-4075-4591-b602-3e1fc252e881" name="map_1" x="238" y="770">
       <params>
-         <frac32.u.map name="a" value="0.0"/>
-         <frac32.u.map name="b" value="64.0"/>
+         <frac32.u.map name="a" frozen="true" value="0.0"/>
+         <frac32.u.map name="b" frozen="true" value="63.99999952316284"/>
       </params>
       <attribs/>
    </obj>
@@ -315,13 +315,13 @@ outlet_o8 = -outlet_o4;]]></code.krate>
    </obj>
    <obj type="math/*c" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225" name="*c_3" x="1176" y="798">
       <params>
-         <frac32.u.map name="amp" value="48.5"/>
+         <frac32.u.map name="amp" frozen="true" value="48.5"/>
       </params>
       <attribs/>
    </obj>
    <obj type="math/*c" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225" name="*c_7" x="1428" y="798">
       <params>
-         <frac32.u.map name="amp" value="41.5"/>
+         <frac32.u.map name="amp" frozen="true" value="41.5"/>
       </params>
       <attribs/>
    </obj>
@@ -349,13 +349,13 @@ outlet_o8 = -outlet_o4;]]></code.krate>
    </obj>
    <obj type="math/*c" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225" name="*c_4" x="1330" y="938">
       <params>
-         <frac32.u.map name="amp" value="43.5"/>
+         <frac32.u.map name="amp" frozen="true" value="43.5"/>
       </params>
       <attribs/>
    </obj>
    <obj type="math/*c" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225" name="*c_8" x="1582" y="938">
       <params>
-         <frac32.u.map name="amp" value="47.0"/>
+         <frac32.u.map name="amp" frozen="true" value="47.0"/>
       </params>
       <attribs/>
    </obj>
@@ -665,8 +665,8 @@ outlet_o8 = -outlet_o4;]]></code.krate>
    </settings>
    <notes><![CDATA[]]></notes>
    <windowPos>
-      <x>167</x>
-      <y>23</y>
+      <x>0</x>
+      <y>0</y>
       <width>1273</width>
       <height>828</height>
    </windowPos>
