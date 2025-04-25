@@ -3,7 +3,6 @@
       <sDescription>A Granulator that plays samples from a table using grains. It allows pitch shifting and time stretching. Uses 5 grains and linear interpolation. Works well together with sptnk/table/slicer.</sDescription>
       <author>Joren Six</author>
       <license>BSD</license>
-      <helpPatch>js_granulator_demo.axh</helpPatch>
       <inlets>
          <bool32.rising name="start" description="Start the granulator"/>
          <bool32.rising name="stop" description="Stop the granulator"/>
