@@ -267,10 +267,10 @@ key=key<0?key+12:key;
 
 //select edit-channel
 if(upd){
-if(edit==1){PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_mute],MUTE,0xFFFD);}
-if(edit==0){PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_edit],cHn,0xFFFD);}
-if(edit==2){PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_solo],SOLO,0xFFFD);}
-if(edit==3){PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_scaled],KEYED,0xFFFD);}
+if(edit==1){PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_mute],MUTE,0xFFFD);}
+if(edit==0){PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_edit],cHn,0xFFFD);}
+if(edit==2){PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_solo],SOLO,0xFFFD);}
+if(edit==3){PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_scaled],KEYED,0xFFFD);}
 upd=0;
 }
 MUTE=param_mute;

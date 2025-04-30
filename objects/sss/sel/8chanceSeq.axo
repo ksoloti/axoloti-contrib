@@ -121,7 +121,7 @@ int i;
 
 if(!(prv==P+load)){
 	for(i=0;i<8;i++){
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_1+i],array[i+P],0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_1+i],array[i+P],0xFFFD);
 }
 }
 

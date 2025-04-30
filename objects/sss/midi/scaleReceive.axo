@@ -98,7 +98,7 @@ int n[7];]]></code.declaration>
      }
      if(sum==0)
      {
-     	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_1],1,0xFFFD);
+     	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_1],1,0xFFFD);
 		sum=1;
      }
 

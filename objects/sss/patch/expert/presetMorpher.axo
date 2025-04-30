@@ -77,7 +77,7 @@ DO=0;
 
 
 if(param_preset>=presets){
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_preset],presets-1,0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_preset],presets-1,0xFFFD);
 }
 P=param_preset+inlet_preset;
 P=P-P/presets*presets;
@@ -120,7 +120,7 @@ if(A>0)
 				{
 					tmp=tmp<pst[P+j]?pst[P+j]:tmp;
 				}
-				PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_value+j+6],tmp,0xFFFD);
+				PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_value+j+6],tmp,0xFFFD);
 			}
 		}
 	}

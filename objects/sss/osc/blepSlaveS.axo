@@ -116,11 +116,11 @@ int32_t octPst[8][8]=
       }]]></code.init>
       <code.krate><![CDATA[if(param_stack>attr_maxStack)
 {
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_stack],attr_maxStack,0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_stack],attr_maxStack,0xFFFD);
 }
 if(param_syncs>attr_maxStack)
 {
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_syncs],attr_maxStack,0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_syncs],attr_maxStack,0xFFFD);
 }
 int stack=param_stack>attr_maxStack?attr_maxStack:param_stack;
 attr_core.pst=inlet_hrmPst&15;

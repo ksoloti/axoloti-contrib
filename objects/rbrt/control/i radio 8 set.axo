@@ -25,7 +25,7 @@ uint8_t out;]]></code.declaration>
 if (inlet_set && (!ntrig)){
 	ntrig = 1;
 	out = inlet_setTo %8;	
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_value],out, 0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_value],out, 0xFFFD);
 }
 
 if (!inlet_set) ntrig = 0;

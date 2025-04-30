@@ -298,34 +298,34 @@ else if(!(param_save>0)){strig=0;}
 
 if((param_load>0)&!ltrig)
 {ltrig=1;
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Cc],array[0+octave+readsequence],0xFFFD);
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Cis],array[1+octave+readsequence],0xFFFD);
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Dd],array[2+octave+readsequence],0xFFFD);
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Dis],array[3+octave+readsequence],0xFFFD);
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Ee],array[4+octave+readsequence],0xFFFD);
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Ff],array[5+octave+readsequence],0xFFFD);
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Fis],array[6+octave+readsequence],0xFFFD);
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Gg],array[7+octave+readsequence],0xFFFD);
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Gis],array[8+octave+readsequence],0xFFFD);
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Aa],array[9+octave+readsequence],0xFFFD);
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Ais],array[10+octave+readsequence],0xFFFD);
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Bb],array[11+octave+readsequence],0xFFFD);}
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Cc],array[0+octave+readsequence],0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Cis],array[1+octave+readsequence],0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Dd],array[2+octave+readsequence],0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Dis],array[3+octave+readsequence],0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Ee],array[4+octave+readsequence],0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Ff],array[5+octave+readsequence],0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Fis],array[6+octave+readsequence],0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Gg],array[7+octave+readsequence],0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Gis],array[8+octave+readsequence],0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Aa],array[9+octave+readsequence],0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Ais],array[10+octave+readsequence],0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Bb],array[11+octave+readsequence],0xFFFD);}
 else if(!(param_load>0)){ltrig=0;}
 
 if((param_reset>0)&!rtrig)
 {rtrig=1;
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Cc],0,0xFFFD);
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Cis],0,0xFFFD);
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Dd],0,0xFFFD);
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Dis],0,0xFFFD);
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Ee],0,0xFFFD);
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Ff],0,0xFFFD);
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Fis],0,0xFFFD);
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Gg],0,0xFFFD);
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Gis],0,0xFFFD);
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Aa],0,0xFFFD);
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Ais],0,0xFFFD);
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Bb],0,0xFFFD);}
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Cc],0,0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Cis],0,0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Dd],0,0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Dis],0,0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Ee],0,0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Ff],0,0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Fis],0,0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Gg],0,0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Gis],0,0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Aa],0,0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Ais],0,0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Bb],0,0xFFFD);}
 else if(!(param_reset>0)){rtrig=0;}
 
 if((param_copy>0)&!ctrig)

@@ -179,7 +179,7 @@ for(i=0;i<LENGTH;i++){
 int32_t quant1=(param_quant>>21)+1;
 if((param_next>0)&&!ntrig){
 	ntrig=1;
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_mix],param_mix+(1<<27)/quant1,0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_mix],param_mix+(1<<27)/quant1,0xFFFD);
 }
 else if(param_next==0){ntrig=0;}
 

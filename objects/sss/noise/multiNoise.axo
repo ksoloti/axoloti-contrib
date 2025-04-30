@@ -67,21 +67,21 @@ fixed=(int32_t)GenerateRandomNumber();]]></code.init>
 	RTRG=1;
 	int32_t Trn=((int32_t) GenerateRandomNumber()>>4);
 	Trn=-___SMMUL(Trn<<2,Trn<<2)+(3<<25);	
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_pitch],Trn,0xFFFD);
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_linkP2R],(int) GenerateRandomNumber()&1,0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_pitch],Trn,0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_linkP2R],(int) GenerateRandomNumber()&1,0xFFFD);
 	Trn=((int32_t) GenerateRandomNumber()>>4);
 	Trn=-___SMMUL(Trn<<2,Trn<<2)+(3<<25);	
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_rate],Trn,0xFFFD);
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_chaotic],(uint32_t) GenerateRandomNumber()>>5,0xFFFD);
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_same],(uint32_t) GenerateRandomNumber()>>5,0xFFFD);
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_update],(uint32_t) GenerateRandomNumber()>>5,0xFFFD);
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_fixRnd],(int32_t) GenerateRandomNumber()>>4,0xFFFD);
-//	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_randFix],(int) GenerateRandomNumber()&1,0xFFFD);
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_linkO2F],(int) GenerateRandomNumber()&1,0xFFFD);
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_modF],(int32_t) GenerateRandomNumber()>>4,0xFFFD);
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_damp],((int32_t) GenerateRandomNumber()>>4)+(1<<25),0xFFFD);
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_linkD2B],(int) GenerateRandomNumber()&1,0xFFFD);
-//	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_brighten],((int32_t) GenerateRandomNumber()>>5),0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_rate],Trn,0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_chaotic],(uint32_t) GenerateRandomNumber()>>5,0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_same],(uint32_t) GenerateRandomNumber()>>5,0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_update],(uint32_t) GenerateRandomNumber()>>5,0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_fixRnd],(int32_t) GenerateRandomNumber()>>4,0xFFFD);
+//	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_randFix],(int) GenerateRandomNumber()&1,0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_linkO2F],(int) GenerateRandomNumber()&1,0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_modF],(int32_t) GenerateRandomNumber()>>4,0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_damp],((int32_t) GenerateRandomNumber()>>4)+(1<<25),0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_linkD2B],(int) GenerateRandomNumber()&1,0xFFFD);
+//	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_brighten],((int32_t) GenerateRandomNumber()>>5),0xFFFD);
 }
 else if(inlet_RANDOM==0){RTRG=0;}
 int32_t freq;

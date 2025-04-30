@@ -84,10 +84,10 @@ int32_t prev16;]]></code.declaration>
 if(!(prev01==temp))
 {
   PExModulationSourceChange(
-    &parent->GetModulationTable()[parent->MODULATOR_attr_name_M1*NMODULATIONTARGETS],
+    &parent->GetModulationTable()[parent->MODULATOR_CGENATTR_instancename_M1*NMODULATIONTARGETS],
     NMODULATIONTARGETS,
     &parent->PExch[0],
-    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_attr_name_M1],
+    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_CGENATTR_instancename_M1],
     temp);
 }
 prev01=temp;
@@ -95,10 +95,10 @@ temp=inlet_2;
 if(!(prev02==temp))
 {
   PExModulationSourceChange(
-    &parent->GetModulationTable()[parent->MODULATOR_attr_name_M2*NMODULATIONTARGETS],
+    &parent->GetModulationTable()[parent->MODULATOR_CGENATTR_instancename_M2*NMODULATIONTARGETS],
     NMODULATIONTARGETS,
     &parent->PExch[0],
-    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_attr_name_M2],
+    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_CGENATTR_instancename_M2],
     temp);
 }
 prev02=temp;
@@ -106,10 +106,10 @@ temp=inlet_3;
 if(!(prev03==temp))
 {
   PExModulationSourceChange(
-    &parent->GetModulationTable()[parent->MODULATOR_attr_name_M3*NMODULATIONTARGETS],
+    &parent->GetModulationTable()[parent->MODULATOR_CGENATTR_instancename_M3*NMODULATIONTARGETS],
     NMODULATIONTARGETS,
     &parent->PExch[0],
-    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_attr_name_M3],
+    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_CGENATTR_instancename_M3],
     temp);
 }
 prev03=temp;
@@ -117,10 +117,10 @@ temp=inlet_4;
 if(!(prev04==temp))
 {
   PExModulationSourceChange(
-    &parent->GetModulationTable()[parent->MODULATOR_attr_name_M4*NMODULATIONTARGETS],
+    &parent->GetModulationTable()[parent->MODULATOR_CGENATTR_instancename_M4*NMODULATIONTARGETS],
     NMODULATIONTARGETS,
     &parent->PExch[0],
-    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_attr_name_M4],
+    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_CGENATTR_instancename_M4],
     temp);
 }
 prev04=temp;
@@ -131,10 +131,10 @@ temp=inlet_5;
 if(!(prev05==temp))
 {
   PExModulationSourceChange(
-    &parent->GetModulationTable()[parent->MODULATOR_attr_name_M5*NMODULATIONTARGETS],
+    &parent->GetModulationTable()[parent->MODULATOR_CGENATTR_instancename_M5*NMODULATIONTARGETS],
     NMODULATIONTARGETS,
     &parent->PExch[0],
-    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_attr_name_M5],
+    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_CGENATTR_instancename_M5],
     temp);
 }
 prev05=temp;
@@ -142,10 +142,10 @@ temp=inlet_6;
 if(!(prev06==temp))
 {
   PExModulationSourceChange(
-    &parent->GetModulationTable()[parent->MODULATOR_attr_name_M6*NMODULATIONTARGETS],
+    &parent->GetModulationTable()[parent->MODULATOR_CGENATTR_instancename_M6*NMODULATIONTARGETS],
     NMODULATIONTARGETS,
     &parent->PExch[0],
-    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_attr_name_M6],
+    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_CGENATTR_instancename_M6],
     temp);
 }
 prev06=temp;
@@ -153,10 +153,10 @@ temp=inlet_7;
 if(!(prev07==temp))
 {
   PExModulationSourceChange(
-    &parent->GetModulationTable()[parent->MODULATOR_attr_name_M7*NMODULATIONTARGETS],
+    &parent->GetModulationTable()[parent->MODULATOR_CGENATTR_instancename_M7*NMODULATIONTARGETS],
     NMODULATIONTARGETS,
     &parent->PExch[0],
-    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_attr_name_M7],
+    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_CGENATTR_instancename_M7],
     temp);
 }
 prev07=temp;
@@ -164,10 +164,10 @@ temp=inlet_8;
 if(!(prev08==temp))
 {
   PExModulationSourceChange(
-    &parent->GetModulationTable()[parent->MODULATOR_attr_name_M8*NMODULATIONTARGETS],
+    &parent->GetModulationTable()[parent->MODULATOR_CGENATTR_instancename_M8*NMODULATIONTARGETS],
     NMODULATIONTARGETS,
     &parent->PExch[0],
-    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_attr_name_M8],
+    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_CGENATTR_instancename_M8],
     temp);
 }
 prev08=temp;
@@ -178,10 +178,10 @@ temp=inlet_9;
 if(!(prev09==temp))
 {
   PExModulationSourceChange(
-    &parent->GetModulationTable()[parent->MODULATOR_attr_name_M9*NMODULATIONTARGETS],
+    &parent->GetModulationTable()[parent->MODULATOR_CGENATTR_instancename_M9*NMODULATIONTARGETS],
     NMODULATIONTARGETS,
     &parent->PExch[0],
-    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_attr_name_M9],
+    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_CGENATTR_instancename_M9],
     temp);
 }
 prev09=temp;
@@ -189,10 +189,10 @@ temp=inlet_10;
 if(!(prev10==temp))
 {
   PExModulationSourceChange(
-    &parent->GetModulationTable()[parent->MODULATOR_attr_name_M10*NMODULATIONTARGETS],
+    &parent->GetModulationTable()[parent->MODULATOR_CGENATTR_instancename_M10*NMODULATIONTARGETS],
     NMODULATIONTARGETS,
     &parent->PExch[0],
-    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_attr_name_M10],
+    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_CGENATTR_instancename_M10],
     temp);
 }
 prev10=temp;
@@ -200,10 +200,10 @@ temp=inlet_11;
 if(!(prev11==temp))
 {
   PExModulationSourceChange(
-    &parent->GetModulationTable()[parent->MODULATOR_attr_name_M11*NMODULATIONTARGETS],
+    &parent->GetModulationTable()[parent->MODULATOR_CGENATTR_instancename_M11*NMODULATIONTARGETS],
     NMODULATIONTARGETS,
     &parent->PExch[0],
-    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_attr_name_M11],
+    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_CGENATTR_instancename_M11],
     temp);
 }
 prev11=temp;
@@ -211,10 +211,10 @@ temp=inlet_12;
 if(!(prev12==temp))
 {
   PExModulationSourceChange(
-    &parent->GetModulationTable()[parent->MODULATOR_attr_name_M12*NMODULATIONTARGETS],
+    &parent->GetModulationTable()[parent->MODULATOR_CGENATTR_instancename_M12*NMODULATIONTARGETS],
     NMODULATIONTARGETS,
     &parent->PExch[0],
-    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_attr_name_M12],
+    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_CGENATTR_instancename_M12],
     temp);
 }
 prev12=temp;
@@ -225,10 +225,10 @@ temp=inlet_13;
 if(!(prev13==temp))
 {
   PExModulationSourceChange(
-    &parent->GetModulationTable()[parent->MODULATOR_attr_name_M13*NMODULATIONTARGETS],
+    &parent->GetModulationTable()[parent->MODULATOR_CGENATTR_instancename_M13*NMODULATIONTARGETS],
     NMODULATIONTARGETS,
     &parent->PExch[0],
-    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_attr_name_M13],
+    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_CGENATTR_instancename_M13],
     temp);
 }
 prev13=temp;
@@ -236,10 +236,10 @@ temp=inlet_14;
 if(!(prev14==temp))
 {
   PExModulationSourceChange(
-    &parent->GetModulationTable()[parent->MODULATOR_attr_name_M14*NMODULATIONTARGETS],
+    &parent->GetModulationTable()[parent->MODULATOR_CGENATTR_instancename_M14*NMODULATIONTARGETS],
     NMODULATIONTARGETS,
     &parent->PExch[0],
-    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_attr_name_M14],
+    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_CGENATTR_instancename_M14],
     temp);
 }
 prev14=temp;
@@ -247,10 +247,10 @@ temp=inlet_15;
 if(!(prev15==temp))
 {
   PExModulationSourceChange(
-    &parent->GetModulationTable()[parent->MODULATOR_attr_name_M15*NMODULATIONTARGETS],
+    &parent->GetModulationTable()[parent->MODULATOR_CGENATTR_instancename_M15*NMODULATIONTARGETS],
     NMODULATIONTARGETS,
     &parent->PExch[0],
-    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_attr_name_M15],
+    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_CGENATTR_instancename_M15],
     temp);
 }
 prev15=temp;
@@ -258,10 +258,10 @@ temp=inlet_16;
 if(!(prev16==temp))
 {
   PExModulationSourceChange(
-    &parent->GetModulationTable()[parent->MODULATOR_attr_name_M16*NMODULATIONTARGETS],
+    &parent->GetModulationTable()[parent->MODULATOR_CGENATTR_instancename_M16*NMODULATIONTARGETS],
     NMODULATIONTARGETS,
     &parent->PExch[0],
-    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_attr_name_M16],
+    &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_CGENATTR_instancename_M16],
     temp);
 }
 prev16=temp;]]></code.krate>

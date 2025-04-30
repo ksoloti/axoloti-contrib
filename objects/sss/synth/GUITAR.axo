@@ -119,7 +119,7 @@ for(i=0;i<stages;i++){
 if((param_rnd>0)&&!rtrg){
 	rtrg=1;
 	for(i=0;i<stages;i++){
-		PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_t1+i],(int32_t)GenerateRandomNumber()&((1<<27)-1),0xFFFD);
+		PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_t1+i],(int32_t)GenerateRandomNumber()&((1<<27)-1),0xFFFD);
 	}
 }
 else if(param_rnd==0){rtrg=0;}]]></code.krate>

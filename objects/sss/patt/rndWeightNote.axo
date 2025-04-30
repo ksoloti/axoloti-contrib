@@ -197,18 +197,18 @@ int change=chancepatt+inlet_load;
 
 if(!(change==prvchance))
 {
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_B],chance[12+chancepatt]-chance[11+chancepatt],0xFFFD);
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_ais],chance[11+chancepatt]-chance[10+chancepatt],0xFFFD);
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_A],chance[10+chancepatt]-chance[9+chancepatt],0xFFFD);
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_gis],chance[9+chancepatt]-chance[8+chancepatt],0xFFFD);
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_G],chance[8+chancepatt]-chance[7+chancepatt],0xFFFD);
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_fis],chance[7+chancepatt]-chance[6+chancepatt],0xFFFD);
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_F],chance[6+chancepatt]-chance[5+chancepatt],0xFFFD);
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_E],chance[5+chancepatt]-chance[4+chancepatt],0xFFFD);
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_dis],chance[4+chancepatt]-chance[3+chancepatt],0xFFFD);
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_D],chance[3+chancepatt]-chance[2+chancepatt],0xFFFD);
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_cis],chance[2+chancepatt]-chance[1+chancepatt],0xFFFD);
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_C],chance[1+chancepatt],0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_B],chance[12+chancepatt]-chance[11+chancepatt],0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_ais],chance[11+chancepatt]-chance[10+chancepatt],0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_A],chance[10+chancepatt]-chance[9+chancepatt],0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_gis],chance[9+chancepatt]-chance[8+chancepatt],0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_G],chance[8+chancepatt]-chance[7+chancepatt],0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_fis],chance[7+chancepatt]-chance[6+chancepatt],0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_F],chance[6+chancepatt]-chance[5+chancepatt],0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_E],chance[5+chancepatt]-chance[4+chancepatt],0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_dis],chance[4+chancepatt]-chance[3+chancepatt],0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_D],chance[3+chancepatt]-chance[2+chancepatt],0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_cis],chance[2+chancepatt]-chance[1+chancepatt],0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_C],chance[1+chancepatt],0xFFFD);
 	
 }
 

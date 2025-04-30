@@ -80,7 +80,7 @@ nhooked = 4;
 	if (param_cache != param_CV) 
 		nhooked = 4;
 	else
-		PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_CV],inlet_CV,0xFFFD);
+		PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_CV],inlet_CV,0xFFFD);
 		param_cache = inlet_CV;
 }
 
@@ -90,22 +90,22 @@ nhooked = 4;
 
 if((inlet_selectUp>0)&&(!(sUtrig==1))){
 sUtrig=1;
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_select],(selact+1)&7,0xFFFD);}
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_select],(selact+1)&7,0xFFFD);}
 else if(!(inlet_selectUp>0)){sUtrig=0;}
 
 if((inlet_selectDown>0)&&(!(sDtrig==1))){
 sDtrig=1;
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_select],(selact-1)&7,0xFFFD);}
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_select],(selact-1)&7,0xFFFD);}
 else if(!(inlet_selectDown>0)){sDtrig=0;}
 
 if((inlet_destinationUp>0)&&(!(dUtrig==1))){
 dUtrig=1;
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_destiny],(destiny+1)-((destiny+1)/inlet_maxdestinations)*inlet_maxdestinations,0xFFFD);}
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_destiny],(destiny+1)-((destiny+1)/inlet_maxdestinations)*inlet_maxdestinations,0xFFFD);}
 else if(!(inlet_destinationUp>0)){dUtrig=0;}
 
 if((inlet_destinationDown>0)&&(!(dDtrig==1))){
 dDtrig=1;
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_destiny],(destiny-1)-((destiny-1)/inlet_maxdestinations)*inlet_maxdestinations,0xFFFD);}
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_destiny],(destiny-1)-((destiny-1)/inlet_maxdestinations)*inlet_maxdestinations,0xFFFD);}
 else if(!(inlet_destinationDown>0)){dDtrig=0;}
 
 
@@ -127,7 +127,7 @@ case 5: select = attr_table.array[__USAT(destyny+5+preset,attr_table.LENGTHPOW)]
 case 6: select = attr_table.array[__USAT(destyny+6+preset,attr_table.LENGTHPOW)]<<attr_table.GAIN;break;
 case 7: select = attr_table.array[__USAT(destyny+7+preset,attr_table.LENGTHPOW)]<<attr_table.GAIN;break;
 }
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_CV],select,0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_CV],select,0xFFFD);
 }
 if(!(prevCV==CV)){
 switch(param_select>0?param_select:0){

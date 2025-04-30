@@ -118,9 +118,9 @@ if(!(param_control==pv)){
 MidiSend3((midi_device_t) MIDI_DEVICE_USB_HOST, 1, MIDI_CONTROL_CHANGE ,3,__USAT((param_control>>20),8));}
 
 if(!(select==prev)){
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_control],__USAT(array[select],28),0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_control],__USAT(array[select],28),0xFFFD);
 }
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_Vdec+select],__USAT(param_control,28),0xFFFD);
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_Vdec+select],__USAT(param_control,28),0xFFFD);
 
 PLFO+=inlet_timing*((param_rate>>22)+1)*inlet_Xrate;
 int32_t LFO;

@@ -46,7 +46,7 @@ if(param_normalise&&!norm)
 {
 	norm=1;
 	float32_t ratio=(float32_t)(1<<26)/sabs;
-	PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_volume],param_volume*ratio,0xFFFD);
+	PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_volume],param_volume*ratio,0xFFFD);
 
 	sabs=0;
 }

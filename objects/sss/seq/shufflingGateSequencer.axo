@@ -331,10 +331,10 @@ positionwrite=bar*4+param_seqWrite*16;
 //load
 if((param_load>0)&&(!(ltrig)))
 {ltrig=1;
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_b1],array[positionread],((1<<32)-1));
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_b2],array[positionread+1],((1<<32)-1));
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_b3],array[positionread+2],((1<<32)-1));
-PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_b4],array[positionread+3],((1<<32)-1));}
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_b1],array[positionread],((1<<32)-1));
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_b2],array[positionread+1],((1<<32)-1));
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_b3],array[positionread+2],((1<<32)-1));
+PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_b4],array[positionread+3],((1<<32)-1));}
 else if (!(param_load>0))
 {ltrig=0;}
 //save

@@ -28,7 +28,7 @@ bool registered=false;]]></code.declaration>
       <code.init><![CDATA[nhooked = 4;
 tunhook = 0;]]></code.init>
       <code.krate><![CDATA[if(!registered ){
-	attr_x.registerParam(PARAM_INDEX_attr_legal_name_value,"attr_legal_name_value");
+	attr_x.registerParam(PARAM_INDEX_CGENATTR_legalname_value,"CGENATTR_legalname_value");
 	registered=true;
 }
 
@@ -63,7 +63,7 @@ if (nhooked) {
 	if (param_cache != param_value) 
 		nhooked = 4;
 	else
-		PExParameterChange(&parent->PExch[PARAM_INDEX_attr_legal_name_value],inlet_in,0xFFFD);
+		PExParameterChange(&parent->PExch[PARAM_INDEX_CGENATTR_legalname_value],inlet_in,0xFFFD);
 		param_cache = inlet_in;
 }
 outlet_hooked = !nhooked;]]></code.krate>
