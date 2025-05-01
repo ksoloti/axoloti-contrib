@@ -1,4 +1,4 @@
-<patch-1.0 appVersion="1.1.0">
+<patch-1.0 appVersion="1.0.12">
    <obj type="ctrl/dial p" uuid="cc5d2846c3d50e425f450c4b9851371b54f4d674" name="Tape age" x="896" y="224">
       <params>
          <frac32.u.map name="value" onParent="true" value="0.0"/>
@@ -7,21 +7,21 @@
    </obj>
    <obj type="TSG/math/map" uuid="e93b4617-4075-4591-b602-3e1fc252e881" name="map_1" x="980" y="224">
       <params>
-         <frac32.u.map name="a" frozen="true" value="63.99999952316284"/>
-         <frac32.u.map name="b" frozen="true" value="29.0"/>
+         <frac32.u.map name="a" value="64.0"/>
+         <frac32.u.map name="b" value="29.0"/>
       </params>
       <attribs/>
    </obj>
    <obj type="ctrl/dial p" uuid="cc5d2846c3d50e425f450c4b9851371b54f4d674" name="Low End" x="1078" y="224">
       <params>
-         <frac32.u.map name="value" onParent="true" value="63.99999952316284"/>
+         <frac32.u.map name="value" onParent="true" value="64.0"/>
       </params>
       <attribs/>
    </obj>
    <obj type="TSG/math/map" uuid="e93b4617-4075-4591-b602-3e1fc252e881" name="map_3" x="1162" y="224">
       <params>
-         <frac32.u.map name="a" frozen="true" value="44.0"/>
-         <frac32.u.map name="b" frozen="true" value="5.5"/>
+         <frac32.u.map name="a" value="44.0"/>
+         <frac32.u.map name="b" value="5.5"/>
       </params>
       <attribs/>
    </obj>
@@ -33,8 +33,8 @@
    </obj>
    <obj type="TSG/math/map" uuid="e93b4617-4075-4591-b602-3e1fc252e881" name="map_2" x="714" y="266">
       <params>
-         <frac32.u.map name="a" frozen="true" value="0.0"/>
-         <frac32.u.map name="b" frozen="true" value="63.99999952316284"/>
+         <frac32.u.map name="a" value="0.0"/>
+         <frac32.u.map name="b" value="64.0"/>
       </params>
       <attribs/>
    </obj>
@@ -62,7 +62,7 @@
    </obj>
    <obj type="math/*c" uuid="7a66f52a9594e7e9eb31328ea725cb3641a80b55" name="*c_1" x="952" y="434">
       <params>
-         <frac32.u.map name="amp" frozen="true" value="20.0"/>
+         <frac32.u.map name="amp" value="20.0"/>
       </params>
       <attribs/>
    </obj>
@@ -76,13 +76,13 @@
    </obj>
    <obj type="filter/lp1 m" uuid="18b561d14f9175f5380e6a1d9d55ca41e0e61974" name="lp1_1" x="1260" y="434">
       <params>
-         <frac32.u.map name="freq" frozen="true" value="0.0"/>
+         <frac32.u.map name="freq" value="0.0"/>
       </params>
       <attribs/>
    </obj>
    <obj type="filter/hp1 m" uuid="db72e08c265817674e56af3855bfca7a58b65e87" name="hp1_1" x="1344" y="434">
       <params>
-         <frac32.u.map name="freq" frozen="true" value="0.0"/>
+         <frac32.u.map name="freq" value="0.0"/>
       </params>
       <attribs/>
    </obj>
@@ -100,8 +100,8 @@
    </obj>
    <obj type="TSG/math/map" uuid="e93b4617-4075-4591-b602-3e1fc252e881" name="map_4" x="280" y="490">
       <params>
-         <frac32.u.map name="a" frozen="true" value="1.0"/>
-         <frac32.u.map name="b" frozen="true" value="63.99999952316284"/>
+         <frac32.u.map name="a" value="1.0"/>
+         <frac32.u.map name="b" value="64.0"/>
       </params>
       <attribs/>
    </obj>
@@ -121,7 +121,7 @@
    </obj>
    <obj type="math/*c" uuid="7a66f52a9594e7e9eb31328ea725cb3641a80b55" name="*c_2" x="952" y="532">
       <params>
-         <frac32.u.map name="amp" frozen="true" value="20.0"/>
+         <frac32.u.map name="amp" value="20.0"/>
       </params>
       <attribs/>
    </obj>
@@ -135,13 +135,13 @@
    </obj>
    <obj type="filter/lp1 m" uuid="18b561d14f9175f5380e6a1d9d55ca41e0e61974" name="lp1_2" x="1260" y="532">
       <params>
-         <frac32.u.map name="freq" frozen="true" value="0.0"/>
+         <frac32.u.map name="freq" value="0.0"/>
       </params>
       <attribs/>
    </obj>
    <obj type="filter/hp1 m" uuid="db72e08c265817674e56af3855bfca7a58b65e87" name="hp1_2" x="1344" y="532">
       <params>
-         <frac32.u.map name="freq" frozen="true" value="0.0"/>
+         <frac32.u.map name="freq" value="0.0"/>
       </params>
       <attribs/>
    </obj>
@@ -177,7 +177,7 @@
    </obj>
    <obj type="math/smooth" uuid="6c5d08c282bb08bff24af85b4891447f99bcbc97" name="smooth_1" x="882" y="616">
       <params>
-         <frac32.u.map name="time" frozen="true" value="55.5"/>
+         <frac32.u.map name="time" value="55.5"/>
       </params>
       <attribs/>
    </obj>
@@ -222,7 +222,7 @@
    </obj>
    <obj type="ctrl/dial p" uuid="cc5d2846c3d50e425f450c4b9851371b54f4d674" name="PingPong" x="1148" y="700">
       <params>
-         <frac32.u.map name="value" onParent="true" value="63.99999952316284"/>
+         <frac32.u.map name="value" onParent="true" value="64.0"/>
       </params>
       <attribs/>
    </obj>
@@ -242,7 +242,7 @@
    </obj>
    <obj type="math/smooth" uuid="6c5d08c282bb08bff24af85b4891447f99bcbc97" name="smooth_2" x="882" y="728">
       <params>
-         <frac32.u.map name="time" frozen="true" value="55.5"/>
+         <frac32.u.map name="time" value="55.5"/>
       </params>
       <attribs/>
    </obj>
@@ -270,14 +270,14 @@
    </obj>
    <obj type="kfilter/lp svf" uuid="784a54ca63c8b47d4d16a810f4a62337f45827e1" name="lp_1" x="574" y="840">
       <params>
-         <frac32.s.map name="pitch" frozen="true" value="-54.0"/>
-         <frac32.u.map name="reso" frozen="true" value="2.0"/>
+         <frac32.s.map name="pitch" value="-54.0"/>
+         <frac32.u.map name="reso" value="2.0"/>
       </params>
       <attribs/>
    </obj>
    <obj type="math/gain" uuid="6b4dd3da49f98e54900f6c20031f38f4624fa364" name="gain_1" x="672" y="840">
       <params>
-         <frac32.u.map name="amp" frozen="true" value="31.5"/>
+         <frac32.u.map name="amp" value="31.5"/>
       </params>
       <attribs/>
    </obj>
@@ -589,7 +589,7 @@
    <notes><![CDATA[]]></notes>
    <windowPos>
       <x>0</x>
-      <y>0</y>
+      <y>23</y>
       <width>1440</width>
       <height>791</height>
    </windowPos>
