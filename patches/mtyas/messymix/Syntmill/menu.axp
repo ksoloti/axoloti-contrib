@@ -287,7 +287,7 @@
       <params/>
       <attribs>
          <combo attributeName="pad" selection="PC5"/>
-         <combo attributeName="mode" selection="hi-z"/>
+         <combo attributeName="mode" selection="Push pull"/>
       </attribs>
    </obj>
    <obj type="logic/and 2" uuid="c67031682f552aa0a80b23377495c51ea28a8c9c" name="and_6" x="532" y="560">

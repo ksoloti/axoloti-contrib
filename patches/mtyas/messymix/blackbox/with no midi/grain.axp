@@ -58,7 +58,7 @@
       <params/>
       <attribs>
          <combo attributeName="pad" selection="PB6"/>
-         <combo attributeName="mode" selection="hi-z"/>
+         <combo attributeName="mode" selection="Push pull"/>
       </attribs>
    </obj>
    <obj type="gpio/in/analog" uuid="1c0c845ed2d7e06ae5f377ba13d9d09f4747ac87" name="analog_13" x="224" y="238">

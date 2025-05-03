@@ -474,7 +474,7 @@
       <params/>
       <attribs>
          <combo attributeName="pad" selection="PB6"/>
-         <combo attributeName="mode" selection="hi-z"/>
+         <combo attributeName="mode" selection="Push pull"/>
       </attribs>
    </obj>
    <patcher type="patch/patcher" uuid="6a5de8d0-e389-466a-a020-be8199cef6f9" name="patcher_11" x="1078" y="616">

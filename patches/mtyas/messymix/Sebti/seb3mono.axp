@@ -1942,7 +1942,7 @@
       <params/>
       <attribs>
          <combo attributeName="pad" selection="PC5"/>
-         <combo attributeName="mode" selection="hi-z"/>
+         <combo attributeName="mode" selection="Push pull"/>
       </attribs>
    </obj>
    <obj type="rbrt/looper/ldub" uuid="5902f84f-1523-451f-bddb-7f12c8ced857" name="ldub_4" x="2156" y="1414">

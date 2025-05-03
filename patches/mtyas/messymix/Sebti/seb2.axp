@@ -1077,7 +1077,7 @@
       <params/>
       <attribs>
          <combo attributeName="pad" selection="PC5"/>
-         <combo attributeName="mode" selection="hi-z"/>
+         <combo attributeName="mode" selection="Push pull"/>
       </attribs>
    </obj>
    <obj type="sss/math/expCurveK" uuid="bde45a1d-540b-4c33-b7b5-d733d42a1772" name="expCurveK_3" x="154" y="420">
