@@ -20,7 +20,7 @@
          <combo attributeName="midiport" selection="omni"/>
       </attribs>
       <subpatch appVersion="1.0.12">
-         <obj type="sebti" uuid="e64852e8-ac5d-4a7c-babe-98c0a731beed" name="sebti_1" x="98" y="28">
+         <obj type="mtyas/control/sebti" uuid="e64852e8-ac5d-4a7c-babe-98c0a731beed" name="sebti_1" x="98" y="28">
             <params/>
             <attribs/>
          </obj>

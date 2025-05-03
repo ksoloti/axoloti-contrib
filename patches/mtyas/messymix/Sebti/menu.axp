@@ -18,7 +18,7 @@
          <combo attributeName="mode" selection="Push pull"/>
       </attribs>
    </obj>
-   <obj type="sebti" uuid="1c50dc83-19f8-49c3-80f0-1edfdb2d4dcf" name="obj_1" x="42" y="126">
+   <obj type="mtyas/control/sebti" uuid="1c50dc83-19f8-49c3-80f0-1edfdb2d4dcf" name="obj_1" x="42" y="126">
       <params/>
       <attribs/>
    </obj>

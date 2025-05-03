@@ -359,7 +359,7 @@
          </windowPos>
       </subpatch>
    </patcher>
-   <obj type="sebti" uuid="aaee6fe3-1211-41ba-b4f3-1f5e75d80eff" name="obj_1" x="588" y="14">
+   <obj type="mtyas/control/sebti" uuid="aaee6fe3-1211-41ba-b4f3-1f5e75d80eff" name="obj_1" x="588" y="14">
       <params/>
       <attribs/>
    </obj>

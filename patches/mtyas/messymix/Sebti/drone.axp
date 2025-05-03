@@ -17,7 +17,7 @@
          <table attributeName="filename" table="../start.bin"/>
       </attribs>
    </obj>
-   <obj type="sebti" uuid="fb7370e9-0f93-4e7d-9cdc-42ab1e0d8b7e" name="obj_1" x="42" y="84">
+   <obj type="mtyas/control/sebti" uuid="fb7370e9-0f93-4e7d-9cdc-42ab1e0d8b7e" name="obj_1" x="42" y="84">
       <params/>
       <attribs/>
    </obj>

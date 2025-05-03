@@ -47,7 +47,7 @@
             </params>
             <attribs/>
          </obj>
-         <obj type="sebti" uuid="5da3106f-f8da-435f-8e97-7cae997023c1" name="obj_1" x="42" y="168">
+         <obj type="mtyas/control/sebti" uuid="5da3106f-f8da-435f-8e97-7cae997023c1" name="obj_1" x="42" y="168">
             <params/>
             <attribs/>
          </obj>

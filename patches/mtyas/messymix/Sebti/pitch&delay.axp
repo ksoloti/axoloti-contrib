@@ -39,7 +39,7 @@
       </attribs>
    </obj>
    <comment type="patch/comment" x="112" y="112" text="tips:"/>
-   <obj type="sebti" uuid="4849aa1d-f859-49ce-9971-650120a30954" name="obj_1" x="28" y="126">
+   <obj type="mtyas/control/sebti" uuid="4849aa1d-f859-49ce-9971-650120a30954" name="obj_1" x="28" y="126">
       <params/>
       <attribs/>
    </obj>

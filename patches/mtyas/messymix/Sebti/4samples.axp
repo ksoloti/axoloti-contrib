@@ -1,5 +1,5 @@
 <patch-1.0 appVersion="1.0.12">
-   <obj type="sebti" uuid="d941f985-161d-4df8-903d-ac41c8d37859" name="obj_1" x="14" y="0">
+   <obj type="mtyas/control/sebti" uuid="d941f985-161d-4df8-903d-ac41c8d37859" name="obj_1" x="14" y="0">
       <params/>
       <attribs/>
    </obj>
