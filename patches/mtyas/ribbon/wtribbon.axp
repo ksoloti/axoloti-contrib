@@ -963,7 +963,7 @@
          <combo attributeName="channel" selection="PC4 (ADC1_IN14)"/>
       </attribs>
    </obj>
-   <obj type="dirac" uuid="db33599f-8612-4795-a35c-44d5ad249ace" name="obj_3" x="868" y="462">
+   <obj type="pulse/dirac" uuid="db33599f-8612-4795-a35c-44d5ad249ace" name="obj_3" x="868" y="462">
       <params/>
       <attribs/>
    </obj>
@@ -1022,7 +1022,7 @@
          <combo attributeName="channel" selection="PA6 (ADC1_IN6)"/>
       </attribs>
    </obj>
-   <obj type="dirac" uuid="db33599f-8612-4795-a35c-44d5ad249ace" name="obj_7" x="476" y="728">
+   <obj type="pulse/dirac" uuid="db33599f-8612-4795-a35c-44d5ad249ace" name="obj_7" x="476" y="728">
       <params/>
       <attribs/>
    </obj>
@@ -1071,7 +1071,7 @@
          <combo attributeName="channel" selection="PC3 (ADC1_IN13)"/>
       </attribs>
    </obj>
-   <obj type="dirac" uuid="db33599f-8612-4795-a35c-44d5ad249ace" name="obj_8" x="476" y="966">
+   <obj type="pulse/dirac" uuid="db33599f-8612-4795-a35c-44d5ad249ace" name="obj_8" x="476" y="966">
       <params/>
       <attribs/>
    </obj>
