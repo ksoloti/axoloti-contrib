@@ -95,7 +95,7 @@ to=(1<<27)-___SMMUL(to<<3,to<<2);
 int32_t ho=(1<<27)-param_headroom;
 ho=(1<<27)-___SMMUL(ho<<3,ho<<2);]]></code.krate>
       <code.srate><![CDATA[int64_t freq=(int64_t)Freq+((int64_t)___SMMUL(inlet_fm,Freq)<<10);
-int32_t vm31=(1<<31)-1;
+int32_t vm31=INT32_MAX;
 freq=freq>=vm31?vm31:(freq<=-vm31?-vm31:freq);
 for(int i=0;i<(param_OS?2:1);i++)
 {

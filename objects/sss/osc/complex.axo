@@ -90,7 +90,7 @@ for(i=0;i<max;i++){
   uint32_t freq,ss;
   MTOFEXTENDED(param_pitch+inlet_pitch,freq)
   MTOFEXTENDED(param_softsync,ss)
-  if(param_softsync==(1<<27)){ss=(1<<31)-1;}
+  if(param_softsync==(1<<27)){ss=INT32_MAX;}
   if(param_softsync==-(1<<27)){ss=0;}
   int32_t ofs1=inlet_pw1+param_pw1;
   int32_t ofs2=inlet_pw2+param_pw2;

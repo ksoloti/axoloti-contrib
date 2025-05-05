@@ -114,7 +114,7 @@ Phase += ((-(fras+ratoo)<<32)-(fras+ratoo));
 //modulator 1 (2nd inverted and 
 phasor1 = Phase>>(64-(Length));
 phasorHQ=(Phase-(phasor1<<(64-(Length))))>>(33-(Length));
-ccomp=(1<<31)-((phasorHQ) & ((1<<31)-1));
+ccomp=(1<<31)-((phasorHQ) & (INT32_MAX));
 if(!(phasor1==phasor2))
 {    phasor4=phasor3;
 	phasor3=phasor2;}

@@ -230,21 +230,21 @@ int32_t tr=0;
 int rs=inlet_resmode%3;
 if((!(rs==1))||(dual==0))
 {tr=inlet_res;}
-  r1=(1<<31)-1;
+  r1=INT32_MAX;
   r1-=___SMMUL(__USAT(tr,27)<<4,r1)<<1;
-  r1-=(1<<31)-1;
+  r1-=INT32_MAX;
   r1-=r1>>2;
-  r1+=(1<<31)-1;
+  r1+=INT32_MAX;
 
 
 tr=0;
 if(rs>0)
 {tr=inlet_res;}
-  r2=(1<<31)-1;
+  r2=INT32_MAX;
   r2-=___SMMUL(__USAT(tr,27)<<4,r2)<<1;
-  r2-=(1<<31)-1;
+  r2-=INT32_MAX;
   r2-=r2>>2;
-  r2+=(1<<31)-1;]]></code.krate>
+  r2+=INT32_MAX;]]></code.krate>
       <code.srate><![CDATA[int32_t IN=___SMMUL(inlet_in,gain)<<5;
 
 for(int i=0;i<(1+inlet_OS);i++){
