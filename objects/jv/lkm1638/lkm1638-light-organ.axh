@@ -26,7 +26,7 @@
       <params/>
       <attribs>
          <combo attributeName="clock_polarity" selection="CPOL=0"/>
-         <combo attributeName="clock_phase" selection="first clock transition is the first data capture edge"/>
+         <combo attributeName="clock_phase" selection="CPHA=0"/>
          <combo attributeName="baudrate" selection="FPCLK/128"/>
          <combo attributeName="format" selection="LSB first"/>
       </attribs>
