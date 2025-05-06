@@ -2,7 +2,7 @@
    <obj type="gpio/spi/config" sha="8491453740b6fc6b2fcf5de6e9eb65baa370f6e4" name="spi.begin_1" x="14" y="14">
       <params/>
       <attribs>
-         <combo attributeName="clock_polarity" selection="0 when idle"/>
+         <combo attributeName="clock_polarity" selection="CPOL=0"/>
          <combo attributeName="clock_phase" selection="first clock transition is the first data capture edge"/>
          <combo attributeName="baudrate" selection="FPCLK/128"/>
          <combo attributeName="format" selection="LSB first"/>
