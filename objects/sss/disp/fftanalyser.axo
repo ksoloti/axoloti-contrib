@@ -127,7 +127,8 @@ for(i=0;i<size1;i++) outbuf[i]=0;
 state = 0;
   Thd = chThdCreateStatic(waThreadX, sizeof(waThreadX),
                     NORMALPRIO, (tfunc_t)ThreadX, (void *)this);]]></code.init>
-      <code.dispose><![CDATA[chThdTerminate(Thd);]]></code.dispose>
+      <code.dispose><![CDATA[chThdTerminate(Thd);
+chThdWait(Thd);]]></code.dispose>
       <code.krate><![CDATA[if (state<size1){
    int i;
    for(i=0;i<16;i++)
