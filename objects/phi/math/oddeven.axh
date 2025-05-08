@@ -4,7 +4,7 @@
    <comment type="patch/comment" x="490" y="28" text="with a twist !"/>
    <comment type="patch/comment" x="28" y="42" text="oddoreven"/>
    <comment type="patch/comment" x="112" y="56" text="if odd then gate = 1"/>
-   <obj type="ctrl/i bp" uuid="e5bf3953ead204874692af5d85c0et3a027r74f1" name="/*x_" x="420" y="56">
+   <obj type="phi/ctrl/i bp" uuid="e5bf3953ead204874692af5d85c0et3a027r74f1" name="/*x_" x="420" y="56">
       <params>
          <int32 name="c" onParent="true" value="31"/>
       </params>
@@ -32,7 +32,7 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="ctrl/i bp" uuid="e5bf3953ead204874692af5d85c0et3a027r74f1" name="/*x____" x="420" y="112">
+   <obj type="phi/ctrl/i bp" uuid="e5bf3953ead204874692af5d85c0et3a027r74f1" name="/*x____" x="420" y="112">
       <params>
          <int32 name="c" onParent="true" value="1"/>
       </params>
@@ -73,7 +73,7 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="ctrl/i bp" uuid="e5bf3953ead204874692af5d85c0et3a027r74f1" name="/*x__" x="280" y="294">
+   <obj type="phi/ctrl/i bp" uuid="e5bf3953ead204874692af5d85c0et3a027r74f1" name="/*x__" x="280" y="294">
       <params>
          <int32 name="c" onParent="true" value="1"/>
       </params>
@@ -156,7 +156,7 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="ctrl/i bp" uuid="e5bf3953ead204874692af5d85c0et3a027r74f1" name="/*x_____" x="826" y="602">
+   <obj type="phi/ctrl/i bp" uuid="e5bf3953ead204874692af5d85c0et3a027r74f1" name="/*x_____" x="826" y="602">
       <params>
          <int32 name="c" onParent="true" value="3"/>
       </params>

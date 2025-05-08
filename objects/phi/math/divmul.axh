@@ -1,7 +1,7 @@
 <patch-1.0 appVersion="1.0.10">
    <comment type="patch/comment" x="14" y="14" text="if inlet_in&lt;=-1 divide  in by half   if inlet_in &gt;=1 then multyply with half"/>
    <comment type="patch/comment" x="28" y="42" text="divmul"/>
-   <obj type="ctrl/i bp" uuid="e5bf3953ead204874692af5d85c0et3a027r74f1" name="/*x____" x="28" y="70">
+   <obj type="phi/ctrl/i bp" uuid="e5bf3953ead204874692af5d85c0et3a027r74f1" name="/*x____" x="28" y="70">
       <params>
          <int32 name="c" onParent="true" value="6"/>
       </params>
@@ -15,7 +15,7 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="ctrl/i bp" uuid="e5bf3953ead204874692af5d85c0et3a027r74f1" name="/*x" x="28" y="126">
+   <obj type="phi/ctrl/i bp" uuid="e5bf3953ead204874692af5d85c0et3a027r74f1" name="/*x" x="28" y="126">
       <params>
          <int32 name="c" onParent="true" value="12"/>
       </params>

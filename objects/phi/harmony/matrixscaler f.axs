@@ -33,7 +33,7 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="ctrl/i bp" uuid="e5bf3953ead2048r4692af5d85c0et3a027r74f1" name="transpose" x="826" y="112">
+   <obj type="phi/ctrl/i bp" uuid="e5bf3953ead2048r4692af5d85c0et3a027r74f1" name="transpose" x="826" y="112">
       <params>
          <int32 name="c" onParent="true" value="0"/>
       </params>
