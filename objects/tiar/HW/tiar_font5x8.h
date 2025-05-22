@@ -29,12 +29,12 @@ const uint8_t tiar_font5x8[] = {
     0b01111110, //   XXXXXXXXXXXX  
     0b00100100, //     XX    XX    
 
-    // $ 36                      <---------------------
-    0b11111111, // XXXXXXXXXXXXXXXX  
-    0b01001100, //   XX    XXXX      
-    0b01010000, //   XX  XX      
-    0b00110000, //     XX      
-    0b00000000, // 
+    // ♭ 36
+    0b01111111, // XXXXXXXXXXXXXX
+    0b01001000, // XX    XX
+    0b00100100, //   XX    XX
+    0b00011100, //     XXXXXX
+    0b00000000, //
 
     // % 37
     0b10001000, // XX      XX    
