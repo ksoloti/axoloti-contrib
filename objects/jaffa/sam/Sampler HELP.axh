@@ -6,7 +6,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="table/tablecombo3" uuid="507461ca-8035-49b3-90f1-1bd63d54e7da" name="alloc_1" x="154" y="42">
+   <obj type="jaffa/table/tablecombo2" uuid="507461ca-8035-49b3-90f1-1bd63d54e7da" name="alloc_1" x="154" y="42">
       <params/>
       <attribs>
          <combo attributeName="size" selection="2097152"/>
