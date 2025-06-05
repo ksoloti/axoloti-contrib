@@ -65,7 +65,7 @@
          <objref attributeName="a1" obj="ar_1"/>
       </attribs>
    </obj>
-   <obj type="jt/equal" uuid="57a444e6-e5e1-448f-999c-040c6c2716b6" name="equal_1" x="476" y="392">
+   <obj type="jt/tuning/equal" uuid="57a444e6-e5e1-448f-999c-040c6c2716b6" name="equal_1" x="476" y="392">
       <params>
          <frac32.s.map name="C" value="-4.0"/>
       </params>
