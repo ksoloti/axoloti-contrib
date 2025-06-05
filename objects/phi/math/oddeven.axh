@@ -61,7 +61,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="logic/counterminmax" uuid="5ce3406f0bf9385cd5284c5079d0a25e5s6adcrd" name="counterminmax_1" x="154" y="252">
+   <obj type="phi/logic/counter minmax" uuid="5ce3406f0bf9385cd5284c5079d0a25e5s6adcrd" name="counterminmax_1" x="154" y="252">
       <params/>
       <attribs/>
    </obj>
@@ -188,7 +188,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="logic/counterminmax" uuid="5ce3406f0bf9385cd5284c5079d0a25e5s6adcrd" name="counterminmax_2" x="644" y="686">
+   <obj type="phi/logic/counter minmax" uuid="5ce3406f0bf9385cd5284c5079d0a25e5s6adcrd" name="counterminmax_2" x="644" y="686">
       <params/>
       <attribs/>
    </obj>
