@@ -150,7 +150,7 @@
    <obj type="table/save" uuid="3e4108b607d56d9e1cd10abb898b58eea11e53b2" name="save_1" x="1582" y="448">
       <params/>
       <attribs>
-         <objref attributeName="table" obj="midiloopc"/>
+         <objref attributeName="table" obj="midiloop"/>
       </attribs>
    </obj>
    <comment type="patch/comment" x="406" y="462" text="midi clock reciever"/>
