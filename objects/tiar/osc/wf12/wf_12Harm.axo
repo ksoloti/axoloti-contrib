@@ -37,7 +37,7 @@
          </frac32.s.mapvsl>
       </params>
       <attribs/>
-      <code.declaration><![CDATA[const int32_t tiar_h4w12[12*6] = {
+      <code.declaration><![CDATA[int32_t tiar_h4w12[12*6] = {
 +134217728, +116235962,  +67108864,         +0,  -67108864, -116235962, -134217728, -116235962,  -67108864,         +0,  +67108864, +116235962, 
 +124617325, +105479145,  -19138181, -124617325, -105479145,  +19138181, +124617325, +105479145,  -19138181, -124617325, -105479145,  +19138181, 
  -68758842, +115267603,  +68758842, -115267603,  -68758842, +115267603,  +68758842, -115267603,  -68758842, +115267603,  +68758842, -115267603, 
@@ -46,7 +46,7 @@
 -105479145, +105479145, -105479145, +105479145, -105479145, +105479145, -105479145, +105479145, -105479145, +105479145, -105479145, +105479145 
 }; // phases chosen for reduced crest factor
 
-int32_t* h1, h2, h3, h4, h5, h6;
+int32_t *h1, *h2, *h3, *h4, *h5, *h6;
 ]]></code.declaration>
 <code.init><![CDATA[
 h1 = tiar_h4w12 + 0 * 12;
@@ -61,11 +61,11 @@ h6 = tiar_h4w12 + 5 * 12;
 /*
 for(j = 0;j<12;j++){
   outlet_waveform[j] =
-  __SMMLA(param_h6, h6[j],
-    __SMMLA(param_h5, h5[j],
-      __SMMLA(param_h4, h4[j],
-        __SMMLA(param_h3, h3[j],
-          __SMMLA(param_h2, h2[j],
+  ___SMMLA(param_h6, h6[j],
+    ___SMMLA(param_h5, h5[j],
+      ___SMMLA(param_h4, h4[j],
+        ___SMMLA(param_h3, h3[j],
+          ___SMMLA(param_h2, h2[j],
             ___SMMUL(param_h1, h1[j]))))))<<5;
 }
 */
@@ -73,19 +73,19 @@ for(j = 0;j<12;j++){
 // 6vars
 for(j = 0;j<12;j++){
   outlet_waveform[j] =
-          __SMMLA(param_h2, h2[j],
+          ___SMMLA(param_h2, h2[j],
             ___SMMUL(param_h1, h1[j]));
 }
 for(j = 0;j<12;j++){
   outlet_waveform[j] =
-    __SMMLA(param_h4, h4[j],
-      __SMMLA(param_h3, h3[j],
+    ___SMMLA(param_h4, h4[j],
+      ___SMMLA(param_h3, h3[j],
         outlet_waveform[j]));
 }
 for(j = 0;j<12;j++){
   outlet_waveform[j] =
-    __SMMLA(param_h6, h6[j],
-      __SMMLA(param_h5, h5[j],
+    ___SMMLA(param_h6, h6[j],
+      ___SMMLA(param_h5, h5[j],
         outlet_waveform[j]))<<5;
 }]]></code.krate>
    </obj.normal>
