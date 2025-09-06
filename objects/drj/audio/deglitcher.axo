@@ -29,9 +29,7 @@
          </CEntries>
       </combo>
     </attribs>
-    <includes>
-       <include>codec.h</include>
-    </includes>
+    <includes/>
     <depends/>
     <code.declaration><![CDATA[
 
@@ -144,9 +142,7 @@
          </CEntries>
       </combo>
     </attribs>
-    <includes>
-       <include>codec.h</include>
-    </includes>
+    <includes/>
     <depends/>
     <code.declaration><![CDATA[
 
