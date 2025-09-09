@@ -84,9 +84,7 @@ This version has also got Dr. Justice deglitcher implemented, which mutes all so
             </CEntries>
          </combo>
       </attribs>
-      <includes>
-         <include>chibios/ext/fatfs/src/ff.h</include>
-      </includes>
+      <includes/>
       <depends>
          <depend>fatfs</depend>
       </depends>

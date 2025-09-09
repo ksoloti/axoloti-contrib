@@ -16,9 +16,7 @@
       <attribs>
          <objref name="table"/>
       </attribs>
-      <includes>
-         <include>chibios/ext/fatfs/src/ff.h</include>
-      </includes>
+      <includes/>
       <depends>
          <depend>fatfs</depend>
       </depends>

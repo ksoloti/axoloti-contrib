@@ -87,9 +87,7 @@ Se help file about how to connect!</sDescription>
             </CEntries>
          </combo>
       </attribs>
-      <includes>
-         <include>chibios/ext/fatfs/src/ff.h</include>
-      </includes>
+      <includes/>
       <depends>
          <depend>fatfs</depend>
       </depends>

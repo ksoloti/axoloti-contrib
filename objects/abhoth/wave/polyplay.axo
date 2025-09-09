@@ -21,7 +21,6 @@
       </params>
       <attribs/>
       <includes>
-         <include>chibios/ext/fatfs/src/ff.h</include>
          <include>./pitchstreamer.h</include>
       </includes>
       <code.declaration><![CDATA[WORKING_AREA(waThreadSD, 850);

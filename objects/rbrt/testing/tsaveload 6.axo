@@ -29,9 +29,7 @@
          <objref name="t5"/>
          <objref name="t6"/>
       </attribs>
-      <includes>
-         <include>chibios/ext/fatfs/src/ff.h</include>
-      </includes>
+      <includes/>
       <depends>
          <depend>fatfs</depend>
       </depends>

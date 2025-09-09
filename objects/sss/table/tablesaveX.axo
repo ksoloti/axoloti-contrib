@@ -18,9 +18,7 @@ Also has a length multiplier in case you need to store wavetables that use &quot
          <objref name="table" description="refers to the module containing the table"/>
          <spinner name="sizemult" description="multiplies the length of the table. Some of my wavetable objects use &quot;LENGTH&quot; as the standard of a 1 cycle waveform, thus the entire table is LENGTH * SAMPLES * ... (check the table initiation to see the multiplication of the LENGTH)" MinValue="1" MaxValue="1048576" DefaultValue="1"/>
       </attribs>
-      <includes>
-         <include>chibios/ext/fatfs/src/ff.h</include>
-      </includes>
+      <includes/>
       <depends>
          <depend>fatfs</depend>
       </depends>

@@ -34,9 +34,7 @@ Select pattern, offset &amp; length control for the pattern. 128 random values i
          </int32>
       </params>
       <attribs/>
-      <includes>
-         <include>chibios/ext/fatfs/src/ff.h</include>
-      </includes>
+      <includes/>
       <depends>
          <depend>fatfs</depend>
       </depends>

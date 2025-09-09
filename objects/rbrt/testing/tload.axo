@@ -18,9 +18,7 @@
          <objref name="wave"/>
          <objref name="data"/>
       </attribs>
-      <includes>
-         <include>chibios/ext/fatfs/src/ff.h</include>
-      </includes>
+      <includes/>
       <depends>
          <depend>fatfs</depend>
       </depends>

@@ -40,7 +40,6 @@ Can only start playback from the beginning of the midi file.</sDescription>
       </attribs>
       <includes>
          <include>./tml_impl.h</include>
-         <include>chibios/ext/fatfs/src/ff.h</include>
       </includes>
       <depends>
          <depend>fatfs</depend>

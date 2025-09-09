@@ -32,9 +32,7 @@ random index (randomly selects an index number from the available indices)</sDes
          <table name="prefix"/>
          <table name="suffix"/>
       </attribs>
-      <includes>
-         <include>chibios/ext/fatfs/src/ff.h</include>
-      </includes>
+      <includes/>
       <depends>
          <depend>fatfs</depend>
       </depends>

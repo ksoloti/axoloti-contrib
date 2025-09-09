@@ -15,9 +15,7 @@
          <objref name="table"/>
          <spinner name="sizemult" MinValue="1" MaxValue="1048576" DefaultValue="1"/>
       </attribs>
-      <includes>
-         <include>chibios/ext/fatfs/src/ff.h</include>
-      </includes>
+      <includes/>
       <depends>
          <depend>fatfs</depend>
       </depends>
