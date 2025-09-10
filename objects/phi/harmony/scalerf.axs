@@ -23,7 +23,7 @@
          <spinner attributeName="denominator" value="12"/>
       </attribs>
    </obj>
-   <obj type="math/muls 12" uuid="d6b556443075484966ce9f99adf1bcc9662d0126" name="muls_1" x="518" y="14">
+   <obj type="phi/math/mul 12" uuid="d6b556443075484966ce9f99adf1bcc9662d0126" name="muls_1" x="518" y="14">
       <params/>
       <attribs/>
    </obj>
@@ -101,7 +101,7 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="C" x="42" y="238">
+   <obj type="phi/ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="C" x="42" y="238">
       <params>
          <int32.hradio name="value" onParent="true" value="0">
             <presets>
@@ -113,7 +113,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="C#" x="42" y="294">
+   <obj type="phi/ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="C#" x="42" y="294">
       <params>
          <int32.hradio name="value" onParent="true" value="1">
             <presets>
@@ -129,7 +129,7 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="D" x="42" y="350">
+   <obj type="phi/ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="D" x="42" y="350">
       <params>
          <int32.hradio name="value" onParent="true" value="2">
             <presets>
@@ -141,7 +141,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="D#" x="42" y="406">
+   <obj type="phi/ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="D#" x="42" y="406">
       <params>
          <int32.hradio name="value" onParent="true" value="3">
             <presets>
@@ -153,25 +153,25 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="E" x="42" y="462">
+   <obj type="phi/ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="E" x="42" y="462">
       <params>
          <int32.hradio name="value" onParent="true" value="4"/>
       </params>
       <attribs/>
    </obj>
-   <obj type="ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="F" x="42" y="518">
+   <obj type="phi/ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="F" x="42" y="518">
       <params>
          <int32.hradio name="value" onParent="true" value="5"/>
       </params>
       <attribs/>
    </obj>
-   <obj type="ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="F#" x="42" y="574">
+   <obj type="phi/ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="F#" x="42" y="574">
       <params>
          <int32.hradio name="value" onParent="true" value="6"/>
       </params>
       <attribs/>
    </obj>
-   <obj type="ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="G" x="42" y="630">
+   <obj type="phi/ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="G" x="42" y="630">
       <params>
          <int32.hradio name="value" onParent="true" value="7">
             <presets>
@@ -183,7 +183,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="G#" x="42" y="686">
+   <obj type="phi/ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="G#" x="42" y="686">
       <params>
          <int32.hradio name="value" onParent="true" value="8">
             <presets>
@@ -195,7 +195,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="A" x="42" y="742">
+   <obj type="phi/ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="A" x="42" y="742">
       <params>
          <int32.hradio name="value" onParent="true" value="9">
             <presets>
@@ -207,7 +207,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="A#" x="42" y="798">
+   <obj type="phi/ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="A#" x="42" y="798">
       <params>
          <int32.hradio name="value" onParent="true" value="10">
             <presets>
@@ -219,7 +219,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="B" x="42" y="854">
+   <obj type="phi/ctrl/i radio 12 h" uuid="3c306e7cf0813bdf10bad2a87266ea6c60e80cf2" name="B" x="42" y="854">
       <params>
          <int32.hradio name="value" onParent="true" value="11">
             <presets>
