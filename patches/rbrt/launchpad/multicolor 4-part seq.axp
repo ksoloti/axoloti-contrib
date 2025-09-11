@@ -12,7 +12,7 @@
       </params>
       <attribs>
          <objref attributeName="table" obj="data"/>
-         <combo attributeName="device" selection="usb host port 1"/>
+         <combo attributeName="device" selection="usb host port / LP"/>
          <combo attributeName="blocksize" selection="1"/>
          <combo attributeName="coloron" selection="green S"/>
          <combo attributeName="coloroff" selection="off"/>
@@ -24,7 +24,7 @@
       </params>
       <attribs>
          <objref attributeName="table" obj="data"/>
-         <combo attributeName="device" selection="usb host port 1"/>
+         <combo attributeName="device" selection="usb host port / LP"/>
          <combo attributeName="color" selection="red M"/>
       </attribs>
    </obj>
@@ -111,7 +111,7 @@
       </params>
       <attribs>
          <objref attributeName="table" obj="data"/>
-         <combo attributeName="device" selection="usb host port 1"/>
+         <combo attributeName="device" selection="usb host port / LP"/>
          <combo attributeName="blocksize" selection="1"/>
          <combo attributeName="coloron" selection="yellow S"/>
          <combo attributeName="coloroff" selection="off"/>
@@ -123,7 +123,7 @@
       </params>
       <attribs>
          <objref attributeName="table" obj="data"/>
-         <combo attributeName="device" selection="usb host port 1"/>
+         <combo attributeName="device" selection="usb host port / LP"/>
          <combo attributeName="color" selection="red M"/>
       </attribs>
    </obj>
@@ -218,7 +218,7 @@
       </params>
       <attribs>
          <objref attributeName="table" obj="data"/>
-         <combo attributeName="device" selection="usb host port 1"/>
+         <combo attributeName="device" selection="usb host port / LP"/>
          <combo attributeName="blocksize" selection="1"/>
          <combo attributeName="coloron" selection="green S"/>
          <combo attributeName="coloroff" selection="off"/>
@@ -230,7 +230,7 @@
       </params>
       <attribs>
          <objref attributeName="table" obj="data"/>
-         <combo attributeName="device" selection="usb host port 1"/>
+         <combo attributeName="device" selection="usb host port / LP"/>
          <combo attributeName="color" selection="red M"/>
       </attribs>
    </obj>
@@ -317,7 +317,7 @@
       </params>
       <attribs>
          <objref attributeName="table" obj="data"/>
-         <combo attributeName="device" selection="usb host port 1"/>
+         <combo attributeName="device" selection="usb host port / LP"/>
          <combo attributeName="blocksize" selection="1"/>
          <combo attributeName="coloron" selection="yellow S"/>
          <combo attributeName="coloroff" selection="off"/>
@@ -329,7 +329,7 @@
       </params>
       <attribs>
          <objref attributeName="table" obj="data"/>
-         <combo attributeName="device" selection="usb host port 1"/>
+         <combo attributeName="device" selection="usb host port / LP"/>
          <combo attributeName="color" selection="red M"/>
       </attribs>
    </obj>
