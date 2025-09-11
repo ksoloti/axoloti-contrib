@@ -59,6 +59,7 @@ res = f_open(&fp, fn, FA_READ|FA_OPEN_EXISTING);
 
 if (res!=FR_OK) {
 	report_fatfs_error(res,fn);
+	return;
 }
 
 UINT file_size = f_size(&fp);
@@ -81,7 +82,9 @@ res = f_read (
 );
 
 if (res!=FR_OK) {
-	report_fatfs_error(res,fn);
+	f_close(&fp);
+   report_fatfs_error(res,fn);
+	return;
 }
 
 f_close(&fp);
