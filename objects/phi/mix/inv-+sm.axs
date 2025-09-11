@@ -7,7 +7,7 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/inv cf1" uuid="f536e36a05a0083eea7de9aeb7c3e944473bgc87c87" name="inv_1" x="42" y="70">
+   <obj type="phi/mix/inv cf1" uuid="f536e36a05a0083eea7de9aeb7c3e944473bgc87dr7" name="inv_1" x="42" y="70">
       <params>
          <frac32.u.map name="inv" onParent="true" value="16.0"/>
       </params>

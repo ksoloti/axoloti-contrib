@@ -649,7 +649,7 @@ disp_c = inlet_in;]]></code.krate>
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/inv cf1" uuid="f536e36a05a0083eea7de9aeb7c3e944473bgc87c87" name="inv_3" x="1078" y="644">
+   <obj type="phi/mix/inv cf1" uuid="f536e36a05a0083eea7de9aeb7c3e944473bgc87dr7" name="inv_3" x="1078" y="644">
       <params>
          <frac32.u.map name="inv" value="64.0"/>
       </params>

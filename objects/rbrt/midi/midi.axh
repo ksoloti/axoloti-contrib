@@ -41,7 +41,7 @@
          <spinner attributeName="veloff" value="0"/>
       </attribs>
    </obj>
-   <obj type="rbrt/midi/table send cc" uuid="ec921f78-8343-4755-a95e-10dabbb4739e" name="table_4" x="966" y="70">
+   <obj type="rbrt/midi/out/table send cc" uuid="9efe8e3b-5a2d-412b-b31f-e72ae70abdc2" name="table_4" x="966" y="70">
       <params>
          <bool32.tgl name="active" value="1"/>
          <int32 name="offset" value="0"/>

@@ -1047,7 +1047,7 @@
          <spinner attributeName="length" value="8"/>
       </attribs>
    </obj>
-   <obj type="rbrt/midi/out/table send cc" uuid="ec921f78-8343-4755-a95e-10dabbb4739e" name="table_1" x="798" y="588">
+   <obj type="rbrt/midi/out/table send cc" uuid="9efe8e3b-5a2d-412b-b31f-e72ae70abdc2" name="table_1" x="798" y="588">
       <params>
          <bool32.tgl name="active" value="1"/>
          <int32 name="offset" value="0"/>
