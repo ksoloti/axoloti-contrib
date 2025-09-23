@@ -4,7 +4,7 @@
       <author>Johannes Taelman</author>
       <license>BSD</license>
       <inlets>
-         <bool32 name="caps"/>
+         <bool32 name="caps" noLabel="true"/>
       </inlets>
       <outlets>
          <charptr32 name="text0" description="string"/>

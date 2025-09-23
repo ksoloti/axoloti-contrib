@@ -4,11 +4,11 @@
     <author>Are Leistad</author>
     <license>BSD</license>
     <inlets>
-      <frac32buffer.bipolar name="in" description="Input"/>
-    </inlets>
+      <frac32buffer.bipolar name="in" description="Input" noLabel="true"/>
+      </inlets>
     <outlets>
-      <frac32buffer.bipolar name="out" description="Output"/>
-    </outlets>
+      <frac32buffer.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params>
       <frac32.u.map            name="time"     noLabel="false" description="Delay time"/>
@@ -343,8 +343,8 @@
       <int32.positive       name="voices"   description="Number of voices, added to voices parameter, 1..maxvoices, 0 for disable"/>
     </inlets>
     <outlets>
-      <frac32buffer.bipolar name="out" description="Output"/>
-    </outlets>
+      <frac32buffer.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params>
       <frac32.u.map            name="time"     noLabel="false" description="Delay time"/>
@@ -676,8 +676,8 @@
       <int32.positive         name="voices"   description="Number of voices, 1..maxvoices, 0 for disable"/>
     </inlets>
     <outlets>
-      <frac32buffer.bipolar name="out" description="Output"/>
-    </outlets>
+      <frac32buffer.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs>

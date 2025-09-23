@@ -4,7 +4,7 @@
       <author>Jaffasplaffa</author>
       <license>BSD</license>
       <inlets>
-         <int32.positive name="s"/>
+         <int32.positive name="s" noLabel="true"/>
       </inlets>
       <outlets>
          <int32.positive name="o"/>

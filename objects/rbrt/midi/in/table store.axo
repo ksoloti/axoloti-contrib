@@ -12,7 +12,7 @@ the data is written to the table starting at &apos;offset&apos;.</sDescription>
          <bool32.risingfalling name="active"/>
       </inlets>
       <outlets>
-         <bool32.pulse name="chtrig" description="pulse if any cc value changes"/>
+         <bool32.pulse name="chtrig" description="pulse if any cc value changes" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -2,10 +2,10 @@
    <obj.normal id="right row colors" uuid="a36b82e8-9267-4b00-852d-e2e4e109cde5">
       <license>GPL</license>
       <inlets>
-         <bool32.risingfalling name="toggle"/>
+         <bool32.risingfalling name="toggle" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="color"/>
+         <int32 name="color" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

@@ -11,7 +11,7 @@
          <frac32 name="mode" description="-64: lowpass ; 0: bandpass; 64:highpass"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="filter output"/>
+         <frac32buffer name="out" description="filter output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

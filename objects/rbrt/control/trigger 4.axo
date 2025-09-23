@@ -6,7 +6,7 @@ similar to max/msp &apos;trigger bang&apos;</sDescription>
       <author>Robert Schirmer</author>
       <license>BSD</license>
       <inlets>
-         <bool32.rising name="trig"/>
+         <bool32.rising name="trig" noLabel="true"/>
       </inlets>
       <outlets>
          <bool32.pulse name="t1"/>

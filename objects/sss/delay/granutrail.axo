@@ -30,7 +30,7 @@ The module can be oversampled with the &quot;OS&quot; control. Though keep watch
          <frac32 name="demix"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

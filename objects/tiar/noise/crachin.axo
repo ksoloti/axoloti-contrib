@@ -9,7 +9,7 @@
          <frac32.bipolar name="nbSeeds"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="out"/>
+         <frac32buffer.bipolar name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

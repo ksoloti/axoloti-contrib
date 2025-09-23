@@ -17,7 +17,7 @@ as shown in local data-&gt;  int32_t tmp1[BUFSIZE]  for the first filter)</sDesc
          <frac32 name="width"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="filter output"/>
+         <frac32buffer name="out" description="filter output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

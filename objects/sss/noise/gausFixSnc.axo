@@ -12,7 +12,7 @@ This version has no extra randomisation at initialisation, so noise-seed can be 
          <frac32 name="seed"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="white noise"/>
+         <frac32buffer.bipolar name="wave" description="white noise" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

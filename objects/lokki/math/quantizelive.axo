@@ -8,7 +8,7 @@
          <int32.positive name="cc" description="use cc i here, scaled over the whole cc range"/>
       </inlets>
       <outlets>
-         <frac32buffer name="b" description="quant(a)"/>
+         <frac32buffer name="b" description="quant(a)" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

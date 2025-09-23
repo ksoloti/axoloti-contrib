@@ -29,8 +29,8 @@
          <license>BSD</license>
          <inlets/>
          <outlets>
-            <frac32buffer name="o1"/>
-         </outlets>
+            <frac32buffer name="o1" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.u.map name="damp1" description="damping when note is on">

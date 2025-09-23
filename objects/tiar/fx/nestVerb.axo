@@ -3,7 +3,7 @@
       <author>Smashed Transistors</author>
       <license>LGPL</license>
       <inlets>
-         <frac32buffer name="inlet_1" description="inlet_1"/>
+         <frac32buffer name="inlet_1" description="inlet_1" noLabel="true"/>
       </inlets>
       <outlets>
          <frac32buffer name="outlet_1" description="outlet_1"/>

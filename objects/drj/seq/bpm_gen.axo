@@ -4,11 +4,11 @@
     <author>Are Leistad</author>
     <license>BSD</license>
     <inlets>
-      <bool32.rising  name="reset" description="Reset phase"/>
-    </inlets>
+      <bool32.rising  name="reset" description="Reset phase" noLabel="true"/>
+      </inlets>
     <outlets>
-      <bool32         name="out" description="BPM clock output"/>
-    </outlets>
+      <bool32         name="out" description="BPM clock output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params>
       <int32 name="bpm" noLabel="false">
@@ -78,8 +78,8 @@
       <int32.positive  name="hundredth" description="BPM, hundredths"/>
     </inlets>
     <outlets>
-      <bool32 name="out" description="BPM clock output"/>
-    </outlets>
+      <bool32 name="out" description="BPM clock output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>

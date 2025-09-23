@@ -15,7 +15,7 @@
          <bool32 name="reverse2"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="wave"/>
+         <frac32buffer name="out" description="wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -3,10 +3,10 @@
       <sDescription></sDescription>
       <license>GPL</license>
       <inlets>
-         <bool32.risingfalling name="flash" description="lets flash"/>
+         <bool32.risingfalling name="flash" description="lets flash" noLabel="true"/>
       </inlets>
       <outlets>
-         <bool32 name="flash" description="false or true"/>
+         <bool32 name="flash" description="false or true" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

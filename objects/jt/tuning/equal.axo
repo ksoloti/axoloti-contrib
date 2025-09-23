@@ -5,7 +5,7 @@
       <license>BSD</license>
       <helpPatch>tuning.axh</helpPatch>
       <inlets>
-         <frac32 name="detune"/>
+         <frac32 name="detune" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays/>

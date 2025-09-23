@@ -11,7 +11,7 @@ Has independent wavefold strength for positive and negative parts of the signal.
          <frac32 name="offset"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

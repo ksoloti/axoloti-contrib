@@ -6,10 +6,10 @@ Record any type of acoustic input material on the fly.</sDescription>
       <license>BSD</license>
       <helpPatch>beatslicer2.axh</helpPatch>
       <inlets>
-         <frac32buffer name="in" description="Audio input."/>
+         <frac32buffer name="in" description="Audio input." noLabel="true"/>
       </inlets>
       <outlets>
-         <bool32 name="record" description="Set during recording."/>
+         <bool32 name="record" description="Set during recording." noLabel="true"/>
       </outlets>
       <displays>
          <bool32 name="record" description="Set during recording."/>

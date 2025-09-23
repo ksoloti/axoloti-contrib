@@ -9,8 +9,8 @@
 	  <frac32.bipolar name="cv1"/>
    </inlets>
    <outlets>
-      <frac32.bipolar name="o"/>
-   </outlets>
+      <frac32.bipolar name="o" noLabel="true"/>
+      </outlets>
    <displays/>
    <params>
       <frac32.s.map name="inv"/>

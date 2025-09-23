@@ -6,10 +6,10 @@ if &apos;toggle&apos; is false,timer spits out the time in samples</sDescription
       <license>BSD</license>
       <helpPatch>timeri.axh</helpPatch>
       <inlets>
-         <bool32.risingfalling name="toggle" description="start counting,output the time interval"/>
+         <bool32.risingfalling name="toggle" description="start counting,output the time interval" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="t" description="time interval in samples/ 48 khz"/>
+         <int32 name="t" description="time interval in samples/ 48 khz" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

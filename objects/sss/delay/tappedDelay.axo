@@ -25,7 +25,7 @@ on-module cutoff-knob is added to the recorded cutoff.</sDescription>
          <frac32 name="feed"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

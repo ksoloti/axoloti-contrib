@@ -15,7 +15,7 @@ The internal sync-oscillator is a soft-sync, of which the dampening factor is co
          <frac32 name="AM"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -18,7 +18,7 @@ resonance... ghehehehe... let it snow, let it snow, let it snoooooooow XD</sDesc
          <frac32 name="N"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="output"/>
+         <frac32buffer name="out" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

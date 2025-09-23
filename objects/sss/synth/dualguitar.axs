@@ -107,8 +107,8 @@ The guitarTable module will create a complex waveform and this module is able to
             <frac32 name="volEnv"/>
          </inlets>
          <outlets>
-            <frac32buffer.bipolar name="wave" description="sine wave"/>
-         </outlets>
+            <frac32buffer.bipolar name="wave" description="sine wave" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.pitch name="pitch" noLabel="true"/>

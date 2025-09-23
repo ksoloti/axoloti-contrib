@@ -19,7 +19,7 @@
          <frac32buffer.bipolar name="B"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="out"/>
+         <frac32buffer.bipolar name="out" noLabel="true"/>
       </outlets>
       <displays>
          <int32.label name="note"/>

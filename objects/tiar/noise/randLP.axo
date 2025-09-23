@@ -4,7 +4,7 @@
       <license>LGPL</license>
       <helpPatch>randLP.axh</helpPatch>
       <inlets>
-         <frac32buffer.bipolar name="in"/>
+         <frac32buffer.bipolar name="in" noLabel="true"/>
       </inlets>
       <outlets>
          <frac32buffer.bipolar name="L"/>

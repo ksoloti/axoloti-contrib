@@ -12,7 +12,7 @@
          <frac32.bipolar name="r" description="release time modulation"/>
       </inlets>
       <outlets>
-         <frac32 name="o"/>
+         <frac32 name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

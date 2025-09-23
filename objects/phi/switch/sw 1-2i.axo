@@ -5,7 +5,7 @@
       <license>BSD</license>
       <helpPatch>switches.axh</helpPatch>
       <inlets>
-         <int32 name="i1" description="input 1"/>
+         <int32 name="i1" description="input 1" noLabel="true"/>
       </inlets>
       <outlets>
          <int32 name="o1" description="output 1"/>

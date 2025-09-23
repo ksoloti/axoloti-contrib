@@ -11,7 +11,7 @@ Big buffers create a sort of delay, though not in the &quot;normal sense&quot;.<
          <frac32 name="pitch"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

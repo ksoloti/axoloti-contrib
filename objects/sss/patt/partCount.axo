@@ -6,7 +6,7 @@ The last count position can be kept when &quot;sustain&quot; is high, otherwise 
       <author>Remco van der Most</author>
       <license>BSD</license>
       <inlets>
-         <int32 name="count"/>
+         <int32 name="count" noLabel="true"/>
       </inlets>
       <outlets>
          <int32 name="out"/>

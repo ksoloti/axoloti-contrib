@@ -12,7 +12,7 @@
          <frac32.bipolar name="index21"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="out" description=""/>
+         <frac32buffer.bipolar name="out" description="" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -21,7 +21,7 @@
          <bool32 name="reverse" description="when high, reverses the play direction of the splice"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="wave"/>
+         <frac32buffer name="out" description="wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -5,7 +5,7 @@
       <helpPatch>midi_in.axh</helpPatch>
       <inlets/>
       <outlets>
-         <frac32.positive name="v"/>
+         <frac32.positive name="v" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

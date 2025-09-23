@@ -362,8 +362,8 @@ outlet_diff = diff;]]></code.krate>
                   <int32 name="nslice"/>
                </inlets>
                <outlets>
-                  <frac32buffer name="wave" description="wave"/>
-               </outlets>
+                  <frac32buffer name="wave" description="wave" noLabel="true"/>
+      </outlets>
                <displays/>
                <params/>
                <attribs>

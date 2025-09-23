@@ -4,10 +4,10 @@
       <author>Smashed Transistors</author>
       <license>LGPL</license>
       <inlets>
-         <frac32 name="in1" description="input 1"/>
+         <frac32 name="in1" description="input 1" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32 name="out" description="mix out"/>
+         <frac32 name="out" description="mix out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

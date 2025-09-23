@@ -5,10 +5,10 @@
       <license>BSD</license>
       <helpPatch>prob.axh</helpPatch>
       <inlets>
-         <bool32 name="trig"/>
+         <bool32 name="trig" noLabel="true"/>
       </inlets>
       <outlets>
-         <bool32 name="o" description="output"/>
+         <bool32 name="o" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

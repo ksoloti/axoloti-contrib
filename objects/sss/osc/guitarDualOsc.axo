@@ -19,7 +19,7 @@ The guitarTable module will create a complex waveform and this module is able to
          <int32 name="preset2"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="sine wave"/>
+         <frac32buffer.bipolar name="wave" description="sine wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

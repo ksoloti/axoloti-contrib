@@ -6,10 +6,10 @@
       <helpPatch>u4b.axh</helpPatch>
       <rotatedParams>true</rotatedParams>
       <inlets>
-         <frac32 name="in"/>
+         <frac32 name="in" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32 name="out"/>
+         <frac32 name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

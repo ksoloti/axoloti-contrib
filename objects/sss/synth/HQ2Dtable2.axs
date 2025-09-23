@@ -193,8 +193,8 @@
             <frac32 name="add2"/>
          </inlets>
          <outlets>
-            <frac32 name="out" description="output"/>
-         </outlets>
+            <frac32 name="out" description="output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map name="amp" noLabel="true"/>
@@ -505,11 +505,11 @@ outlet_out=temp;]]></code.srate>
          <license>BSD</license>
          <helpPatch>math.axh</helpPatch>
          <inlets>
-            <frac32 name="in" description="input"/>
-         </inlets>
+            <frac32 name="in" description="input" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32 name="out" description="output"/>
-         </outlets>
+            <frac32 name="out" description="output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.u.map.gain16 name="amp" noLabel="true"/>
@@ -530,11 +530,11 @@ outlet_out=temp;]]></code.srate>
          <license>BSD</license>
          <helpPatch>math.axh</helpPatch>
          <inlets>
-            <frac32 name="in" description="input"/>
-         </inlets>
+            <frac32 name="in" description="input" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32 name="out" description="output"/>
-         </outlets>
+            <frac32 name="out" description="output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.u.map.gain16 name="amp" noLabel="true"/>
@@ -588,8 +588,8 @@ ModeXA controls both modes at the same time.
             <frac32 name="SerPar"/>
          </inlets>
          <outlets>
-            <frac32buffer name="out" description="filter output"/>
-         </outlets>
+            <frac32buffer name="out" description="filter output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.pitch name="pitch1"/>

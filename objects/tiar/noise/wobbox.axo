@@ -4,10 +4,10 @@
       <license>LGPL</license>
       <helpPatch>wobbox.axh</helpPatch>
       <inlets>
-         <frac32.bipolar name="density"/>
+         <frac32.bipolar name="density" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="out"/>
+         <frac32buffer.bipolar name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

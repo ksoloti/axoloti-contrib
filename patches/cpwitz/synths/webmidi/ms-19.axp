@@ -342,11 +342,11 @@
          <license>BSD</license>
          <helpPatch>env.axh</helpPatch>
          <inlets>
-            <bool32.risingfalling name="gate" description="gate"/>
-         </inlets>
+            <bool32.risingfalling name="gate" description="gate" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32.positive name="env"/>
-         </outlets>
+            <frac32.positive name="env" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.klineartime.exp name="delay"/>
@@ -424,11 +424,11 @@ outlet_env= val;]]></code.krate>
                <license>BSD</license>
                <helpPatch>math.axh</helpPatch>
                <inlets>
-                  <frac32 name="in"/>
-               </inlets>
+                  <frac32 name="in" noLabel="true"/>
+      </inlets>
                <outlets>
-                  <frac32 name="out"/>
-               </outlets>
+                  <frac32 name="out" noLabel="true"/>
+      </outlets>
                <displays/>
                <params/>
                <attribs/>

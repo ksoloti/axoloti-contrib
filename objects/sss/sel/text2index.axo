@@ -10,10 +10,10 @@ This can be used to control presets for example. Best example would be a &quot;t
       <author>Remco van der Most</author>
       <license>BSD</license>
       <inlets>
-         <int32 name="count"/>
+         <int32 name="count" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="out"/>
+         <int32 name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

@@ -14,7 +14,7 @@
          <frac32 name="phase3"/>
       </inlets>
       <outlets>
-         <frac32buffer.positive name="out" description="quant(a)"/>
+         <frac32buffer.positive name="out" description="quant(a)" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

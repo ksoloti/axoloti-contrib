@@ -28,10 +28,10 @@ The waveforms are mostly crest factor optimized (hence the Pwr in wf_16Bank Pwr.
       <helpPatch>wf_16BankPwr.axh</helpPatch>
       <rotatedParams>true</rotatedParams>
       <inlets>
-         <int32 name="select"/>
+         <int32 name="select" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="waveform"/>
+         <frac32buffer.bipolar name="waveform" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

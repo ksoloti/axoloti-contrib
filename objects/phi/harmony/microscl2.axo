@@ -4,10 +4,10 @@
       <author>philoop</author>
       <license>GPL</license>
       <inlets>
-         <frac32.bipolar name="pitch"/>
+         <frac32.bipolar name="pitch" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32.bipolar name="out"/>
+         <frac32.bipolar name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

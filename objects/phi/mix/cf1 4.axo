@@ -5,7 +5,7 @@
       <license>BSD</license>
       <helpPatch>inverted mixer.axh</helpPatch>
       <inlets>
-         <frac32.bipolar name="i1"/>
+         <frac32.bipolar name="i1" noLabel="true"/>
       </inlets>
       <outlets>
          <frac32.bipolar name="o1"/>

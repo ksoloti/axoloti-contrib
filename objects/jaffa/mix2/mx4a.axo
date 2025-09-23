@@ -11,7 +11,7 @@
          <frac32buffer name="3"/>
       </inlets>
       <outlets>
-         <frac32buffer name="m" description="Master out L"/>
+         <frac32buffer name="m" description="Master out L" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

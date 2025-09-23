@@ -15,10 +15,10 @@ The patch library/community/tiar/synths/EvolPad is more complex and uses 3 SixSt
       <license>LGPL</license>
       <helpPatch>SevenSteps.axh</helpPatch>
       <inlets>
-         <frac32.bipolar name="pitch" description="pitch"/>
+         <frac32.bipolar name="pitch" description="pitch" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="out" description=""/>
+         <frac32buffer.bipolar name="out" description="" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

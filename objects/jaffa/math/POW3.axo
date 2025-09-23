@@ -6,7 +6,7 @@
       <helpPatch>math.axh</helpPatch>
       <inlets/>
       <outlets>
-         <int32 name="p"/>
+         <int32 name="p" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

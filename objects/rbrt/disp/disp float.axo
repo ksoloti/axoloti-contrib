@@ -5,7 +5,7 @@
       <license>BSD</license>
       <rotatedParams>true</rotatedParams>
       <inlets>
-         <int32 name="offset" description="offset inside the table"/>
+         <int32 name="offset" description="offset inside the table" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays>

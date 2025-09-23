@@ -20,7 +20,7 @@ Next to the random gates, there&apos;s also an euclidian pattern generator.
          <frac32 name="filled"/>
       </inlets>
       <outlets>
-         <bool32 name="v"/>
+         <bool32 name="v" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

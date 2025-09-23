@@ -6,7 +6,7 @@
       <helpPatch>table.axh</helpPatch>
       <rotatedParams>true</rotatedParams>
       <inlets>
-         <int32 name="offset" description="offset inside table"/>
+         <int32 name="offset" description="offset inside table" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays/>

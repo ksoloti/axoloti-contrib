@@ -12,7 +12,7 @@
          <frac32.positive name="feedback" description="loop feedback"/>
       </inlets>
       <outlets>
-         <frac32buffer name="wave" description="audio out"/>
+         <frac32buffer name="wave" description="audio out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

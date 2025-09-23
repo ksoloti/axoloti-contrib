@@ -4,8 +4,8 @@
     <author>Are Leistad</author>
     <license>BSD</license>
     <inlets>
-      <bool32.rising  name="tap" description="Tap input"/>
-    </inlets>
+      <bool32.rising  name="tap" description="Tap input" noLabel="true"/>
+      </inlets>
     <outlets>
       <bool32.pulse   name="clock"  description="Clock output"/>
       <frac32.positive name="phasor" description="Phasor output"/>
@@ -90,8 +90,8 @@
     <author>Are Leistad</author>
     <license>BSD</license>
     <inlets>
-      <bool32.rising  name="tap" description="Tap input"/>
-    </inlets>
+      <bool32.rising  name="tap" description="Tap input" noLabel="true"/>
+      </inlets>
     <outlets>
       <bool32.pulse   name="clock"  description="Clock output"/>
       <frac32.positive name="phasor" description="Phasor output"/>

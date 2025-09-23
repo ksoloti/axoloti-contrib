@@ -5,10 +5,10 @@
       <license>LGPL</license>
       <helpPatch>DP2Pulsaw.axh</helpPatch>
       <inlets>
-         <frac32.bipolar name="pitch"/>
+         <frac32.bipolar name="pitch" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="selfPM wave"/>
+         <frac32buffer.bipolar name="wave" description="selfPM wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

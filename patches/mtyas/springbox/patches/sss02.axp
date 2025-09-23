@@ -477,11 +477,11 @@ _posfrac=inlet_clock;]]></code.krate>
          <author>Johannes Taelman</author>
          <license>BSD</license>
          <inlets>
-            <bool32.rising name="trig" description="trigger"/>
-         </inlets>
+            <bool32.rising name="trig" description="trigger" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32 name="v"/>
-         </outlets>
+            <frac32 name="v" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs/>
@@ -594,11 +594,11 @@ if ((inlet_trig>0) && !ntrig) {
          <author>Johannes Taelman</author>
          <license>BSD</license>
          <inlets>
-            <bool32.rising name="trig" description="trigger"/>
-         </inlets>
+            <bool32.rising name="trig" description="trigger" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32 name="v"/>
-         </outlets>
+            <frac32 name="v" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs/>
@@ -695,8 +695,8 @@ The strings being played depend on the settings of &quot;strikes, skip, start, a
             <int32 name="Rjump"/>
          </inlets>
          <outlets>
-            <frac32buffer name="out"/>
-         </outlets>
+            <frac32buffer name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map name="base" description="base pitch/key"/>

@@ -7,7 +7,7 @@ similar to PD / Max/Msp &apos;bang&apos;</sDescription>
       <helpPatch>patching.axh</helpPatch>
       <inlets/>
       <outlets>
-         <bool32.pulse name="pulse"/>
+         <bool32.pulse name="pulse" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

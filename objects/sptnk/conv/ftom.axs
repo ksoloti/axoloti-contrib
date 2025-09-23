@@ -9,11 +9,11 @@
       <object id="patch/object" uuid="7ca123ac-9f47-4457-a9ca-e947b4bfa008">
          <sDescription></sDescription>
          <inlets>
-            <frac32 name="in"/>
-         </inlets>
+            <frac32 name="in" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32 name="out"/>
-         </outlets>
+            <frac32 name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs/>
@@ -32,11 +32,11 @@
       <attribs/>
       <object id="patch/object" uuid="7ca123ac-9f47-4457-a9ca-e947b4bfa008">
          <inlets>
-            <frac32 name="in"/>
-         </inlets>
+            <frac32 name="in" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32 name="out"/>
-         </outlets>
+            <frac32 name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs/>

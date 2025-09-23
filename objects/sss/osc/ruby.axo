@@ -52,7 +52,7 @@ the displays show the waveforms that are selected.</sDescription>
          <int32 name="tableform2"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays>
          <bool32 name="sine0"/>

@@ -5,10 +5,10 @@
       <license>BSD</license>
       <helpPatch>waveshapers.axh</helpPatch>
       <inlets>
-         <frac32buffer name="in" description="Input"/>
+         <frac32buffer name="in" description="Input" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="Output, not saturated to normal range. You should attenuate it!"/>
+         <frac32buffer name="out" description="Output, not saturated to normal range. You should attenuate it!" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

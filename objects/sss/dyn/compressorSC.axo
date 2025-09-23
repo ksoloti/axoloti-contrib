@@ -9,7 +9,7 @@
          <frac32buffer name="sidechain"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays>
          <frac32.vu name="in"/>

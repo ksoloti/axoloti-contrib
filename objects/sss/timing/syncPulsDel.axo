@@ -14,7 +14,7 @@ This pulse is given after a synced delay time. The &quot;start&quot; knob sets a
          <int32 name="steps"/>
       </inlets>
       <outlets>
-         <bool32 name="out" description="pulse output"/>
+         <bool32 name="out" description="pulse output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

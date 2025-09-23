@@ -28,7 +28,7 @@ This last part will be improved over time. You can write your own algorithm, jus
       <author>Sputnki</author>
       <license>BSD</license>
       <inlets>
-         <int32 name="24ppq"/>
+         <int32 name="24ppq" noLabel="true"/>
       </inlets>
       <outlets>
          <frac32 name="pitch"/>

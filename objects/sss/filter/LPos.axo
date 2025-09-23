@@ -14,7 +14,7 @@ on=resonance is ringmodulated with itself (kind of resonance octaver)</sDescript
          <bool32 name="mode"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="output"/>
+         <frac32buffer name="out" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

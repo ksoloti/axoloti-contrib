@@ -7,7 +7,7 @@
       <rotatedParams>true</rotatedParams>
       <inlets/>
       <outlets>
-         <frac32buffer name="coefs"/>
+         <frac32buffer name="coefs" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

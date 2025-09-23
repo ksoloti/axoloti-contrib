@@ -11,7 +11,7 @@ inlet &apos;divider&apos; will left-shift the value of inlet &apos;freq&apos; n 
          <int32 name="divider"/>
       </inlets>
       <outlets>
-         <frac32buffer name="wave"/>
+         <frac32buffer name="wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

@@ -26,7 +26,7 @@ To load presets from a file, send a trigger to the &quot;load&quot; input. Using
          <bool32 name="load" description="load table"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="filter output"/>
+         <frac32buffer name="out" description="filter output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

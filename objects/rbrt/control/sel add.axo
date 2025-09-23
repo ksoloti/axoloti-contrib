@@ -9,7 +9,7 @@ otherwise,the input is passed through</sDescription>
          <int32 name="in"/>
       </inlets>
       <outlets>
-         <int32 name="out"/>
+         <int32 name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

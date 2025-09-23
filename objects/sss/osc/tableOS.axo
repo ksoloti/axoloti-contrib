@@ -11,7 +11,7 @@
          <frac32 name="mix"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="wave"/>
+         <frac32buffer name="out" description="wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

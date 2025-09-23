@@ -8,7 +8,7 @@
          <bool32 name="update"/>
       </inlets>
       <outlets>
-         <bool32 name="out1"/>
+         <bool32 name="out1" noLabel="true"/>
       </outlets>
       <displays>
          <int32.label name="mainstep"/>

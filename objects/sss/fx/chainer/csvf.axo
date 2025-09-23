@@ -7,7 +7,7 @@ Controls can easily be editted for external control</sDescription>
       <author>Remco van der Most</author>
       <license>BSD</license>
       <inlets>
-         <int32 name="mode"/>
+         <int32 name="mode" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays/>

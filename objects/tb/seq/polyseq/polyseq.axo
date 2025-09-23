@@ -13,7 +13,7 @@ for simple setup , use polyseq/notectrl with polyseq/note  see help patch for de
       <license>GPL</license>
       <helpPatch>polyseq.axh</helpPatch>
       <inlets>
-         <bool32.rising name="clk"/>
+         <bool32.rising name="clk" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays/>

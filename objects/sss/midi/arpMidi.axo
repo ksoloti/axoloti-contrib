@@ -5,7 +5,7 @@
       <license>BSD</license>
       <helpPatch>midi_in.axh</helpPatch>
       <inlets>
-         <bool32 name="gate"/>
+         <bool32 name="gate" noLabel="true"/>
       </inlets>
       <outlets>
          <bool32 name="gate" description="key pressed, no retrigger legato"/>

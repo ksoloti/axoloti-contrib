@@ -39,7 +39,7 @@ features external &quot;modulation width&quot; inputs to control those with LFO&
          <bool32 name="active"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="sine wave"/>
+         <frac32buffer.bipolar name="wave" description="sine wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

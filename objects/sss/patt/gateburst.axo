@@ -13,7 +13,7 @@ So connect this to a clock that&apos;s running twice, tripple or four times the 
          <bool32.rising name="r" description="reset"/>
       </inlets>
       <outlets>
-         <bool32 name="gate"/>
+         <bool32 name="gate" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

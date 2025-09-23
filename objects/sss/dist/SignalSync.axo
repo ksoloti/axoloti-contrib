@@ -15,7 +15,7 @@ Useful for AM-synthesis with signals/oscillators that don&apos;t have a hard-syn
          <frac32buffer name="sync"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

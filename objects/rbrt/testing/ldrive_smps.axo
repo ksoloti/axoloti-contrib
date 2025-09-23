@@ -13,7 +13,7 @@
          <bool32.rising name="reset" description="reset to &apos;offset&apos; "/>
       </inlets>
       <outlets>
-         <frac32buffer.positive name="smps" description="position inside table"/>
+         <frac32buffer.positive name="smps" description="position inside table" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

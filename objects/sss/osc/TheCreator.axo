@@ -24,7 +24,7 @@ don&apos;t forget to shut down the volume by adding a &quot;*c&quot; or mixer mo
       <author>Remco van der Most</author>
       <license>BSD</license>
       <inlets>
-         <charptr32 name="filename"/>
+         <charptr32 name="filename" noLabel="true"/>
       </inlets>
       <outlets>
          <frac32buffer name="out"/>

@@ -17,7 +17,7 @@
          <frac32 name="feed"/>
       </inlets>
       <outlets>
-         <frac32buffer name="o1"/>
+         <frac32buffer name="o1" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

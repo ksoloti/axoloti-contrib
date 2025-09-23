@@ -27,10 +27,10 @@ different waveforms:
       <license>BSD</license>
       <helpPatch>lfo.axh</helpPatch>
       <inlets>
-         <frac32 name="HS" description="feed a LFO trigger/continuous signal to clock-sync the LFO."/>
+         <frac32 name="HS" description="feed a LFO trigger/continuous signal to clock-sync the LFO." noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32 name="baserate" description="outputs &quot;base frequency&quot; detected on HS input for use with other modules"/>
+         <frac32 name="baserate" description="outputs &quot;base frequency&quot; detected on HS input for use with other modules" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

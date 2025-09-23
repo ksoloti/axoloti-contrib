@@ -5,10 +5,10 @@
       <license>BSD</license>
       <helpPatch>math.axh</helpPatch>
       <inlets>
-         <frac32 name="a" description="input"/>
+         <frac32 name="a" description="input" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32 name="result" description="output"/>
+         <frac32 name="result" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

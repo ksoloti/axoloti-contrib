@@ -5,10 +5,10 @@
       <license>LGPL</license>
       <helpPatch>forbac_m.axh</helpPatch>
       <inlets>
-         <frac32 name="cycle"/>
+         <frac32 name="cycle" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="out" description="pink noise"/>
+         <frac32buffer.bipolar name="out" description="pink noise" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -11,7 +11,7 @@ The &quot;length&quot; controls for how long the gate will be high in respect to
          <int32 name="max" description="in2"/>
       </inlets>
       <outlets>
-         <bool32 name="out" description="out"/>
+         <bool32 name="out" description="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

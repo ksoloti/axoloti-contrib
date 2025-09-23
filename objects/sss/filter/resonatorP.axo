@@ -21,7 +21,7 @@ Gain sets the rate at which the output goes to the max, respectively to the inpu
          <frac32.positive name="resonance" description="resonance length control"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

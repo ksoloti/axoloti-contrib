@@ -4,10 +4,10 @@
       <author>Are Leistad  edit by philoop</author>
       <license>BSD</license>
       <inlets>
-         <int32 name="in" description="Input"/>
+         <int32 name="in" description="Input" noLabel="true"/>
       </inlets>
       <outlets>
-         <bool32 name="out" description="Output"/>
+         <bool32 name="out" description="Output" noLabel="true"/>
       </outlets>
       <displays>
          <bool32 name="trig"/>

@@ -48,8 +48,8 @@
             <frac32 name="d"/>
          </inlets>
          <outlets>
-            <frac32.positive name="env" description="envelope output"/>
-         </outlets>
+            <frac32.positive name="env" description="envelope output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.klineartime.exp name="a"/>

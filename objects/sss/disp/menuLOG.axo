@@ -17,10 +17,10 @@ when the input switches value, it updates the newly selected waveform in the log
       <author>Remco van der Most</author>
       <license>BSD</license>
       <inlets>
-         <int32 name="sel"/>
+         <int32 name="sel" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="sel"/>
+         <int32 name="sel" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

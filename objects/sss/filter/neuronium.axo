@@ -19,7 +19,7 @@ Though you can control the volume output of the 6 neurons independently, set the
          <frac32buffer name="in3" description="influence neuron 3"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="summed audio output"/>
+         <frac32buffer name="out" description="summed audio output" noLabel="true"/>
       </outlets>
       <displays>
          <frac32.s.dial name="d1" noLabel="true"/>

@@ -4,7 +4,7 @@
       <author>Sputnki</author>
       <license>BSD</license>
       <inlets>
-         <frac32buffer.bipolar name="in"/>
+         <frac32buffer.bipolar name="in" noLabel="true"/>
       </inlets>
       <outlets>
          <int32.positive name="smp" description="number of samples between zero crossings"/>

@@ -10,7 +10,7 @@
          <int32 name="min" description="in2"/>
       </inlets>
       <outlets>
-         <int32 name="out" description="out"/>
+         <int32 name="out" description="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

@@ -11,7 +11,7 @@ To be used with the divide-outputs of the table-oscillators/LFO&apos;s to scale 
          <frac32 name="add"/>
       </inlets>
       <outlets>
-         <frac32 name="out" description="output"/>
+         <frac32 name="out" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

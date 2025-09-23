@@ -471,11 +471,11 @@ disp_c = inlet_in;]]></code.krate>
          <sDescription>description</sDescription>
          <license>GPL</license>
          <inlets>
-            <int32 name="inlet1"/>
-         </inlets>
+            <int32 name="inlet1" noLabel="true"/>
+      </inlets>
          <outlets>
-            <int32 name="outlet1"/>
-         </outlets>
+            <int32 name="outlet1" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs/>

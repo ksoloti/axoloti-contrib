@@ -15,7 +15,7 @@ a pulse at &apos;rspeed&apos; will recalculate the speed.</sDescription>
          <int32.positive name="1barLength"/>
       </inlets>
       <outlets>
-         <frac32.positive name="wave" description="phase"/>
+         <frac32.positive name="wave" description="phase" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

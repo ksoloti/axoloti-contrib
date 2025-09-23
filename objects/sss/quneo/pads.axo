@@ -7,7 +7,7 @@ Also generates a slewed gate/mix when pad is pressed.
       <license>BSD</license>
       <helpPatch>midi_in.axh</helpPatch>
       <inlets>
-         <frac32 name="rate" description="sets gate/mix slew rate"/>
+         <frac32 name="rate" description="sets gate/mix slew rate" noLabel="true"/>
       </inlets>
       <outlets>
          <frac32 name="1g" description="slewed gate/mix output"/>

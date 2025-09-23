@@ -6,7 +6,7 @@ if inlet shift is high it thru&apos;s the selected channel to the shift channel,
       <author>Mattilyn Mattroe</author>
       <license>you have to give me one token for the car park in the old Purley Sainsbury&apos;s each time you use this</license>
       <inlets>
-         <bool32 name="shift"/>
+         <bool32 name="shift" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays/>

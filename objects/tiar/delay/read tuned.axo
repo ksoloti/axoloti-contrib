@@ -5,10 +5,10 @@
       <license>LGPL</license>
       <helpPatch>read tuned.axh</helpPatch>
       <inlets>
-         <frac32.bipolar name="pitch"/>
+         <frac32.bipolar name="pitch" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="wave"/>
+         <frac32buffer name="out" description="wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

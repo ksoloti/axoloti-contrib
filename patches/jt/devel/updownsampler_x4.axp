@@ -72,11 +72,11 @@
          <license>BSD</license>
          <helpPatch>osc.axh</helpPatch>
          <inlets>
-            <frac32buffer name="in" description="input"/>
-         </inlets>
+            <frac32buffer name="in" description="input" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32buffer.bipolar name="out" description="output"/>
-         </outlets>
+            <frac32buffer.bipolar name="out" description="output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.pitch name="pitch" noLabel="true"/>

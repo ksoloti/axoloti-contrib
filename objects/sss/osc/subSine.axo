@@ -11,7 +11,7 @@ Generates 2 sines that can be overdriven into square-waves.</sDescription>
          <frac32 name="phase"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="sine wave"/>
+         <frac32buffer.bipolar name="wave" description="sine wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

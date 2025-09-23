@@ -12,7 +12,7 @@
          <int32 name="sync"/>
       </inlets>
       <outlets>
-         <frac32.positive name="out" description="saw wave"/>
+         <frac32.positive name="out" description="saw wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

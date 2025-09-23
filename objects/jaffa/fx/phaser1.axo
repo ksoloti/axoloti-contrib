@@ -14,7 +14,7 @@ Use size 256 samples for the table, it sounds best for a phaser.
          <frac32 name="lfo" description="lfo speed mod"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="wave"/>
+         <frac32buffer name="out" description="wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

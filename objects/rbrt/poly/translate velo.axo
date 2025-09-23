@@ -4,10 +4,10 @@
       <author>Robert Schirmer</author>
       <license>BSD</license>
       <inlets>
-         <int32.positive name="velo"/>
+         <int32.positive name="velo" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32.positive name="velo"/>
+         <frac32.positive name="velo" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

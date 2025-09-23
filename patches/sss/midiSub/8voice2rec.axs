@@ -12,11 +12,11 @@
          <license>BSD</license>
          <helpPatch>math.axh</helpPatch>
          <inlets>
-            <frac32 name="a" description="input"/>
-         </inlets>
+            <frac32 name="a" description="input" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32 name="result" description="output"/>
-         </outlets>
+            <frac32 name="result" description="output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs/>
@@ -46,11 +46,11 @@
          <license>BSD</license>
          <helpPatch>math.axh</helpPatch>
          <inlets>
-            <int32 name="a" description="a"/>
-         </inlets>
+            <int32 name="a" description="a" noLabel="true"/>
+      </inlets>
          <outlets>
-            <int32 name="result" description="a-1"/>
-         </outlets>
+            <int32 name="result" description="a-1" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs/>
@@ -69,11 +69,11 @@
          <license>BSD</license>
          <helpPatch>math.axh</helpPatch>
          <inlets>
-            <int32 name="a" description="nominator"/>
-         </inlets>
+            <int32 name="a" description="nominator" noLabel="true"/>
+      </inlets>
          <outlets>
-            <int32 name="rem" description="remainder of division by denominator"/>
-         </outlets>
+            <int32 name="rem" description="remainder of division by denominator" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs>

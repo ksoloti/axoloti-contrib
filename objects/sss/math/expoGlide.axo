@@ -10,7 +10,7 @@ When input glideOFF is high, glide is off.</sDescription>
          <bool32 name="glideOFF"/>
       </inlets>
       <outlets>
-         <frac32 name="out"/>
+         <frac32 name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

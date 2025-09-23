@@ -4,10 +4,10 @@
       <author>Robert Schirmer</author>
       <license>BSD</license>
       <inlets>
-         <frac32.positive name="fraction"/>
+         <frac32.positive name="fraction" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="samples"/>
+         <int32 name="samples" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

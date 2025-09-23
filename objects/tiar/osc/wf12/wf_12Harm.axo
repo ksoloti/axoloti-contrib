@@ -7,7 +7,7 @@
       <rotatedParams>true</rotatedParams>
       <inlets/>
       <outlets>
-         <frac32buffer.bipolar name="waveform"/>
+         <frac32buffer.bipolar name="waveform" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

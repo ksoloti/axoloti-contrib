@@ -6,7 +6,7 @@ Nice source of modulation for delay lines in choruses</sDescription>
       <license>LGPL</license>
       <helpPatch>pink triphase u.axh</helpPatch>
       <inlets>
-         <frac32.bipolar name="pitch" description="pitch"/>
+         <frac32.bipolar name="pitch" description="pitch" noLabel="true"/>
       </inlets>
       <outlets>
          <frac32.positive name="phi 0"/>

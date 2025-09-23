@@ -15,7 +15,7 @@ The module can be oversampled, although differences in response are hard to hear
          <frac32 name="AM"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

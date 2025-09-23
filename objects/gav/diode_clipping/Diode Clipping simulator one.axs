@@ -17,8 +17,8 @@
          <helpPatch>ctrl.axh</helpPatch>
          <inlets/>
          <outlets>
-            <int32.positive name="out" description="output"/>
-         </outlets>
+            <int32.positive name="out" description="output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <int32.hradio name="value" noLabel="true">
@@ -41,8 +41,8 @@
          <license>BSD</license>
          <helpPatch>math.axh</helpPatch>
          <inlets>
-            <frac32buffer name="in" description="input"/>
-         </inlets>
+            <frac32buffer name="in" description="input" noLabel="true"/>
+      </inlets>
          <outlets>
             <frac32buffer name="out1" description="output"/>
             <frac32buffer name="out2"/>
@@ -75,8 +75,8 @@
             <int32.positive name="s" description="select"/>
          </inlets>
          <outlets>
-            <frac32buffer name="o" description="output"/>
-         </outlets>
+            <frac32buffer name="o" description="output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs/>
@@ -118,8 +118,8 @@
          <helpPatch>ctrl.axh</helpPatch>
          <inlets/>
          <outlets>
-            <int32.positive name="out" description="output"/>
-         </outlets>
+            <int32.positive name="out" description="output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <int32.hradio name="value" noLabel="true">
@@ -142,8 +142,8 @@
          <license>BSD</license>
          <helpPatch>math.axh</helpPatch>
          <inlets>
-            <frac32buffer name="in" description="input"/>
-         </inlets>
+            <frac32buffer name="in" description="input" noLabel="true"/>
+      </inlets>
          <outlets>
             <frac32buffer name="out1" description="output"/>
             <frac32buffer name="out2"/>
@@ -176,8 +176,8 @@
             <int32.positive name="s" description="select"/>
          </inlets>
          <outlets>
-            <frac32buffer name="o" description="output"/>
-         </outlets>
+            <frac32buffer name="o" description="output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs/>

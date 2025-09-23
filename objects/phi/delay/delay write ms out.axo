@@ -6,10 +6,10 @@ with ms output</sDescription>
       <license>BSD</license>
       <helpPatch>delay.axh</helpPatch>
       <inlets>
-         <frac32buffer name="in" description="wave input"/>
+         <frac32buffer name="in" description="wave input" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="tics"/>
+         <int32 name="tics" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

@@ -9,7 +9,7 @@ Envelope 1 and 2 are used together with 2 oscillators and vca&apos;s to produce 
       <license>BSD</license>
       <helpPatch>env.axh</helpPatch>
       <inlets>
-         <bool32.rising name="trig" description="trigger"/>
+         <bool32.rising name="trig" description="trigger" noLabel="true"/>
       </inlets>
       <outlets>
          <frac32.positive name="main"/>

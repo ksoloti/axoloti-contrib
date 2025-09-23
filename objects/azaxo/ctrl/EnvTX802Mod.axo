@@ -16,7 +16,7 @@
          <frac32.positive name="Level4"/>
       </inlets>
       <outlets>
-         <frac32.positive name="o"/>
+         <frac32.positive name="o" noLabel="true"/>
       </outlets>
       <displays>
          <int32.label name="stage"/>

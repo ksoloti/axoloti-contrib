@@ -27,7 +27,7 @@
          <frac32 name="walkDown"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="audio out"/>
+         <frac32buffer name="out" description="audio out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

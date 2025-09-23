@@ -12,7 +12,7 @@
          <frac32.bipolar name="in5"/>
       </inlets>
       <outlets>
-         <frac32.bipolar name="out"/>
+         <frac32.bipolar name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

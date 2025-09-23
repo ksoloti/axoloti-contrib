@@ -5,10 +5,10 @@
       <license>who cares</license>
       <helpPatch>pulselength.axh</helpPatch>
       <inlets>
-         <bool32.risingfalling name="trig"/>
+         <bool32.risingfalling name="trig" noLabel="true"/>
       </inlets>
       <outlets>
-         <bool32.pulse name="pulse"/>
+         <bool32.pulse name="pulse" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

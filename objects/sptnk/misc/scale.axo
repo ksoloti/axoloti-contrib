@@ -4,7 +4,7 @@
       <author>Sputnki</author>
       <license>BSD</license>
       <inlets>
-         <frac32 name="root"/>
+         <frac32 name="root" noLabel="true"/>
       </inlets>
       <outlets>
          <frac32 name="I"/>

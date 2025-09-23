@@ -8,7 +8,7 @@
          <frac32 name="pitch"/>
       </inlets>
       <outlets>
-         <charptr32 name="info"/>
+         <charptr32 name="info" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

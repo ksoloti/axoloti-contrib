@@ -11,7 +11,7 @@ Bandwith limited</sDescription>
          <bool32 name="active"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="saw wave, anti-aliased"/>
+         <frac32buffer.bipolar name="wave" description="saw wave, anti-aliased" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

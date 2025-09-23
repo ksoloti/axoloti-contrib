@@ -5,10 +5,10 @@
       <license>BSD</license>
       <helpPatch>launchpad.axh</helpPatch>
       <inlets>
-         <int32 name="index"/>
+         <int32 name="index" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="color"/>
+         <int32 name="color" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

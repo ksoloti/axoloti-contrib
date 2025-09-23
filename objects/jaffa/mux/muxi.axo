@@ -14,7 +14,7 @@ NB! Input for selecting i1 or i1 ONLY works when button is off!</sDescription>
          <bool32 name="s" description="select"/>
       </inlets>
       <outlets>
-         <int32 name="o" description="output"/>
+         <int32 name="o" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

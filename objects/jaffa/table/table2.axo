@@ -16,7 +16,7 @@ Se help file about how to connect!</sDescription>
          <int32 name="index"/>
       </inlets>
       <outlets>
-         <charptr32 name="out"/>
+         <charptr32 name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

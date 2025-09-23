@@ -15,7 +15,7 @@
          <bool32 name="i7"/>
       </inlets>
       <outlets>
-         <int32.positive name="o0"/>
+         <int32.positive name="o0" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

@@ -12,7 +12,7 @@
          <frac32buffer name="in5" description="input 5"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="mix out"/>
+         <frac32buffer name="out" description="mix out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

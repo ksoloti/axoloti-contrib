@@ -11,7 +11,7 @@
          <frac32 name="y2" description="costant output after second knee"/>
       </inlets>
       <outlets>
-         <frac32 name="out"/>
+         <frac32 name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

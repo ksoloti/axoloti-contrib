@@ -3,7 +3,7 @@
       <author>Smashed Transistors</author>
       <license>LGPL</license>
       <inlets>
-         <int32 name="type"/>
+         <int32 name="type" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays/>

@@ -48,7 +48,7 @@ the displays show the waveforms that are selected.</sDescription>
          <int32 name="mix"/>
       </inlets>
       <outlets>
-         <frac32 name="out"/>
+         <frac32 name="out" noLabel="true"/>
       </outlets>
       <displays>
          <bool32 name="sine1"/>

@@ -7,7 +7,7 @@
       <license>LGPL</license>
       <helpPatch></helpPatch>
       <inlets>
-         <charptr32 name="line1"/>
+         <charptr32 name="line1" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays/>

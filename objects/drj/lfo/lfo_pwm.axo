@@ -10,8 +10,8 @@
       <bool32.rising  name="reset" description="Reset phase"/>
     </inlets>
     <outlets>
-      <frac32.bipolar name="pwm" description="PWM output"/>
-    </outlets>
+      <frac32.bipolar name="pwm" description="PWM output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params>
       <frac32.s.map.lfopitch name="pitch" description="Pitch"/>
@@ -80,8 +80,8 @@
       <bool32.rising  name="reset" description="Reset phase"/>
     </inlets>
     <outlets>
-      <frac32.positive name="pwm" description="PWM output"/>
-    </outlets>
+      <frac32.positive name="pwm" description="PWM output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params>
       <frac32.s.map.lfopitch name="pitch" description="Pitch"/>

@@ -13,7 +13,7 @@ Then use an int-control to set the length of the phaser&apos;s counter (see dela
          <frac32 name="Hz" description="Connect to the Clock2Timing module (sss-&gt;Clock2Timing)"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="wave"/>
+         <frac32buffer name="out" description="wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

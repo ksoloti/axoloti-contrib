@@ -9,8 +9,8 @@
       <frac32.bipolar name="mul3" description="Multiplier 3"/>
     </inlets>
     <outlets>
-      <frac32.bipolar name="out" description="Output"/>
-    </outlets>
+      <frac32.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -29,8 +29,8 @@
       <frac32buffer.bipolar name="mul3" description="Multiplier 3"/>
     </inlets>
     <outlets>
-      <frac32buffer.bipolar name="out" description="Output"/>
-    </outlets>
+      <frac32buffer.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -49,8 +49,8 @@
       <int32.bipolar name="mul3" description="Multiplier 3"/>
     </inlets>
     <outlets>
-      <int32.bipolar name="out" description="Output"/>
-    </outlets>
+      <int32.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -69,8 +69,8 @@
       <frac32.bipolar name="mul4" description="Multiplier 4"/>
     </inlets>
     <outlets>
-      <frac32.bipolar name="out" description="Output"/>
-    </outlets>
+      <frac32.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -91,8 +91,8 @@
       <frac32buffer.bipolar name="mul4" description="Multiplier 4"/>
     </inlets>
     <outlets>
-      <frac32buffer.bipolar name="out" description="Output"/>
-    </outlets>
+      <frac32buffer.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -113,8 +113,8 @@
       <int32.bipolar name="mul4" description="Multiplier 4"/>
     </inlets>
     <outlets>
-      <int32.bipolar name="out" description="Output"/>
-    </outlets>
+      <int32.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>

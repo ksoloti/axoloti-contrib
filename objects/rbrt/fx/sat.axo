@@ -10,7 +10,7 @@ A saturator distortion based on dist/soft and filter/lp1 - hp1 by Johannes Taelm
          <frac32.positive name="drive"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

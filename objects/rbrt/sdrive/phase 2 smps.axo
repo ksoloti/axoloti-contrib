@@ -2,10 +2,10 @@
    <obj.normal id="phase 2 smps" uuid="9680c29a-d2a2-4f7a-a4e5-f881f6e7955e">
       <license>GPL</license>
       <inlets>
-         <frac32.positive name="phase"/>
+         <frac32.positive name="phase" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="smps"/>
+         <int32 name="smps" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

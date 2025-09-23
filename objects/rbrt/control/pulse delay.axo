@@ -9,7 +9,7 @@
          <bool32.rising name="trig" description="reset phase"/>
       </inlets>
       <outlets>
-         <bool32.pulse name="trig"/>
+         <bool32.pulse name="trig" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

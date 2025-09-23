@@ -5,10 +5,10 @@
       <license>BSD</license>
       <helpPatch>patching.axh</helpPatch>
       <inlets>
-         <int32 name="i"/>
+         <int32 name="i" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32 name="o"/>
+         <frac32 name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

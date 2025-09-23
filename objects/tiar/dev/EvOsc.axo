@@ -9,7 +9,7 @@
          <bool32.rising name="Rand"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="out" description="selfPM wave"/>
+         <frac32buffer.bipolar name="out" description="selfPM wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

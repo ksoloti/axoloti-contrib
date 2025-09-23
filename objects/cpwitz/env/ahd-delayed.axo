@@ -4,11 +4,11 @@
    <author>Johannes Taelman (additions by Peter Witzel)</author>
    <license>BSD</license>
    <inlets>
-      <bool32.risingfalling name="gate" description="gate"/>
-   </inlets>
+      <bool32.risingfalling name="gate" description="gate" noLabel="true"/>
+      </inlets>
    <outlets>
-      <frac32.positive name="env"/>
-   </outlets>
+      <frac32.positive name="env" noLabel="true"/>
+      </outlets>
    <displays/>
    <params>
       <frac32.s.map.klineartime.exp name="delay"/>

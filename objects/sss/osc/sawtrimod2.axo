@@ -17,7 +17,7 @@
          <frac32 name="HP"/>
       </inlets>
       <outlets>
-         <frac32buffer name="result" description="output"/>
+         <frac32buffer name="result" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

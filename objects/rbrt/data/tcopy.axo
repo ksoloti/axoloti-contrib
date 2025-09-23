@@ -18,7 +18,7 @@ if &apos;clear&apos; is enabled,tcopy will clear the contents of the table.</sDe
          <int32 name="range" description="length of the area to copy"/>
       </inlets>
       <outlets>
-         <bool32.pulse name="done" description="operation done."/>
+         <bool32.pulse name="done" description="operation done." noLabel="true"/>
       </outlets>
       <displays/>
       <params>

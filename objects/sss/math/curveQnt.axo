@@ -26,7 +26,7 @@ The exp and mod controls are being updated only when the signal goes over to a n
          <int32 name="div"/>
       </inlets>
       <outlets>
-         <frac32 name="out"/>
+         <frac32 name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

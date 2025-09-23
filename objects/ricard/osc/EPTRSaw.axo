@@ -5,10 +5,10 @@
       <license>LGPL</license>
       <helpPatch>PTRSaw.axh</helpPatch>
       <inlets>
-         <frac32.bipolar name="pitch" description="pitch"/>
+         <frac32.bipolar name="pitch" description="pitch" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="saw" description="sawtooth wave"/>
+         <frac32buffer.bipolar name="saw" description="sawtooth wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

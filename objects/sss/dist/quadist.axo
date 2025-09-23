@@ -9,10 +9,10 @@ stage 4: soft clip</sDescription>
       <license>BSD</license>
       <helpPatch>osc.axh</helpPatch>
       <inlets>
-         <frac32buffer name="phase" description="phase"/>
+         <frac32buffer name="phase" description="phase" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="sine wave"/>
+         <frac32buffer.bipolar name="wave" description="sine wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

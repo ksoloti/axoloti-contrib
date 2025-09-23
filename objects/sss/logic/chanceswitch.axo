@@ -13,7 +13,7 @@ the &quot;off&quot; parameter sets the chance of any incoming trigger to reset t
          <bool32 name="i4"/>
       </inlets>
       <outlets>
-         <bool32 name="o" description="output"/>
+         <bool32 name="o" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

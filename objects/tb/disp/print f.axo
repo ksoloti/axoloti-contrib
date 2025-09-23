@@ -5,7 +5,7 @@
       <license>GPL</license>
       <helpPatch>print.axh</helpPatch>
       <inlets>
-         <frac32 name="v"/>
+         <frac32 name="v" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays/>

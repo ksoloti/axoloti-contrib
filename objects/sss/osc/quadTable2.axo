@@ -21,7 +21,7 @@ For a wavetable, use &quot;TheCreator&quot; module to create a big 1024-waveform
          <frac32 name="sineACBD"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="sine wave"/>
+         <frac32buffer.bipolar name="wave" description="sine wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

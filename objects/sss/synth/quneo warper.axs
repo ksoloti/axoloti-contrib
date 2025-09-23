@@ -110,8 +110,8 @@ _tmp=(_tmp-_tmp/12*12)*3;
             <bool32 name="sync"/>
          </inlets>
          <outlets>
-            <bool32 name="out"/>
-         </outlets>
+            <bool32 name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs>
@@ -198,8 +198,8 @@ g1=inlet_in;]]></code.krate>
             <bool32 name="sync"/>
          </inlets>
          <outlets>
-            <frac32 name="out"/>
-         </outlets>
+            <frac32 name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs>
@@ -290,8 +290,8 @@ outlet_out=val;]]></code.krate>
             <bool32 name="sync"/>
          </inlets>
          <outlets>
-            <frac32 name="out"/>
-         </outlets>
+            <frac32 name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.kpitch name="fade"/>
@@ -393,8 +393,8 @@ outlet_out=val;]]></code.krate>
             <bool32 name="sync"/>
          </inlets>
          <outlets>
-            <frac32 name="out"/>
-         </outlets>
+            <frac32 name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.kpitch name="fade"/>
@@ -529,8 +529,8 @@ outlet_latch=latch;]]></code.krate>
             <bool32 name="sync"/>
          </inlets>
          <outlets>
-            <frac32 name="out"/>
-         </outlets>
+            <frac32 name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.kpitch name="fade"/>

@@ -13,7 +13,7 @@ Dry and wet controls control the volume of original and phased signals.</sDescri
          <frac32 name="read"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

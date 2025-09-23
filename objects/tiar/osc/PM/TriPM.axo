@@ -9,7 +9,7 @@
          <frac32buffer.bipolar name="mod"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="tri"/>
+         <frac32buffer.bipolar name="tri" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

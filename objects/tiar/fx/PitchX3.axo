@@ -4,10 +4,10 @@
       <license>LGPL</license>
       <helpPatch>pitchX3.axh</helpPatch>
       <inlets>
-         <frac32buffer name="in" description="wave input"/>
+         <frac32buffer name="in" description="wave input" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

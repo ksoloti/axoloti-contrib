@@ -11,7 +11,7 @@ NOTE! enter module&apos;s own name into combobox!</sDescription>
          <frac32 name="depth"/>
       </inlets>
       <outlets>
-         <frac32buffer name="AudioOut"/>
+         <frac32buffer name="AudioOut" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

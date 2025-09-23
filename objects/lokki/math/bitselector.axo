@@ -8,7 +8,7 @@
          <frac32.positive name="bitcontrol"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="quant(a)"/>
+         <frac32buffer name="out" description="quant(a)" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -9,8 +9,8 @@
       <frac32.bipolar name="add" description="Addend"/>
     </inlets>
     <outlets>
-      <frac32.bipolar name="out" description="Output"/>
-    </outlets>
+      <frac32.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -28,8 +28,8 @@
       <frac32buffer.bipolar name="add" description="Addend"/>
     </inlets>
     <outlets>
-      <frac32buffer.bipolar name="out" description="Output"/>
-    </outlets>
+      <frac32buffer.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -47,8 +47,8 @@
       <int32.bipolar name="add" description="Addend"/>
     </inlets>
     <outlets>
-      <int32.bipolar name="out" description="Output"/>
-    </outlets>
+      <int32.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>

@@ -103,8 +103,8 @@
             <frac32.positive name="reso"/>
          </inlets>
          <outlets>
-            <frac32buffer name="out"/>
-         </outlets>
+            <frac32buffer name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.pitch name="pitch"/>

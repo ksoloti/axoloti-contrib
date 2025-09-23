@@ -12,7 +12,7 @@ Tested with I2C1, SCL=PB8, SDA=PB9 (these are the config defaults)</sDescription
       <license>BSD</license>
       <inlets/>
       <outlets>
-         <int32 name="touch"/>
+         <int32 name="touch" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

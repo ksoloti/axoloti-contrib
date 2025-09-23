@@ -23,7 +23,7 @@
          <bool32.rising name="delFile"/>
       </inlets>
       <outlets>
-         <bool32.pulse name="delete" description="pulse on delete"/>
+         <bool32.pulse name="delete" description="pulse on delete" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

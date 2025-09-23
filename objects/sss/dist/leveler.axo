@@ -6,10 +6,10 @@ eg. useful to level out oscillators with different volume per waveform</sDescrip
       <license>BSD</license>
       <helpPatch>math.axh</helpPatch>
       <inlets>
-         <frac32buffer name="a"/>
+         <frac32buffer name="a" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer name="result" description="output"/>
+         <frac32buffer name="result" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

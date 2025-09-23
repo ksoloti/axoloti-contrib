@@ -10,7 +10,7 @@
          <int32 name="sample"/>
       </inlets>
       <outlets>
-         <int32 name="MaxSampleAmount"/>
+         <int32 name="MaxSampleAmount" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

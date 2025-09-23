@@ -5,10 +5,10 @@
       <license>BSD</license>
       <helpPatch></helpPatch>
       <inlets>
-         <int32 name="note"/>
+         <int32 name="note" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="s"/>
+         <int32 name="s" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

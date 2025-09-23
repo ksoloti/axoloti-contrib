@@ -11,7 +11,7 @@
          <bool32 name="i4" description="input 2"/>
       </inlets>
       <outlets>
-         <bool32 name="o" description="output"/>
+         <bool32 name="o" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

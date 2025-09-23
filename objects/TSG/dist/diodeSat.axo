@@ -2,10 +2,10 @@
    <obj.normal id="diodeSat" uuid="97810a83-53ff-40dd-97dd-1f1e3ab9d4e9">
       <license>GPL</license>
       <inlets>
-         <frac32buffer name="in"/>
+         <frac32buffer name="in" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

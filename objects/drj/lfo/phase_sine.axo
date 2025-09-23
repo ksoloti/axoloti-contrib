@@ -10,8 +10,8 @@
       <bool32.rising name="reset" description="Reset phase"/>
     </inlets>
     <outlets>
-      <frac32.bipolar name="sine" description="Sine wave"/>
-    </outlets>
+      <frac32.bipolar name="sine" description="Sine wave" noLabel="true"/>
+      </outlets>
     <displays/>
     <params>
       <frac32.s.map.lfopitch name="pitch" noLabel="true"/>
@@ -60,8 +60,8 @@
       <bool32.rising name="reset" description="Reset phase"/>
     </inlets>
     <outlets>
-      <frac32.positive name="sine" description="Sine wave"/>
-    </outlets>
+      <frac32.positive name="sine" description="Sine wave" noLabel="true"/>
+      </outlets>
     <displays/>
     <params>
       <frac32.s.map.lfopitch name="pitch" noLabel="true"/>

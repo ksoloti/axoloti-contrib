@@ -15,7 +15,7 @@ Damp controls the cutoff of a filter that then damps the linearly clipped signal
          <frac32 name="rate"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

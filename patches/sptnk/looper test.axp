@@ -515,8 +515,8 @@ attr_tdata.array[0] = ((numpoints <<16) & bitmask12) | ((flag<<8)&bitmask3) | bi
             <int32.positive name="endpos"/>
          </inlets>
          <outlets>
-            <frac32buffer name="o"/>
-         </outlets>
+            <frac32buffer name="o" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.u.map name="preserve"/>

@@ -12,7 +12,7 @@
          <frac32 name="d" description="decay time"/>
       </inlets>
       <outlets>
-         <frac32buffer name="o"/>
+         <frac32buffer name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

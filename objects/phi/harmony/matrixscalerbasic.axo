@@ -3,11 +3,11 @@
    id="matrixscalerbasic" uuid="363d17ef-2be8-4231-b497-fc9c86062b50">
    <sDescription>matrix scaler </sDescription>  
    <inlets>
-      <int32.positive name="s" description="select"/>
-   </inlets>
+      <int32.positive name="s" description="select" noLabel="true"/>
+      </inlets>
    <outlets>
-      <int32.bipolar name="o"/>
-   </outlets>
+      <int32.bipolar name="o" noLabel="true"/>
+      </outlets>
    <displays/>
    <params><int32 name="transpose" noLabel="false">
             <MinValue i="-60"/>

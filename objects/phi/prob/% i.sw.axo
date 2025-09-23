@@ -9,7 +9,7 @@
          <int32 name="reso"/>
       </inlets>
       <outlets>
-         <int32 name="o"/>
+         <int32 name="o" noLabel="true"/>
       </outlets>
       <displays>
          <int32.label name="v" noLabel="true"/>

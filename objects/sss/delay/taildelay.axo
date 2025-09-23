@@ -12,7 +12,7 @@ the tailtime is a direct representation of the time (in seconds) the feedback wi
          <frac32 name="tailtime"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="wave"/>
+         <frac32buffer name="out" description="wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

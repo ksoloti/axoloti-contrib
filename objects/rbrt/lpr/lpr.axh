@@ -396,8 +396,8 @@ BEWARE:maximum length of input and suffix may not exceed 16 characters.</sDescri
                <author>Robert Schirmer</author>
                <license>BSD</license>
                <inlets>
-                  <charptr32 name="str1"/>
-               </inlets>
+                  <charptr32 name="str1" noLabel="true"/>
+      </inlets>
                <outlets>
                   <charptr32 name="out1" description="string"/>
                   <charptr32 name="out2"/>

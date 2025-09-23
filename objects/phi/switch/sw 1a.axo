@@ -5,10 +5,10 @@
       <license>BSD</license>
       <helpPatch>switches.axh</helpPatch>
       <inlets>
-         <frac32buffer name="i1"/>
+         <frac32buffer name="i1" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer name="o"/>
+         <frac32buffer name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

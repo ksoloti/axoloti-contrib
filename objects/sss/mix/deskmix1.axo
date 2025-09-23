@@ -16,7 +16,7 @@ controlled with the deskCtrl1 module (load as many as the deskCtrl1 modules as t
          <frac32buffer name="8"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="mix out"/>
+         <frac32buffer name="out" description="mix out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -20,7 +20,7 @@ These are connect in 1 serie of 8 allpasses.</sDescription>
          <frac32.positive name="gain4"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

@@ -9,7 +9,7 @@
          <frac32buffer name="trigger" description="triggered on rising above 0"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="oldest sample output"/>
+         <frac32buffer name="out" description="oldest sample output" noLabel="true"/>
       </outlets>
       <displays/>
       <params />
@@ -57,7 +57,7 @@
          <frac32.positive name="feedback" description="feedback mod"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="oldest sample output"/>
+         <frac32buffer name="out" description="oldest sample output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -15,7 +15,7 @@ notice though, that due to the design of the filter, there&apos;s always resonan
          <frac32 name="cut"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

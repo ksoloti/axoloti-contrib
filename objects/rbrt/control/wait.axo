@@ -10,7 +10,7 @@ if &apos;wait&apos; is low, outlet &apos;go&apos; is low.</sDescription>
          <bool32 name="bypass"/>
       </inlets>
       <outlets>
-         <bool32 name="go" description="Go!"/>
+         <bool32 name="go" description="Go!" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

@@ -7,10 +7,10 @@ Or something in between for smooth beatings for octaves and fifths.</sDescriptio
       <license>LGPL</license>
       <helpPatch>Exact5ths.axh</helpPatch>
       <inlets>
-         <frac32 name="pitch" description="pitch input"/>
+         <frac32 name="pitch" description="pitch input" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32 name="pitch"/>
+         <frac32 name="pitch" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

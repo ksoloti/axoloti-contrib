@@ -18,7 +18,7 @@ works as wavetable-oscillator as well.</sDescription>
          <frac32.bipolar name="m8"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="out"/>
+         <frac32buffer.bipolar name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -5,11 +5,11 @@
    <license>BSD</license>
    <helpPatch>inverted mixer.axh</helpPatch>
    <inlets>
-      <frac32.bipolar name="i1"/>
-   </inlets>
+      <frac32.bipolar name="i1" noLabel="true"/>
+      </inlets>
    <outlets>
-      <frac32.bipolar name="o"/>
-   </outlets>
+      <frac32.bipolar name="o" noLabel="true"/>
+      </outlets>
    <displays/>
    <params>
       <frac32.s.map name="inv"/>

@@ -7,7 +7,7 @@ Set &quot;Number of Modulation Sources&quot; and &quot;Number of Targets per Sou
       <license>BSD</license>
       <providesModulationSource>true</providesModulationSource>
       <inlets>
-         <frac32 name="v" description="value"/>
+         <frac32 name="v" description="value" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays/>

@@ -5,10 +5,10 @@
       <license>BSD</license>
       <helpPatch>table.axh</helpPatch>
       <inlets>
-         <int32 name="prime"/>
+         <int32 name="prime" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="o"/>
+         <int32 name="o" noLabel="true"/>
       </outlets>
       <displays>
          <int32.label name="value" noLabel="true"/>

@@ -8,10 +8,10 @@ trigger=3-&gt;AHR envelope (sustain=hold time)</sDescription>
       <license>BSD</license>
       <helpPatch>adsr.axh</helpPatch>
       <inlets>
-         <int32 name="gate"/>
+         <int32 name="gate" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32.positive name="env" description="envelope output"/>
+         <frac32.positive name="env" description="envelope output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

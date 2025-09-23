@@ -7,10 +7,10 @@ Lowest output is 1 as I needed that for a project!</sDescription>
       <license>BSD</license>
       <helpPatch>math.axh</helpPatch>
       <inlets>
-         <int32 name="in"/>
+         <int32 name="in" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="out"/>
+         <int32 name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

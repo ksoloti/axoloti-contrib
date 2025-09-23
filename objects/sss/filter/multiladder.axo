@@ -24,7 +24,7 @@ gain boosts the resonance in the feedback loop-&gt;adds upper harmonics to the r
          <frac32.positive name="res"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="output"/>
+         <frac32buffer name="out" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

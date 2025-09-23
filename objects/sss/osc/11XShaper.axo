@@ -40,7 +40,7 @@
          <int32 name="Min" description="Minimum Harmonic value for harmonic morpher (root =1)"/>
       </inlets>
       <outlets>
-         <frac32buffer name="result" description="output"/>
+         <frac32buffer name="result" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

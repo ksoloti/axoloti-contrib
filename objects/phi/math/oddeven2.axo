@@ -11,7 +11,7 @@ if i1 = 1 then its even odd  if i2 everey second value   if 4 every fourth   if 
          <int32 name="i1"/>
       </inlets>
       <outlets>
-         <bool32 name="o"/>
+         <bool32 name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

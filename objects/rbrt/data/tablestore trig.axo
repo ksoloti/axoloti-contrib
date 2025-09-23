@@ -9,7 +9,7 @@
          <bool32.rising name="trig" description="trigger write"/>
       </inlets>
       <outlets>
-         <frac32 name="v" description="out0  +  i"/>
+         <frac32 name="v" description="out0  +  i" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

@@ -8,7 +8,7 @@
          <frac32buffer name="wave" description="in1"/>
       </inlets>
       <outlets>
-         <frac32buffer name="b" description="quant(a)"/>
+         <frac32buffer name="b" description="quant(a)" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

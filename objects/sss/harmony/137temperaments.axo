@@ -15,7 +15,7 @@ The stretch-knob&apos;s value is divided by 1024, giving it an accuracy of tenth
          <frac32 name="stretch"/>
       </inlets>
       <outlets>
-         <frac32 name="out"/>
+         <frac32 name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

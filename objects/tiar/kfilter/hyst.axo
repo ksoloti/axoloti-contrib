@@ -5,10 +5,10 @@
       <license>LGPL</license>
       <helpPatch>hyst.axh</helpPatch>
       <inlets>
-         <frac32 name="in"/>
+         <frac32 name="in" noLabel="true"/>
       </inlets>
       <outlets>
-         <bool32 name="out"/>
+         <bool32 name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

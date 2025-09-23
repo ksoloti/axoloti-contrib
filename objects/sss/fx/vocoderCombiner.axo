@@ -49,7 +49,7 @@ Volume....well... it&apos;s volume.. what&apos;s more to say about it??</sDescri
          <frac32buffer name="band20"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

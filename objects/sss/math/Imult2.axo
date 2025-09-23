@@ -11,7 +11,7 @@ Lowest output is 1 as I needed that for a project!</sDescription>
          <int32 name="mult"/>
       </inlets>
       <outlets>
-         <int32 name="out"/>
+         <int32 name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

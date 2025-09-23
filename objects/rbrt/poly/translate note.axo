@@ -4,10 +4,10 @@
       <author>Robert Schirmer</author>
       <license>BSD</license>
       <inlets>
-         <int32.positive name="note"/>
+         <int32.positive name="note" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32.bipolar name="note"/>
+         <frac32.bipolar name="note" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

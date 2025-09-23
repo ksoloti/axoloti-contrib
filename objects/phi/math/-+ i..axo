@@ -2,10 +2,10 @@
    <obj.normal id="-+ i" uuid="e5bf3953ead204874692af5d85cww43a027g74f1"> 
       <sDescription>subtract/add constanti</sDescription>
       <inlets>
-         <int32 name="in" description="in"/>
+         <int32 name="in" description="in" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="out" description="out"/>
+         <int32 name="out" description="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>
@@ -20,10 +20,10 @@
    <obj.normal id="-+i" uuid="e5bf3953ead204874692ae5d85c0e43b027g74f1"> 
       <sDescription>subtract/add constanti</sDescription>
       <inlets>
-         <frac32 name="in" description="in"/>
+         <frac32 name="in" description="in" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32 name="out" description="out"/>
+         <frac32 name="out" description="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

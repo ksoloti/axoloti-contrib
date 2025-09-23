@@ -13,7 +13,7 @@ Takes 2 envelopes for hit and tail pitch modulation and uses them to fade betwee
          <frac32 name="ptail"/>
       </inlets>
       <outlets>
-         <frac32 name="out" description="out"/>
+         <frac32 name="out" description="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

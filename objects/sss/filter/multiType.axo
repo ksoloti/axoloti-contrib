@@ -34,7 +34,7 @@ for type 4 counts:
          <int32 name="MT"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="filter output"/>
+         <frac32buffer name="out" description="filter output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

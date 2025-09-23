@@ -6,8 +6,8 @@
       </attribs>
       <object id="patch/object" uuid="691bf902-c228-4139-ac7d-0a7d4ea55818">
          <inlets>
-            <int32 name="offset"/>
-         </inlets>
+            <int32 name="offset" noLabel="true"/>
+      </inlets>
          <outlets>
             <bool32.pulse name="o0"/>
             <bool32.pulse name="o1"/>
@@ -658,8 +658,8 @@ prev = inlet_offset;]]></code.krate>
             <frac32.bipolar name="value"/>
          </inlets>
          <outlets>
-            <int32 name="matrix" description="pad index if inside range"/>
-         </outlets>
+            <int32 name="matrix" description="pad index if inside range" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <int32 name="offset">

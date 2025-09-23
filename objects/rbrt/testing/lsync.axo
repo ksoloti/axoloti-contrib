@@ -11,7 +11,7 @@ then, a pulse is put out at outlet &apos;trig&apos;.</sDescription>
          <frac32.positive name="start" description="sync position"/>
       </inlets>
       <outlets>
-         <bool32.pulse name="trig" description="sync trigger"/>
+         <bool32.pulse name="trig" description="sync trigger" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

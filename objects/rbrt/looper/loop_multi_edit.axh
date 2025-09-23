@@ -102,11 +102,11 @@
             </attribs>
             <object id="patch/object" uuid="5b1df804-0464-41e1-9a3d-fbddc0d0f520">
                <inlets>
-                  <frac32.positive name="i1"/>
-               </inlets>
+                  <frac32.positive name="i1" noLabel="true"/>
+      </inlets>
                <outlets>
-                  <int32 name="o1"/>
-               </outlets>
+                  <int32 name="o1" noLabel="true"/>
+      </outlets>
                <displays/>
                <params/>
                <attribs>
@@ -480,8 +480,8 @@
             <int32 name="length"/>
          </inlets>
          <outlets>
-            <int32 name="test"/>
-         </outlets>
+            <int32 name="test" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs>
@@ -549,11 +549,11 @@ WORKING_AREA(waThreadSD, 800);]]></code.declaration>
       </attribs>
       <object id="patch/object" uuid="5b1df804-0464-41e1-9a3d-fbddc0d0f520">
          <inlets>
-            <frac32.positive name="i1"/>
-         </inlets>
+            <frac32.positive name="i1" noLabel="true"/>
+      </inlets>
          <outlets>
-            <int32 name="o1"/>
-         </outlets>
+            <int32 name="o1" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs>

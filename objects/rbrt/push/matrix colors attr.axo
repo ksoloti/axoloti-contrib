@@ -2,10 +2,10 @@
    <obj.normal id="matrix colors attr" uuid="087ae95e-fcf7-4700-a3a9-30173e8cc5e0">
       <license>GPL</license>
       <inlets>
-         <bool32.risingfalling name="toggle"/>
+         <bool32.risingfalling name="toggle" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="color"/>
+         <int32 name="color" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

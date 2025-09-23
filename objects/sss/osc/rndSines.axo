@@ -7,10 +7,10 @@ Mode2: values are always updated at each phase restart, but the update-control s
       <author>Remco van der most</author>
       <license>BSD</license>
       <inlets>
-         <frac32 name="rate"/>
+         <frac32 name="rate" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="out" description="white noise"/>
+         <frac32buffer.bipolar name="out" description="white noise" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

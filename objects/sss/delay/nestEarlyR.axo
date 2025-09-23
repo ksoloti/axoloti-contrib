@@ -6,7 +6,7 @@ Put the name of a delayline module into the reference box to add early reflectio
       <license>BSD</license>
       <helpPatch>delay.axh</helpPatch>
       <inlets>
-         <frac32buffer name="in" description="wave input"/>
+         <frac32buffer name="in" description="wave input" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays/>

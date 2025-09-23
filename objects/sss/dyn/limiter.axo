@@ -13,7 +13,7 @@
          <frac32.positive name="expander" description="Open to turn limiter into expander (glitches when both threshold and expander values are high, causing a fat, harsh distortion. Awesome for bassdrums!)"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

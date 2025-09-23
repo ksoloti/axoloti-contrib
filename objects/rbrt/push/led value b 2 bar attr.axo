@@ -2,7 +2,7 @@
    <obj.normal id="led value b 2 bar attr" uuid="1a03086c-9084-4163-8f5e-6419cbcfe700">
       <license>GPL</license>
       <inlets>
-         <frac32 name="in"/>
+         <frac32 name="in" noLabel="true"/>
       </inlets>
       <outlets>
          <charptr32 name="out"/>

@@ -10,7 +10,7 @@ http://dsp.stackexchange.com/questions/26966/oscillations-on-hilbert-envelope</s
       <license>GPL</license>
       <helpPatch>iqsplit.axh</helpPatch>
       <inlets>
-         <frac32buffer name="in"/>
+         <frac32buffer name="in" noLabel="true"/>
       </inlets>
       <outlets>
          <frac32buffer name="i"/>

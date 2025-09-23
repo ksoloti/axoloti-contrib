@@ -27,7 +27,7 @@ on-module cutoff-knob is added to the recorded cutoff.</sDescription>
          <int32 name="BPM"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

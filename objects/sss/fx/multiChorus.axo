@@ -21,7 +21,7 @@ smooth: smooths out the chorus modulation (krate LP-filter)</sDescription>
          <bool32 name="reset"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

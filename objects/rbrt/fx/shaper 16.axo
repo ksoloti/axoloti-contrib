@@ -7,10 +7,10 @@ works as wavetable-oscillator as well.</sDescription>
       <helpPatch>shaper.axh</helpPatch>
       <rotatedParams>true</rotatedParams>
       <inlets>
-         <frac32buffer.bipolar name="in"/>
+         <frac32buffer.bipolar name="in" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="out"/>
+         <frac32buffer.bipolar name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

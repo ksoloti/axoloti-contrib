@@ -4,10 +4,10 @@
       <author>Robert Schirmer</author>
       <license>BSD</license>
       <inlets>
-         <int32 name="in" description="in"/>
+         <int32 name="in" description="in" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="out" description="out"/>
+         <int32 name="out" description="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

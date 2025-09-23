@@ -18,7 +18,7 @@ Send in the audio quite a high volume, ducking the delayed signal. After this, t
          <frac32buffer name="coefs" description="use a coefficient generator to control the FIR filter"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

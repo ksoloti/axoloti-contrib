@@ -12,7 +12,7 @@ Interpolated mod inputs</sDescription>
          <frac32 name="c" description="mod input for the b parameter"/>
       </inlets>
       <outlets>
-         <frac32buffer name="z" description="z output"/>
+         <frac32buffer name="z" description="z output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

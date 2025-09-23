@@ -4,7 +4,7 @@
       <author>Sputnki</author>
       <license>BSD</license>
       <inlets>
-         <frac32buffer.bipolar name="in" description="input signal. should be dc-free, if you&apos;re not sure, put a highpass in front of it"/>
+         <frac32buffer.bipolar name="in" description="input signal. should be dc-free, if you&apos;re not sure, put a highpass in front of it" noLabel="true"/>
       </inlets>
       <outlets>
          <int32 name="smp" description="number of samples at s-rate sample rate"/>

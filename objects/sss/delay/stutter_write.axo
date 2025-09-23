@@ -13,7 +13,7 @@ Connect range input to the range output of the stutter delay</sDescription>
          <bool32.rising name="reset"/>
       </inlets>
       <outlets>
-         <int32 name="power"/>
+         <int32 name="power" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

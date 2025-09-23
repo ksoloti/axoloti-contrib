@@ -57,8 +57,8 @@
       <bool32.rising name="i1" description="Input 1"/>
     </inlets>
     <outlets>
-      <int32  name="out" description="Output number"/>
-    </outlets>
+      <int32  name="out" description="Output number" noLabel="true"/>
+      </outlets>
     <attribs>
       <combo name="default">
          <MenuEntries>
@@ -166,8 +166,8 @@
       <bool32.rising name="i3" description="Input 3"/>
     </inlets>
     <outlets>
-      <int32  name="out" description="Output number"/>
-    </outlets>
+      <int32  name="out" description="Output number" noLabel="true"/>
+      </outlets>
     <attribs>
       <combo name="default">
          <MenuEntries>
@@ -321,8 +321,8 @@
       <bool32.rising name="i7" description="Input 7"/>
     </inlets>
     <outlets>
-      <int32  name="out" description="Output number"/>
-    </outlets>
+      <int32  name="out" description="Output number" noLabel="true"/>
+      </outlets>
     <attribs>
       <combo name="default">
          <MenuEntries>

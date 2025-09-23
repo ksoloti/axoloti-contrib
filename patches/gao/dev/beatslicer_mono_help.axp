@@ -784,8 +784,8 @@ outlet_decay__amp__env = diff;]]></code.krate>
             <bool32 name="retrig"/>
          </inlets>
          <outlets>
-            <frac32buffer name="o" description="wave"/>
-         </outlets>
+            <frac32buffer name="o" description="wave" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs>

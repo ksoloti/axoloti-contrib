@@ -12,7 +12,7 @@ Non-bandwith limited</sDescription>
          <bool32 name="active"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="supersaw wave"/>
+         <frac32buffer.bipolar name="wave" description="supersaw wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

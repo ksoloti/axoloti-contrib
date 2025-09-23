@@ -11,7 +11,7 @@
          <frac32 name="theta kr" description="rotation angle"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="output signal"/>
+         <frac32buffer name="out" description="output signal" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

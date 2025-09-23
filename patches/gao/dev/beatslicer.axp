@@ -39,8 +39,8 @@
          <license>BSD</license>
          <helpPatch>turing.axh</helpPatch>
          <inlets>
-            <bool32.rising name="trig" description=""/>
-         </inlets>
+            <bool32.rising name="trig" description="" noLabel="true"/>
+      </inlets>
          <outlets>
             <int32 name="buffer"/>
             <frac32.bipolar name="note"/>
@@ -223,8 +223,8 @@ outlet_trig = o;]]></code.krate>
          <license>BSD</license>
          <helpPatch>turing.axh</helpPatch>
          <inlets>
-            <bool32.rising name="trig" description=""/>
-         </inlets>
+            <bool32.rising name="trig" description="" noLabel="true"/>
+      </inlets>
          <outlets>
             <int32 name="buffer"/>
             <frac32.bipolar name="note"/>

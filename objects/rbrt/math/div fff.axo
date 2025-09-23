@@ -9,7 +9,7 @@
          <frac32 name="b"/>
       </inlets>
       <outlets>
-         <frac32.bipolar name="float"/>
+         <frac32.bipolar name="float" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

@@ -15,10 +15,10 @@ high notes: MIDI 96  C7
       <license>LGPL</license>
       <helpPatch>DetHzLH.axh</helpPatch>
       <inlets>
-         <frac32 name="pitch" description="pitch input"/>
+         <frac32 name="pitch" description="pitch input" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32 name="pitch"/>
+         <frac32 name="pitch" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

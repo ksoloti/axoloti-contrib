@@ -11,7 +11,7 @@ integer result.</sDescription>
          <int32 name="value"/>
       </inlets>
       <outlets>
-         <int32 name="value"/>
+         <int32 name="value" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

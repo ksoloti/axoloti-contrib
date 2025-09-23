@@ -14,7 +14,7 @@ The &quot;mod&quot; control is an extra filter control, softening the sound, tho
          <frac32 name="resonance"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="output"/>
+         <frac32buffer name="out" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

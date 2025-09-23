@@ -17,7 +17,7 @@ First sends out the minimum and maximum patch-index to make sure the patchchange
          <int32 name="2Patch" description="sets patch index to jump to immediately"/>
       </inlets>
       <outlets>
-         <bool32 name="trig"/>
+         <bool32 name="trig" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

@@ -4,7 +4,7 @@
       <author>Sptnk</author>
       <license>GPL</license>
       <inlets>
-         <frac32.positive name="freq" description="linear frequency inlet (like sine/lin)"/>
+         <frac32.positive name="freq" description="linear frequency inlet (like sine/lin)" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays>

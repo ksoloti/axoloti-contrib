@@ -10,7 +10,7 @@ The filter LP-filter dampens the offset that is created by the quantizer in comp
          <frac32 name="damp"/>
       </inlets>
       <outlets>
-         <frac32buffer name="o1"/>
+         <frac32buffer name="o1" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

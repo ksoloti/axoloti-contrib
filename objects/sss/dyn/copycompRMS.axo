@@ -11,7 +11,7 @@ Set follow-rate with attack and decay and follow-amount with &quot;ratio&quot;</
          <frac32buffer name="copy"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

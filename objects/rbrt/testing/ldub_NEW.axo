@@ -15,7 +15,7 @@ the length of the fade-in of the recording with &apos;attack&apos;.</sDescriptio
          <frac32.positive name="release" description="recording fade-out time"/>
       </inlets>
       <outlets>
-         <bool32 name="state" description="recording state with fade-out"/>
+         <bool32 name="state" description="recording state with fade-out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

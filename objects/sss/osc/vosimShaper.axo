@@ -18,7 +18,7 @@
          <frac32.bipolar name="RingWidth" description="external Ringmod width"/>
       </inlets>
       <outlets>
-         <frac32buffer name="real"/>
+         <frac32buffer name="real" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

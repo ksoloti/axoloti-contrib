@@ -9,7 +9,7 @@
          <frac32.positive name="pos" description="position to reach"/>
       </inlets>
       <outlets>
-         <bool32.pulse name="trig" description="pulse when phase == pos"/>
+         <bool32.pulse name="trig" description="pulse when phase == pos" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

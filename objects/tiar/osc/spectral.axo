@@ -13,7 +13,7 @@ Aliasing limitation by box filtering (average over one sample).</sDescription>
          <int32 name="seed"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="sine wave"/>
+         <frac32buffer.bipolar name="wave" description="sine wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

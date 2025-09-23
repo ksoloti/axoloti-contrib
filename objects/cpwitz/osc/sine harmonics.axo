@@ -15,7 +15,7 @@
          <frac32 name="7th" description="mod level 7th"/>
       </inlets>
       <outlets>
-	     <frac32buffer.bipolar name="out" description="harmonics"/>
+	     <frac32buffer.bipolar name="out" description="harmonics" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

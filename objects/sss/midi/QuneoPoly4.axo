@@ -26,7 +26,7 @@ eg for pressure:
       <license>BSD</license>
       <helpPatch>midi_in.axh</helpPatch>
       <inlets>
-         <int32 name="count"/>
+         <int32 name="count" noLabel="true"/>
       </inlets>
       <outlets>
          <bool32 name="G1" description="key pressed, no retrigger legato"/>

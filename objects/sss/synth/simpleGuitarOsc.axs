@@ -99,11 +99,11 @@
          <license>BSD</license>
          <helpPatch>math.axh</helpPatch>
          <inlets>
-            <int32 name="in"/>
-         </inlets>
+            <int32 name="in" noLabel="true"/>
+      </inlets>
          <outlets>
-            <int32 name="out"/>
-         </outlets>
+            <int32 name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map name="amp" noLabel="true"/>

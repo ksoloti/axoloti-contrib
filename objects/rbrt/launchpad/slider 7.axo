@@ -18,7 +18,7 @@
          <bool32.rising name="redraw"/>
       </inlets>
       <outlets>
-         <bool32.pulse name="trig" description="pulse if sliders are changed"/>
+         <bool32.pulse name="trig" description="pulse if sliders are changed" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -7,10 +7,10 @@ if &apos;toggle&apos; is false , &apos;clocker&apos; puts out 0.</sDescription>
       <license>who cares</license>
       <helpPatch>timeri.axh</helpPatch>
       <inlets>
-         <bool32.risingfalling name="toggle" description="clock is running or not"/>
+         <bool32.risingfalling name="toggle" description="clock is running or not" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="t" description="current time in k-rate ticks (0.333 ms)"/>
+         <int32 name="t" description="current time in k-rate ticks (0.333 ms)" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

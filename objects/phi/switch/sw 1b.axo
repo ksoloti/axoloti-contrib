@@ -5,10 +5,10 @@
       <license>BSD</license>
       <helpPatch>switches.axh</helpPatch>
       <inlets>
-         <bool32 name="i1"/>
+         <bool32 name="i1" noLabel="true"/>
       </inlets>
       <outlets>
-         <bool32 name="o"/>
+         <bool32 name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

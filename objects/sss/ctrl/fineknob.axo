@@ -8,7 +8,7 @@ use DRJ&apos;s  preset manager to save presets (or save all three knobs one by o
       <helpPatch>hook.axh</helpPatch>
       <inlets/>
       <outlets>
-         <frac32.positive name="out" description="output"/>
+         <frac32.positive name="out" description="output" noLabel="true"/>
       </outlets>
       <displays>
          <int32.label name="int"/>

@@ -9,10 +9,10 @@ Use &quot;chordbuilder&quot; to control it&apos;s switches from your &quot;contr
       <license>BSD</license>
       <helpPatch>mux.axh</helpPatch>
       <inlets>
-         <int32.positive name="s" description="select"/>
+         <int32.positive name="s" description="select" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="note" description="output"/>
+         <int32 name="note" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

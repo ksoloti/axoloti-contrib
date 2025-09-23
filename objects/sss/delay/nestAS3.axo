@@ -6,7 +6,7 @@ Can be used with the factory delayline module to add diffusion to a delay</sDesc
       <license>BSD</license>
       <helpPatch>delay.axh</helpPatch>
       <inlets>
-         <frac32buffer name="size"/>
+         <frac32buffer name="size" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays/>

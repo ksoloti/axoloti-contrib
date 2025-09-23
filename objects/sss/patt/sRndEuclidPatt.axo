@@ -14,7 +14,7 @@ Width sets the width of the gates, being added to the random sequence.</sDescrip
          <bool32.rising name="rnd"/>
       </inlets>
       <outlets>
-         <frac32 name="rand"/>
+         <frac32 name="rand" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

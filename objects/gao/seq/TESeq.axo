@@ -8,7 +8,7 @@ https://en.wikipedia.org/wiki/Euclidean_rhythm</sDescription>
       <license>BSD</license>
       <helpPatch>TESeq.axh</helpPatch>
       <inlets>
-         <bool32.rising name="trig"/>
+         <bool32.rising name="trig" noLabel="true"/>
       </inlets>
       <outlets>
          <int32 name="buffer" description="buffer (uint8_t)"/>

@@ -9,7 +9,7 @@
          <bool32.rising name="r" description="Reset Pulse"/>
       </inlets>
       <outlets>
-         <frac32.bipolar name="out" description="Pattern Out (Bipolar)"/>
+         <frac32.bipolar name="out" description="Pattern Out (Bipolar)" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

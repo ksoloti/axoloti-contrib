@@ -37,7 +37,7 @@
          <bool32 name="active"/>
       </inlets>
       <outlets>
-         <frac32buffer.positive name="out" description="phasor wave"/>
+         <frac32buffer.positive name="out" description="phasor wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

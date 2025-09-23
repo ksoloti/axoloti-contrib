@@ -7,10 +7,10 @@ Range -64..64</sDescription>
       <license>BSD</license>
       <helpPatch>gaussian.axh</helpPatch>
       <inlets>
-         <bool32 name="trig"/>
+         <bool32 name="trig" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="white noise"/>
+         <frac32buffer.bipolar name="wave" description="white noise" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

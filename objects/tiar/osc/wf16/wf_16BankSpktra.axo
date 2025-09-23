@@ -26,10 +26,10 @@ The waveform is choosen with the int inlet &quot;select&quot;
       <helpPatch>wf_16BankSpktra.axh</helpPatch>
       <rotatedParams>true</rotatedParams>
       <inlets>
-         <int32 name="select"/>
+         <int32 name="select" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="waveform"/>
+         <frac32buffer.bipolar name="waveform" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

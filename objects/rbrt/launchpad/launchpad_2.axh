@@ -107,11 +107,11 @@
          <license>LGPL</license>
          <helpPatch>DCA.axh</helpPatch>
          <inlets>
-            <frac32buffer name="in" description="audio input"/>
-         </inlets>
+            <frac32buffer name="in" description="audio input" noLabel="true"/>
+      </inlets>
          <outlets>
-            <bool32.pulse name="trig"/>
-         </outlets>
+            <bool32.pulse name="trig" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs/>
@@ -404,8 +404,8 @@ outlet_out =___SMMUL(inlet_in<<3,env<<2);]]></code.srate>
                   <frac32.positive name="falltime"/>
                </inlets>
                <outlets>
-                  <frac32 name="out" description="output"/>
-               </outlets>
+                  <frac32 name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params/>
                <attribs/>
@@ -722,8 +722,8 @@ outlet_out =___SMMUL(inlet_in<<3,env<<2);]]></code.srate>
                   <frac32.positive name="falltime"/>
                </inlets>
                <outlets>
-                  <frac32 name="out" description="output"/>
-               </outlets>
+                  <frac32 name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params/>
                <attribs/>
@@ -1024,8 +1024,8 @@ outlet_out =___SMMUL(inlet_in<<3,env<<2);]]></code.srate>
                   <frac32.positive name="falltime"/>
                </inlets>
                <outlets>
-                  <frac32 name="out" description="output"/>
-               </outlets>
+                  <frac32 name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params/>
                <attribs/>
@@ -1258,8 +1258,8 @@ outlet_out =___SMMUL(inlet_in<<3,env<<2);]]></code.srate>
                   <frac32.positive name="falltime"/>
                </inlets>
                <outlets>
-                  <frac32 name="out" description="output"/>
-               </outlets>
+                  <frac32 name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params/>
                <attribs/>

@@ -4,10 +4,10 @@
       <license>LGPL</license>
       <helpPatch>radio.axh</helpPatch>
       <inlets>
-         <frac32.bipolar name="spectrum"/>
+         <frac32.bipolar name="spectrum" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="out"/>
+         <frac32buffer.bipolar name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

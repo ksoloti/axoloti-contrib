@@ -46,8 +46,8 @@
          <author>Remco van der Most</author>
          <license>BSD</license>
          <inlets>
-            <charptr32 name="filename"/>
-         </inlets>
+            <charptr32 name="filename" noLabel="true"/>
+      </inlets>
          <outlets>
             <frac32buffer name="out"/>
             <int32 name="countCreate"/>

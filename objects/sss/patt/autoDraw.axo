@@ -43,7 +43,7 @@ Connect a string-object for the filename and hit &quot;save&quot; to save.. and 
          <charptr32 name="filename"/>
       </inlets>
       <outlets>
-         <frac32 name="out"/>
+         <frac32 name="out" noLabel="true"/>
       </outlets>
       <displays>
          <int32.label name="__position"/>

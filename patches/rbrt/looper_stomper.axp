@@ -90,8 +90,8 @@
             <int32 name="high"/>
          </inlets>
          <outlets>
-            <bool32 name="out" description="out"/>
-         </outlets>
+            <bool32 name="out" description="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs/>

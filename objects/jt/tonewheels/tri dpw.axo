@@ -7,10 +7,10 @@ Range is midi note 24 to 119.</sDescription>
       <license>BSD</license>
       <helpPatch>tonewheels.axh</helpPatch>
       <inlets>
-         <frac32 name="phase"/>
+         <frac32 name="phase" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="sine wave"/>
+         <frac32buffer.bipolar name="wave" description="sine wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

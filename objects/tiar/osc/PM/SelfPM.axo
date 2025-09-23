@@ -14,7 +14,7 @@ fbMod modulates the feedback in the range [fb0 fb1]</sDescription>
          <frac32.positive name="fbMod" description="Feedback mod : [0 64] -&gt; [fb0 fb1]"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="selfPM wave"/>
+         <frac32buffer.bipolar name="wave" description="selfPM wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

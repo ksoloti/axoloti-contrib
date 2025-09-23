@@ -14,7 +14,7 @@ Just hit that randomise button until you hear a sweet patch, save it with the pr
       <helpPatch>hook.axh</helpPatch>
       <inlets/>
       <outlets>
-         <bool32 name="rndEQ"/>
+         <bool32 name="rndEQ" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

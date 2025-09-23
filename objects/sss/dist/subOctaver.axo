@@ -19,7 +19,7 @@ Crossfade mixes between original and modified signal</sDescription>
          <frac32 name="crossfade"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

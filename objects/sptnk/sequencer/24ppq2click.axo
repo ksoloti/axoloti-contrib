@@ -5,10 +5,10 @@ Provides a click when connected to 24ppq input.</sDescription>
       <author>Sputnki</author>
       <license>BSD</license>
       <inlets>
-         <int32 name="24ppq"/>
+         <int32 name="24ppq" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer name="o"/>
+         <frac32buffer name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

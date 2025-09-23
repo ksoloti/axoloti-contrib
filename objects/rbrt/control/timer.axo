@@ -6,10 +6,10 @@ if &apos;toggle&apos; is false,timer spits out the time</sDescription>
       <license>who cares</license>
       <helpPatch>timeri.axh</helpPatch>
       <inlets>
-         <bool32.risingfalling name="toggle" description="start counting,output the time interval"/>
+         <bool32.risingfalling name="toggle" description="start counting,output the time interval" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="t" description="time interval in k-rate ticks (0.333ms)"/>
+         <int32 name="t" description="time interval in k-rate ticks (0.333ms)" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

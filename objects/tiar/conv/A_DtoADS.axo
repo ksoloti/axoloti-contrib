@@ -5,7 +5,7 @@
       <license>LGPL</license>
       <helpPatch></helpPatch>
       <inlets>
-         <frac32 name="AD" description="in1"/>
+         <frac32 name="AD" description="in1" noLabel="true"/>
       </inlets>
       <outlets>
          <frac32 name="A" description="out"/>

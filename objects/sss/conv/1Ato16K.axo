@@ -5,7 +5,7 @@
       <license>BSD</license>
       <helpPatch>math.axh</helpPatch>
       <inlets>
-         <frac32buffer name="in"/>
+         <frac32buffer name="in" noLabel="true"/>
       </inlets>
       <outlets>
          <frac32 name="o1"/>

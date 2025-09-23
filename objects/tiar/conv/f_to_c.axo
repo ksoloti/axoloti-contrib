@@ -4,10 +4,10 @@
       <license>LGPL</license>
       <helpPatch></helpPatch>
       <inlets>
-         <frac32 name="i"/>
+         <frac32 name="i" noLabel="true"/>
       </inlets>
       <outlets>
-         <charptr32 name="o"/>
+         <charptr32 name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

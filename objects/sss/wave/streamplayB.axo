@@ -12,7 +12,7 @@
          <int32 name="sample"/>
       </inlets>
       <outlets>
-         <frac32buffer name="wave" description="wave"/>
+         <frac32buffer name="wave" description="wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

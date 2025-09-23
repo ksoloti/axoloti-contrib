@@ -10,7 +10,7 @@ if &apos;trig&apos; is high,puts out a fixed value of -666 ,THEN outputs and kee
          <bool32.rising name="trig" description="trigger"/>
       </inlets>
       <outlets>
-         <int32 name="out" description="output"/>
+         <int32 name="out" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

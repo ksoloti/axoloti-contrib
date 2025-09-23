@@ -5,10 +5,10 @@
       <license>BSD</license>
       <helpPatch>prob.axh</helpPatch>
       <inlets>
-         <frac32.bipolar name="i"/>
+         <frac32.bipolar name="i" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32.bipolar name="o"/>
+         <frac32.bipolar name="o" noLabel="true"/>
       </outlets>
       <displays>
          <bool32 name="on" noLabel="true"/>

@@ -9,7 +9,7 @@ if gate is false,the last input of in will be held.</sDescription>
          <bool32.risingfalling name="gate"/>
       </inlets>
       <outlets>
-         <frac32 name="out"/>
+         <frac32 name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

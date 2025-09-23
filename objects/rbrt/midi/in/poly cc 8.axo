@@ -5,7 +5,7 @@
       <license>BSD</license>
       <helpPatch>launchpad.axh</helpPatch>
       <inlets>
-         <int32 name="startcc"/>
+         <int32 name="startcc" noLabel="true"/>
       </inlets>
       <outlets>
          <frac32.positive name="cc0"/>

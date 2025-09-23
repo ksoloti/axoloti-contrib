@@ -25,7 +25,7 @@ B:1</sDescription>
          <int32 name="key"/>
       </inlets>
       <outlets>
-         <frac32 name="scaled"/>
+         <frac32 name="scaled" noLabel="true"/>
       </outlets>
       <displays>
          <bool32 name="C"/>

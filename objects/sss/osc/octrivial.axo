@@ -9,10 +9,10 @@ notes follow equal temperament based on the settings set by these controls.</sDe
       <author>Remco van der Most</author>
       <license>BSD</license>
       <inlets>
-         <int32 name="pitch"/>
+         <int32 name="pitch" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

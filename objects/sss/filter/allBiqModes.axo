@@ -12,7 +12,7 @@
          <frac32 name="invert"/>
       </inlets>
       <outlets>
-         <frac32buffer name="noise"/>
+         <frac32buffer name="noise" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -15,7 +15,7 @@ Just completely mashes up the waveform</sDescription>
          <frac32 name="dChg"/>
       </inlets>
       <outlets>
-         <frac32buffer name="o1"/>
+         <frac32buffer name="o1" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

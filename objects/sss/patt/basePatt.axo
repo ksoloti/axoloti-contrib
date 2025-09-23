@@ -13,7 +13,7 @@ Checking the &quot;nonseed&quot; box will use non-repeating random values instea
          <frac32 name="diffchance"/>
       </inlets>
       <outlets>
-         <int32 name="index"/>
+         <int32 name="index" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

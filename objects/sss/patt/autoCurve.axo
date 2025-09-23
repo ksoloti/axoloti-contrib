@@ -48,7 +48,7 @@ So it slowly starts changing and if times almost up, it quickly goes to it&apos;
          <frac32 name="mix"/>
       </inlets>
       <outlets>
-         <frac32 name="out"/>
+         <frac32 name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

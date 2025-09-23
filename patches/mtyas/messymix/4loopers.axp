@@ -55,8 +55,8 @@
             <frac32 name="l"/>
          </inlets>
          <outlets>
-            <frac32buffer name="pos"/>
-         </outlets>
+            <frac32buffer name="pos" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs/>
@@ -81,8 +81,8 @@
             <bool32.risingfalling name="rec" description="record"/>
          </inlets>
          <outlets>
-            <frac32.positive name="length"/>
-         </outlets>
+            <frac32.positive name="length" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs>
@@ -467,8 +467,8 @@ if (csample == spos){
             <bool32.rising name="reset" description="reset phase"/>
          </inlets>
          <outlets>
-            <bool32 name="wave" description="square wave"/>
-         </outlets>
+            <bool32 name="wave" description="square wave" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs/>

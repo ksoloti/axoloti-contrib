@@ -10,7 +10,7 @@ integer version.</sDescription>
          <bool32.risingfalling name="gate"/>
       </inlets>
       <outlets>
-         <int32 name="out"/>
+         <int32 name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

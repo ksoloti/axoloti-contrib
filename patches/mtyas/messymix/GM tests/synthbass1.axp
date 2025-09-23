@@ -89,11 +89,11 @@ based on a three stage CIC filter</sDescription>
          <author>Johannes Taelman</author>
          <license>GPL</license>
          <inlets>
-            <frac32.bipolar name="pitch"/>
-         </inlets>
+            <frac32.bipolar name="pitch" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32buffer name="out"/>
-         </outlets>
+            <frac32buffer name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.pitch name="pitch"/>
@@ -248,11 +248,11 @@ based on a three stage CIC filter</sDescription>
          <author>Johannes Taelman</author>
          <license>GPL</license>
          <inlets>
-            <frac32.bipolar name="pitch"/>
-         </inlets>
+            <frac32.bipolar name="pitch" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32buffer name="out"/>
-         </outlets>
+            <frac32buffer name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.pitch name="pitch"/>
@@ -387,11 +387,11 @@ p4 = d_3;
       <object id="patch/object" uuid="ae5ef3cf-ae38-4534-87b8-33bdc7680f0f">
          <sDescription>pdm square wave oscillator</sDescription>
          <inlets>
-            <frac32.bipolar name="pitch"/>
-         </inlets>
+            <frac32.bipolar name="pitch" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32buffer name="out"/>
-         </outlets>
+            <frac32buffer name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.pitch name="pitch"/>
@@ -441,11 +441,11 @@ Additional [1+z^-1] filter added to attenuate near Nyquist.</sDescription>
          <author>Johannes Taelman</author>
          <license>GPL</license>
          <inlets>
-            <frac32buffer name="pdm"/>
-         </inlets>
+            <frac32buffer name="pdm" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32buffer.bipolar name="out"/>
-         </outlets>
+            <frac32buffer.bipolar name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs/>

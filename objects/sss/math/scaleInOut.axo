@@ -6,10 +6,10 @@ with outMin and outMax, you set the width of the outgoing signal</sDescription>
       <author>Remco van der Most</author>
       <license>BSD</license>
       <inlets>
-         <frac32 name="in"/>
+         <frac32 name="in" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32 name="out"/>
+         <frac32 name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -4,7 +4,7 @@
       <author>robert schirmer</author>
       <license>who cares</license>
       <inlets>
-         <int32 name="offset" description="sets an offset for writing to the table"/>
+         <int32 name="offset" description="sets an offset for writing to the table" noLabel="true"/>
       </inlets>
       <outlets>
          <frac32 name="v0"/>

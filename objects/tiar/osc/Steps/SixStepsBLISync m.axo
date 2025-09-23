@@ -16,7 +16,7 @@
          <frac32.bipolar name="level5"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="out" description=""/>
+         <frac32buffer.bipolar name="out" description="" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

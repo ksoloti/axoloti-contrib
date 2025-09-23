@@ -16,10 +16,10 @@ And so on....</sDescription>
       <license>BSD</license>
       <helpPatch>table.axh</helpPatch>
       <inlets>
-         <int32.positive name="a" description="index"/>
+         <int32.positive name="a" description="index" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32.positive name="o"/>
+         <int32.positive name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

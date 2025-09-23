@@ -6,7 +6,7 @@
          <int32.positive name="brightness"/>
       </inlets>
       <outlets>
-         <int32 name="color"/>
+         <int32 name="color" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

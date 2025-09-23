@@ -562,8 +562,8 @@ if ((status == MIDI_NOTE_ON + (attr_lowerchannel-1)) && (data2)) {
             <frac32buffer.bipolar name="lower"/>
          </inlets>
          <outlets>
-            <frac32buffer.bipolar name="out"/>
-         </outlets>
+            <frac32buffer.bipolar name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.u.map name="vibrato"/>

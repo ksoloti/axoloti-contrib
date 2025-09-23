@@ -5,7 +5,7 @@
       <license>LGPL</license>
       <rotatedParams>true</rotatedParams>
       <inlets>
-         <frac32buffer.bipolar name="wf12" description="wf12 waveform"/>
+         <frac32buffer.bipolar name="wf12" description="wf12 waveform" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays>

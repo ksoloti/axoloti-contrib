@@ -10,7 +10,7 @@
          <frac32 name="open"/>
       </inlets>
       <outlets>
-         <frac32buffer.positive name="wave" description="phasor wave"/>
+         <frac32buffer.positive name="wave" description="phasor wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

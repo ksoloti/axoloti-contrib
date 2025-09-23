@@ -6,10 +6,10 @@
       <helpPatch>wf_12Scan1.axh</helpPatch>
       <rotatedParams>true</rotatedParams>
       <inlets>
-         <frac32 name="scan"/>
+         <frac32 name="scan" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wf12"/>
+         <frac32buffer.bipolar name="wf12" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

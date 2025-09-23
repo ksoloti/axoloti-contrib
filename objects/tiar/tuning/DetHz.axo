@@ -13,7 +13,7 @@
          <frac32.bipolar name="detHz"/>
       </inlets>
       <outlets>
-         <frac32 name="pitch"/>
+         <frac32 name="pitch" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

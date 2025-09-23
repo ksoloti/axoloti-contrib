@@ -10,7 +10,7 @@
          <frac32 name="offset"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="out"/>
+         <frac32buffer name="out" description="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

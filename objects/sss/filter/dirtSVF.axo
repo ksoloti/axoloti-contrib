@@ -19,7 +19,7 @@ bandpass gain can be increased, forcing it to clip the signal.
          <frac32 name="gain"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="filter output"/>
+         <frac32buffer name="out" description="filter output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

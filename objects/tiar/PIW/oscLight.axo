@@ -10,7 +10,7 @@
          <bool32 name="disable" description="disables the object"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave"/>
+         <frac32buffer.bipolar name="wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

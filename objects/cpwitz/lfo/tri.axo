@@ -8,7 +8,7 @@
          <bool32.rising name="reset" description="reset phase"/>
       </inlets>
       <outlets>
-         <frac32.bipolar name="wave" description="triangle wave"/>
+         <frac32.bipolar name="wave" description="triangle wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

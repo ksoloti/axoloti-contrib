@@ -12,7 +12,7 @@ To be used with the divide-outputs of the table-oscillators/LFO&apos;s to scale 
          <frac32buffer name="amp"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

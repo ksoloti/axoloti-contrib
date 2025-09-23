@@ -20,7 +20,7 @@ G=gain</sDescription>
          <frac32 name="G3"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="filter output"/>
+         <frac32buffer name="out" description="filter output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

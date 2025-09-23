@@ -16,11 +16,11 @@
          <author>Johannes Taelman</author>
          <license>BSD</license>
          <inlets>
-            <frac32 name="i" description="input"/>
-         </inlets>
+            <frac32 name="i" description="input" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32 name="o" description="output"/>
-         </outlets>
+            <frac32 name="o" description="output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs/>
@@ -106,11 +106,11 @@ based on a three stage CIC filter</sDescription>
          <author>Johannes Taelman</author>
          <license>GPL</license>
          <inlets>
-            <frac32.bipolar name="pitch"/>
-         </inlets>
+            <frac32.bipolar name="pitch" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32buffer name="out"/>
-         </outlets>
+            <frac32buffer name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.pitch name="pitch"/>
@@ -239,8 +239,8 @@ The cutoff frequency is limited to 9.4kHz. For higher cutoff frequencies, use th
             <frac32.positive name="reso"/>
          </inlets>
          <outlets>
-            <frac32buffer name="out"/>
-         </outlets>
+            <frac32buffer name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.pitch name="pitch"/>
@@ -414,11 +414,11 @@ if (cutoff>0) {
          <license>GPL</license>
          <helpPatch>class a.axh</helpPatch>
          <inlets>
-            <frac32buffer name="in" description="input"/>
-         </inlets>
+            <frac32buffer name="in" description="input" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32buffer name="out" description="output"/>
-         </outlets>
+            <frac32buffer name="out" description="output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.u.map name="drive" description="overdrivel level" noLabel="true"/>
@@ -464,11 +464,11 @@ based on a three stage CIC filter</sDescription>
          <author>Johannes Taelman</author>
          <license>GPL</license>
          <inlets>
-            <frac32.bipolar name="pitch"/>
-         </inlets>
+            <frac32.bipolar name="pitch" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32buffer name="out"/>
-         </outlets>
+            <frac32buffer name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.pitch name="pitch"/>
@@ -603,11 +603,11 @@ p4 = d_3;
       <object id="patch/object" uuid="ae5ef3cf-ae38-4534-87b8-33bdc7680f0f">
          <sDescription>pdm square wave oscillator</sDescription>
          <inlets>
-            <frac32.bipolar name="pitch"/>
-         </inlets>
+            <frac32.bipolar name="pitch" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32buffer name="out"/>
-         </outlets>
+            <frac32buffer name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.pitch name="pitch"/>
@@ -657,11 +657,11 @@ Additional [1+z^-1] filter added to attenuate near Nyquist.</sDescription>
          <author>Johannes Taelman</author>
          <license>GPL</license>
          <inlets>
-            <frac32buffer name="pdm"/>
-         </inlets>
+            <frac32buffer name="pdm" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32buffer.bipolar name="out"/>
-         </outlets>
+            <frac32buffer.bipolar name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs/>

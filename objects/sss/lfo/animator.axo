@@ -12,7 +12,7 @@ Use the table save/load module to save this table after you&apos;re finished edi
          <int32 name="preset"/>
       </inlets>
       <outlets>
-         <frac32 name="1"/>
+         <frac32 name="1" noLabel="true"/>
       </outlets>
       <displays>
          <bool32 name="used" noLabel="true"/>

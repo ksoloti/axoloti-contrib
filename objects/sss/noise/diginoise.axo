@@ -9,7 +9,7 @@ Range -64..64</sDescription>
          <frac32buffer name="cut"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="white noise"/>
+         <frac32buffer.bipolar name="wave" description="white noise" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

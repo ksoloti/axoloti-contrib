@@ -6,10 +6,10 @@ Ratio is 1:1 for octaves-&gt;no change. Notes not in the scale will just be tran
       <author>Remco van der Most</author>
       <license>BSD</license>
       <inlets>
-         <int32 name="note"/>
+         <int32 name="note" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="note"/>
+         <int32 name="note" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

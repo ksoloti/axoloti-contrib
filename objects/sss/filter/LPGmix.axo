@@ -10,7 +10,7 @@ When input v goes up, crossfades from sine input to harmonics input, while openi
          <frac32buffer name="harmonics"/>
       </inlets>
       <outlets>
-         <frac32buffer name="o" description="output"/>
+         <frac32buffer name="o" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

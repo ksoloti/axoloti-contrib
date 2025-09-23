@@ -26,7 +26,7 @@ I&apos;m making this so much harder to understand then I should.... haha</sDescr
          <frac32 name="delay"/>
       </inlets>
       <outlets>
-         <frac32buffer name="HQ"/>
+         <frac32buffer name="HQ" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

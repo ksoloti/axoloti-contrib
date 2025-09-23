@@ -12,7 +12,7 @@ Plus  lp1 m lopass filter.</sDescription>
          <frac32.positive name="pos" description="start position in table"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="wave"/>
+         <frac32buffer name="out" description="wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

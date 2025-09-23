@@ -4,10 +4,10 @@
       <author>Simon Iten</author>
       <license>GPL</license>
       <inlets>
-         <bool32 name="gate"/>
+         <bool32 name="gate" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32.positive name="out"/>
+         <frac32.positive name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -38,8 +38,8 @@
             <bool32.rising name="reset" description="Reset phase"/>
          </inlets>
          <outlets>
-            <frac32.positive name="tri" description="Triangle wave"/>
-         </outlets>
+            <frac32.positive name="tri" description="Triangle wave" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.lfopitch name="pitch" noLabel="true"/>

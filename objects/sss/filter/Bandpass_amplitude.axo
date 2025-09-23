@@ -17,7 +17,7 @@ Resonance path has saturation, creating grit here and there.</sDescription>
          <frac32 name="emphasis"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="filter output"/>
+         <frac32buffer name="out" description="filter output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

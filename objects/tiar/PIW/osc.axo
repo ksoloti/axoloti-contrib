@@ -15,7 +15,7 @@ Experimental.
          <frac32.bipolar name="disto offset"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave"/>
+         <frac32buffer.bipolar name="wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

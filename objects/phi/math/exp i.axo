@@ -3,10 +3,10 @@
       <sDescription> pow(2.inlet_in) </sDescription>
       <license>GPL</license>
       <inlets>
-         <int32 name="in"/>
+         <int32 name="in" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="out"/>
+         <int32 name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

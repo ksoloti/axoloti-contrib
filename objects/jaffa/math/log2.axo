@@ -8,10 +8,10 @@ When the math/log from the factory library is set to zero it sends out -64 value
       <license>BSD</license>
       <helpPatch>math.axh</helpPatch>
       <inlets>
-         <frac32.positive name="a" description="input"/>
+         <frac32.positive name="a" description="input" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32 name="o" description="output"/>
+         <frac32 name="o" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

@@ -10,7 +10,7 @@
          <frac32 name="feed" description="amount of feedback"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

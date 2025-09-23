@@ -10,7 +10,7 @@ Two oscillators, two frequencies (fA, FB), but one frequency &quot;hit&quot; sta
          <frac32 name="negDec"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -49,7 +49,7 @@ the next two are for adjusting the play-position or to shuffle the loop by an ex
          <int32 name="size"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

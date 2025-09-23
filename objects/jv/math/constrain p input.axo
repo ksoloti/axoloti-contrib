@@ -10,7 +10,7 @@
          <frac32.positive name="max" description="maximum"/>
       </inlets>
       <outlets>
-         <frac32.positive name="out" description="output"/>
+         <frac32.positive name="out" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

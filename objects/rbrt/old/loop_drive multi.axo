@@ -16,7 +16,7 @@ the phase</sDescription>
          <bool32.rising name="reset" description="reset phase"/>
       </inlets>
       <outlets>
-         <frac32buffer.positive name="slot" description="phase to read from an area of a table,defined by range and offset"/>
+         <frac32buffer.positive name="slot" description="phase to read from an area of a table,defined by range and offset" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

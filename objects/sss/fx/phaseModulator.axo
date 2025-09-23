@@ -18,7 +18,7 @@ connect a modulation LFO/envelope to the pm input.</sDescription>
          <frac32 name="pm"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="output"/>
+         <frac32buffer name="out" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -17,7 +17,7 @@ When sending out over external midi device, host or usb, you can select any outp
       <license>BSD</license>
       <helpPatch>midi_in.axh</helpPatch>
       <inlets>
-         <int32 name="priority" description="0=last,1=lowest,2=highest,3=loudest. Note priority updates only when notes on/off are generated."/>
+         <int32 name="priority" description="0=last,1=lowest,2=highest,3=loudest. Note priority updates only when notes on/off are generated." noLabel="true"/>
       </inlets>
       <outlets/>
       <displays/>

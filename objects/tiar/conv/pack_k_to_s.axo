@@ -23,7 +23,7 @@
          <frac32.bipolar name="k15" description="k15"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="packed" description="packed"/>
+         <frac32buffer.bipolar name="packed" description="packed" noLabel="true"/>
       </outlets>
       <displays/>
       <params></params>

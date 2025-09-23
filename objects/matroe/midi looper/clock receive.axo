@@ -15,7 +15,7 @@ the metoronom just puts out a 4 to the floor pulse (banging)</sDescription>
       <license>two slices of cheese per every time the object is used to play a frat party, please</license>
       <helpPatch>midi looper help.axh</helpPatch>
       <inlets>
-         <bool32 name="quantize"/>
+         <bool32 name="quantize" noLabel="true"/>
       </inlets>
       <outlets>
          <bool32 name="active"/>

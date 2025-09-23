@@ -20,7 +20,7 @@ below the continuous controls, we got &quot;fixed&quot; controls, even though yo
          <frac32 name="start"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="sine wave"/>
+         <frac32buffer.bipolar name="wave" description="sine wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

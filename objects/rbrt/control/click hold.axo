@@ -7,7 +7,7 @@ outputs a pulse at the respective outlet on release of the button and the curren
       <license>BSD</license>
       <helpPatch>clickhold.axh</helpPatch>
       <inlets>
-         <bool32.risingfalling name="gate"/>
+         <bool32.risingfalling name="gate" noLabel="true"/>
       </inlets>
       <outlets>
          <bool32.pulse name="no" description="&lt; short  (if gate == 0)"/>

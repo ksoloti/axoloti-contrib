@@ -7,7 +7,7 @@ notecount puts out the number of notes curently on hold,hold is 1 if any keys ar
       <license>BSD</license>
       <helpPatch>poly.axh</helpPatch>
       <inlets>
-         <bool32.rising name="clear"/>
+         <bool32.rising name="clear" noLabel="true"/>
       </inlets>
       <outlets>
          <int32 name="currentNote" description="note number of active key"/>

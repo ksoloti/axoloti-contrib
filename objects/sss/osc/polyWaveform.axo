@@ -24,7 +24,7 @@ connect note patterns to the note(1-4) inputs, these will be scaled to the selec
          <bool32 name="active"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

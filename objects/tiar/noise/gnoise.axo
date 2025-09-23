@@ -10,7 +10,7 @@
          <frac32 name="slide"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="out" description="impulses"/>
+         <frac32buffer.bipolar name="out" description="impulses" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -16,7 +16,7 @@ The purpose opf this object is to create length when connected to a sequence so 
          <bool32 name="restart"/>
       </inlets>
       <outlets>
-         <int32 name="o" description="output"/>
+         <int32 name="o" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

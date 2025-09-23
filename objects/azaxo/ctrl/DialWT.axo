@@ -6,7 +6,7 @@
       <helpPatch></helpPatch>
       <inlets/>
       <outlets>
-         <frac32.positive name="out" description="output"/>
+         <frac32.positive name="out" description="output" noLabel="true"/>
       </outlets>
       <displays>
          <int32.label name="table" noLabel="true"/>

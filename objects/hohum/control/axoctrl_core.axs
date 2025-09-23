@@ -83,8 +83,8 @@
          <license>BSD</license>
          <helpPatch>pwm.axh</helpPatch>
          <inlets>
-            <frac32.positive name="pb0" description="pwm ratio"/>
-         </inlets>
+            <frac32.positive name="pb0" description="pwm ratio" noLabel="true"/>
+      </inlets>
          <outlets/>
          <displays/>
          <params/>
@@ -213,8 +213,8 @@ pwmStart(&PWMD3, &pwmcfg);
          <author>Johannes Taelman</author>
          <license>BSD</license>
          <inlets>
-            <frac32 name="PA5" description="voltage ratio (64u = 3.3V)"/>
-         </inlets>
+            <frac32 name="PA5" description="voltage ratio (64u = 3.3V)" noLabel="true"/>
+      </inlets>
          <outlets/>
          <displays/>
          <params/>

@@ -4,7 +4,7 @@
       <author>robert schirmer</author>
       <license>BSD</license>
       <inlets>
-         <int32 name="startnote"/>
+         <int32 name="startnote" noLabel="true"/>
       </inlets>
       <outlets>
          <bool32 name="g0"/>

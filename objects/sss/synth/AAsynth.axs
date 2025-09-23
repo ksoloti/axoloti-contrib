@@ -79,8 +79,8 @@ outlet_polyindex=(parent->polyIndex);]]></code.krate>
          <license>BSD</license>
          <helpPatch>osc.axh</helpPatch>
          <inlets>
-            <frac32.bipolar name="pitch" description="pitch"/>
-         </inlets>
+            <frac32.bipolar name="pitch" description="pitch" noLabel="true"/>
+      </inlets>
          <outlets>
             <frac32buffer.bipolar name="wave" description="sine wave"/>
             <frac32 name="p"/>
@@ -154,11 +154,11 @@ outlet_wave= (r>>4);]]></code.srate>
          <license>BSD</license>
          <helpPatch>math.axh</helpPatch>
          <inlets>
-            <frac32buffer name="in" description="input"/>
-         </inlets>
+            <frac32buffer name="in" description="input" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32buffer name="out" description="output"/>
-         </outlets>
+            <frac32buffer name="out" description="output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.u.map.gain name="amp" noLabel="true"/>

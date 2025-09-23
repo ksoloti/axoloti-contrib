@@ -11,7 +11,7 @@
          <bool32.risingfalling name="g" description="gate"/>
       </inlets>
       <outlets>
-         <frac32buffer name="o"/>
+         <frac32buffer name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

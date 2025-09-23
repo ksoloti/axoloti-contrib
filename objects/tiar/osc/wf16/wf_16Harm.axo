@@ -6,10 +6,10 @@
       <helpPatch>wf_16Harm.axh</helpPatch>
       <rotatedParams>true</rotatedParams>
       <inlets>
-         <bool32 name="update"/>
+         <bool32 name="update" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wf16"/>
+         <frac32buffer.bipolar name="wf16" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

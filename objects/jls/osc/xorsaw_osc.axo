@@ -9,7 +9,7 @@
          <frac32.bipolar name="pitch2" description="pitch 2"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="Xor saw"/>
+         <frac32buffer.bipolar name="wave" description="Xor saw" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

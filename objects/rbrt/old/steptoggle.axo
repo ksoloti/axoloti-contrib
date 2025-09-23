@@ -10,7 +10,7 @@
          <bool32 name="trig" description="toggle step"/>
       </inlets>
       <outlets>
-         <bool32 name="feedback" description="state of step"/>
+         <bool32 name="feedback" description="state of step" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

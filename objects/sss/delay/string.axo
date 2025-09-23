@@ -32,7 +32,7 @@ t1, t2, t3 are three tap-positions within the delayline, which are combined to c
          <frac32 name="strike"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

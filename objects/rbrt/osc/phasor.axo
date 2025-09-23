@@ -9,7 +9,7 @@
          <bool32.rising name="reset" description="reset phase"/>
       </inlets>
       <outlets>
-         <frac32buffer name="wave"/>
+         <frac32buffer name="wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

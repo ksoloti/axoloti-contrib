@@ -31,7 +31,7 @@ It is **anti aliased** with an algorithm that is based on both BLEPs and DPWs...
          <int32 name="i8"/>
       </inlets>
       <outlets>
-         <frac32buffer name="o"/>
+         <frac32buffer name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

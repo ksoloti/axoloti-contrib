@@ -5,8 +5,8 @@
     <author>Are Leistad</author>
     <license>BSD</license>
     <inlets>
-      <frac32.positive name="v" description="value"/>
-    </inlets>
+      <frac32.positive name="v" description="value" noLabel="true"/>
+      </inlets>
     <outlets>
     </outlets>
     <params>

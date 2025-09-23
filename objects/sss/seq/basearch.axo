@@ -17,7 +17,7 @@ The controls:
          <bool32 name="rnd" description="when this goes high, selects a random preset as long as input is high. When low, the output goes back to following the selected preset."/>
       </inlets>
       <outlets>
-         <int32.positive name="out" description="preset selection output"/>
+         <int32.positive name="out" description="preset selection output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

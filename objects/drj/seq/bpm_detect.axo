@@ -4,8 +4,8 @@
     <author>Are Leistad</author>
     <license>BSD</license>
     <inlets>
-      <frac32 name="in" description="Time base input"/>
-    </inlets>
+      <frac32 name="in" description="Time base input" noLabel="true"/>
+      </inlets>
     <outlets>
       <int32.positive  name="bpm"     description="BPM integer"/>
       <int32.positive  name="dec"     description="BPM tenths"/>

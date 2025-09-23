@@ -21,7 +21,7 @@
          <int32 name="samples"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="table[a]"/>
+         <frac32buffer name="out" description="table[a]" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

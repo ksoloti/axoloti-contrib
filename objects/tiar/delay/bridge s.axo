@@ -6,7 +6,7 @@
       <license>LGPL</license>
       <helpPatch>bridge simple.axh</helpPatch>
       <inlets>
-         <frac32.bipolar name="theta"/>
+         <frac32.bipolar name="theta" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays/>

@@ -16,7 +16,7 @@ Has a linear and exponential output-jump size, causing it to skip inputs and gen
          <frac32 name="i7"/>
       </inlets>
       <outlets>
-         <frac32 name="out" description="output"/>
+         <frac32 name="out" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

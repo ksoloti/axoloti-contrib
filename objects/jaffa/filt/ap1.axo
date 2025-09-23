@@ -11,7 +11,7 @@ NB. This version of an allpass filter has NO delay, just a straight up allpass f
          <frac32 name="freq" description="cutoff frequency"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="output"/>
+         <frac32buffer name="out" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

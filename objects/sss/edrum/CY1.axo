@@ -10,10 +10,10 @@ D2 sets the end part of the decay rate as the decay reaches zero. Use this to sh
       <author>Remco van der Most</author>
       <license>BSD</license>
       <inlets>
-         <bool32.rising name="gate"/>
+         <bool32.rising name="gate" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -9,7 +9,7 @@
          <frac32.bipolar name="pw"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="pulse" description="sawtooth wave"/>
+         <frac32buffer.bipolar name="pulse" description="sawtooth wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

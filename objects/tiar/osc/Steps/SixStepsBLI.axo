@@ -8,7 +8,7 @@
          <bool32 name="disable"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="out" description=""/>
+         <frac32buffer.bipolar name="out" description="" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

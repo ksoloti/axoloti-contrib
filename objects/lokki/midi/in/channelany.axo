@@ -5,7 +5,7 @@
       <license>BSD</license>
       <inlets/>
       <outlets>
-         <int32.positive name="channel" description="midi channel 1..16"/>
+         <int32.positive name="channel" description="midi channel 1..16" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

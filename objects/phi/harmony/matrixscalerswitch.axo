@@ -10,8 +10,8 @@
       <int32.bipolar name="transafter"/>
    </inlets>
    <outlets>
-      <int32.bipolar name="o"/>
-   </outlets>
+      <int32.bipolar name="o" noLabel="true"/>
+      </outlets>
    <displays/>
    <params> 
       <bool32.tgl name="in"/>

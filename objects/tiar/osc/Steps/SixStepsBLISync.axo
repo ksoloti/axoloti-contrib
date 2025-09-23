@@ -10,7 +10,7 @@
          <frac32.bipolar name="pitch master"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="out" description=""/>
+         <frac32buffer.bipolar name="out" description="" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

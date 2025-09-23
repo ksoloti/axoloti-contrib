@@ -26,7 +26,7 @@ The SVF-filter adds a lot of resonance and enables the effect to scream quite a 
          <frac32 name="cutoff"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

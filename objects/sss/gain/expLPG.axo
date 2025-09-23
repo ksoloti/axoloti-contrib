@@ -13,7 +13,7 @@ both the VCA-level and lowpass-frequency have curve-controls. Counter-clockwise 
          <frac32 name="cutoff"/>
       </inlets>
       <outlets>
-         <frac32buffer name="o" description="output"/>
+         <frac32buffer name="o" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

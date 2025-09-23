@@ -409,8 +409,8 @@ percussion_gain = ___SMMLS(percussion_gain,decay,percussion_gain);]]></code.krat
             <frac32buffer.bipolar name="lower"/>
          </inlets>
          <outlets>
-            <frac32buffer.bipolar name="out"/>
-         </outlets>
+            <frac32buffer.bipolar name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.u.map name="vibrato"/>

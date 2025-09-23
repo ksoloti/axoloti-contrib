@@ -6,10 +6,10 @@ trigger at inlet &apos;reset&apos; will set the output to &apos;default&apos;</s
       <license>who cares</license>
       <helpPatch>ctrl.axh</helpPatch>
       <inlets>
-         <bool32.rising name="reset" description="reset output to default"/>
+         <bool32.rising name="reset" description="reset output to default" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32.bipolar name="out" description="output"/>
+         <frac32.bipolar name="out" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

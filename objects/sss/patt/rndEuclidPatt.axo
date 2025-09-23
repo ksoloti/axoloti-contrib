@@ -14,7 +14,7 @@ Rwidth(1-4) set the width of the euclidian gates, being added to the pattern.</s
          <bool32.rising name="rnd"/>
       </inlets>
       <outlets>
-         <frac32 name="rand"/>
+         <frac32 name="rand" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

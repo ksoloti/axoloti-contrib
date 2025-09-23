@@ -7,7 +7,7 @@ else, outlet &apos;1to0&apos;.</sDescription>
       <license>BSD</license>
       <helpPatch>pulselength.axh</helpPatch>
       <inlets>
-         <bool32.risingfalling name="bool"/>
+         <bool32.risingfalling name="bool" noLabel="true"/>
       </inlets>
       <outlets>
          <bool32.pulse name="change"/>

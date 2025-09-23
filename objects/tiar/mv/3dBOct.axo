@@ -4,7 +4,7 @@
       <license>LGPL</license>
       <rotatedParams>true</rotatedParams>
       <inlets>
-         <bool32 name="disable"/>
+         <bool32 name="disable" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays/>

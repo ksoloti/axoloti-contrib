@@ -97,8 +97,8 @@
       <object id="patch/object" uuid="691bf902-c228-4139-ac7d-0a7d4ea55818">
          <sDescription></sDescription>
          <inlets>
-            <int32 name="offset"/>
-         </inlets>
+            <int32 name="offset" noLabel="true"/>
+      </inlets>
          <outlets>
             <bool32.pulse name="o0"/>
             <bool32.pulse name="o1"/>

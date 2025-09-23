@@ -11,7 +11,7 @@
          <int32 name="length" description="length of area"/>
       </inlets>
       <outlets>
-         <bool32.pulse name="done" description="done saving"/>
+         <bool32.pulse name="done" description="done saving" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

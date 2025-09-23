@@ -9,7 +9,7 @@
          <bool32.rising name="trig2" description="trigger 2"/>
       </inlets>
       <outlets>
-         <bool32 name="gate" description="gate"/>
+         <bool32 name="gate" description="gate" noLabel="true"/>
       </outlets>
       <displays>
          <bool32 name="gate" noLabel="true"/>

@@ -4,7 +4,7 @@
       <author>Remco van der Most</author>
       <license>BSD</license>
       <inlets>
-         <bool32.rising name="trig" description="trigger"/>
+         <bool32.rising name="trig" description="trigger" noLabel="true"/>
       </inlets>
       <outlets>
          <bool32 name="A"/>

@@ -10,7 +10,7 @@ cheap and dirty mod of &apos;wrap&apos;</sDescription>
          <int32 name="bits"/>
       </inlets>
       <outlets>
-         <frac32buffer.positive name="out" description="quant(a)"/>
+         <frac32buffer.positive name="out" description="quant(a)" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

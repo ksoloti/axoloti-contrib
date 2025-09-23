@@ -11,7 +11,7 @@ will record for exactly 1 phase (well,bar...)</sDescription>
          <bool32.rising name="rec" description="trigger recording"/>
       </inlets>
       <outlets>
-         <bool32 name="recstate" description="recording state"/>
+         <bool32 name="recstate" description="recording state" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

@@ -4,10 +4,10 @@
       <license>LGPL</license>
       <helpPatch>6coseg.axh</helpPatch>
       <inlets>
-         <frac32.bipolar name="pitch" description="pitch"/>
+         <frac32.bipolar name="pitch" description="pitch" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave"/>
+         <frac32buffer.bipolar name="wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

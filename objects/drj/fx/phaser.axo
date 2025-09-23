@@ -261,8 +261,8 @@
       <int32.positive       name="stages"   description="Number of stages, 0 = bypass"/>
     </inlets>
     <outlets>
-      <frac32buffer.bipolar name="out"   description="Mix output"/>
-    </outlets>
+      <frac32buffer.bipolar name="out"   description="Mix output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params>
     </params>

@@ -5,7 +5,7 @@
       <license>LGPL</license>
       <helpPatch>risset5.axh</helpPatch>
       <inlets>
-         <frac32.bipolar name="pitch" description="pitch"/>
+         <frac32.bipolar name="pitch" description="pitch" noLabel="true"/>
       </inlets>
       <outlets>
          <frac32 name="env1"/>

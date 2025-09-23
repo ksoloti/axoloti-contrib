@@ -16,7 +16,7 @@ Seperate triggers for open&amp;closed.
          <frac32 name="size"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="out1"/>
+         <frac32buffer name="out" description="out1" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

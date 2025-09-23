@@ -9,7 +9,7 @@
          <int32 name="m" description="Modulo range"/>
       </inlets>
       <outlets>
-         <int32 name="o" description="Output"/>
+         <int32 name="o" description="Output" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

@@ -14,7 +14,7 @@
          <int32.positive name="selectslice" description="Select slice"/>
       </inlets>
       <outlets>
-         <frac32buffer name="wave" description="wave"/>
+         <frac32buffer name="wave" description="wave" noLabel="true"/>
       </outlets>
       <displays>
          <int32.label name="NrOfSlices" noLabel="true"/>

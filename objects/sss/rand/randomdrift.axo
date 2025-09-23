@@ -5,7 +5,7 @@
       <license>BSD</license>
       <inlets/>
       <outlets>
-         <frac32.bipolar name="random"/>
+         <frac32.bipolar name="random" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

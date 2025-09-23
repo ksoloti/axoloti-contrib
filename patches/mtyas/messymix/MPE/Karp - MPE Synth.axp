@@ -237,8 +237,8 @@ outlet_pitch = _pitch;
                   <frac32.bipolar name="bal"/>
                </inlets>
                <outlets>
-                  <frac32 name="out"/>
-               </outlets>
+                  <frac32 name="out" noLabel="true"/>
+      </outlets>
                <displays/>
                <params/>
                <attribs/>
@@ -275,11 +275,11 @@ else
                <license>BSD</license>
                <helpPatch>math.axh</helpPatch>
                <inlets>
-                  <frac32 name="in" description="in"/>
-               </inlets>
+                  <frac32 name="in" description="in" noLabel="true"/>
+      </inlets>
                <outlets>
-                  <bool32 name="out" description="out"/>
-               </outlets>
+                  <bool32 name="out" description="out" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map name="c"/>

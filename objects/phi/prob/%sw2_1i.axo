@@ -9,7 +9,7 @@
          <int32 name="i2"/>
       </inlets>
       <outlets>
-         <int32 name="o"/>
+         <int32 name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

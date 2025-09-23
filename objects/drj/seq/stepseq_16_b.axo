@@ -4,8 +4,8 @@
     <author>Are Leistad</author>
     <license>BSD</license>
     <inlets>
-      <int32 name="step" description="Step select input"/>
-    </inlets>
+      <int32 name="step" description="Step select input" noLabel="true"/>
+      </inlets>
     <outlets>
       <int32  name="chain" description="Chain step output"/>
       <frac32 name="out"  description="Bipolar output"/>
@@ -35,8 +35,8 @@
     <author>Are Leistad</author>
     <license>BSD</license>
     <inlets>
-      <int32 name="step" description="Step select input"/>
-    </inlets>
+      <int32 name="step" description="Step select input" noLabel="true"/>
+      </inlets>
     <outlets>
       <int32  name="chain" description="Chain step output"/>
       <frac32 name="out"  description="Bipolar output"/>
@@ -74,8 +74,8 @@
     <author>Are Leistad</author>
     <license>BSD</license>
     <inlets>
-      <int32 name="step" description="Step select input"/>
-    </inlets>
+      <int32 name="step" description="Step select input" noLabel="true"/>
+      </inlets>
     <outlets>
       <int32  name="chain" description="Chain step output"/>
       <frac32 name="out"  description="Bipolar output"/>

@@ -9,8 +9,8 @@ This does NOT follow the tuning deviation of the upper 7 tonewheels of the B3 as
          <license>BSD</license>
          <helpPatch>tuning.axh</helpPatch>
          <inlets>
-            <frac32 name="detune" description="in semitones"/>
-         </inlets>
+            <frac32 name="detune" description="in semitones" noLabel="true"/>
+      </inlets>
          <outlets/>
          <displays/>
          <params/>
@@ -253,8 +253,8 @@ No amplitude interpolation.</sDescription>
          <helpPatch>tonewheels.axh</helpPatch>
          <inlets/>
          <outlets>
-            <frac32buffer.bipolar name="wave" description="sine wave"/>
-         </outlets>
+            <frac32buffer.bipolar name="wave" description="sine wave" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs>
@@ -400,11 +400,11 @@ eg. removes clicks from audio</sDescription>
          <author>Remco van der Most</author>
          <license>BSD</license>
          <inlets>
-            <frac32buffer name="in"/>
-         </inlets>
+            <frac32buffer name="in" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32buffer name="out"/>
-         </outlets>
+            <frac32buffer name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.u.map name="damp" noLabel="true"/>
@@ -436,11 +436,11 @@ prev=inlet_in;]]></code.srate>
          <license>GPL</license>
          <helpPatch>class a.axh</helpPatch>
          <inlets>
-            <frac32buffer name="in" description="input"/>
-         </inlets>
+            <frac32buffer name="in" description="input" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32buffer name="out" description="output"/>
-         </outlets>
+            <frac32buffer name="out" description="output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.u.map name="drive" description="overdrivel level" noLabel="true"/>

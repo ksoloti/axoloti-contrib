@@ -13,7 +13,7 @@ up to 8 voices</sDescription>
          <bool32 name="active"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

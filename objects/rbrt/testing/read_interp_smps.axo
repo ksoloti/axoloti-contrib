@@ -5,10 +5,10 @@
       <license>BSD</license>
       <helpPatch>table.axh</helpPatch>
       <inlets>
-         <frac32buffer.positive name="smps" description="index in fraction of table size"/>
+         <frac32buffer.positive name="smps" description="index in fraction of table size" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer name="wave" description="table[a]"/>
+         <frac32buffer name="wave" description="table[a]" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

@@ -116,8 +116,8 @@
                   <frac32.bipolar name="selfFM"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="wave" description="sine wave"/>
-               </outlets>
+                  <frac32buffer.bipolar name="wave" description="sine wave" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" noLabel="true"/>
@@ -371,8 +371,8 @@ outlet_wave= (sfm>>4);
             <int32 name="high"/>
          </inlets>
          <outlets>
-            <bool32 name="out" description="out"/>
-         </outlets>
+            <bool32 name="out" description="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs/>

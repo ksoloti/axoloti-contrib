@@ -9,7 +9,7 @@
          <int32 name="sample"/>
       </inlets>
       <outlets>
-         <bool32 name="ended"/>
+         <bool32 name="ended" noLabel="true"/>
       </outlets>
       <displays>
          <bool32 name="load" noLabel="true"/>

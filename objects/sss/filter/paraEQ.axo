@@ -18,7 +18,7 @@ mute bypasses the filter</sDescription>
          <int32 name="preset"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="filter output"/>
+         <frac32buffer name="out" description="filter output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

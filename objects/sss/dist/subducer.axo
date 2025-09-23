@@ -5,10 +5,10 @@
       <license>BSD</license>
       <helpPatch>counter.axh</helpPatch>
       <inlets>
-         <frac32buffer name="trig"/>
+         <frac32buffer name="trig" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer name="o"/>
+         <frac32buffer name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

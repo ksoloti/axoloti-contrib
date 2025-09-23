@@ -8,8 +8,8 @@
       <bool32.rising name="trig" description="Trigger to read file size"/>
     </inlets>
     <outlets>
-      <int32.positive name="samples" description="Filesize in 16 bit samples"/>
-    </outlets>
+      <int32.positive name="samples" description="Filesize in 16 bit samples" noLabel="true"/>
+      </outlets>
     <code.declaration><![CDATA[
 
       int32_t start_sequence;

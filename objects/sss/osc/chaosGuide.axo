@@ -22,7 +22,7 @@ This state can either be repeating, noise or decay quickly with random quirks.. 
          <frac32 name="HP"/>
       </inlets>
       <outlets>
-         <frac32buffer name="x"/>
+         <frac32buffer name="x" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

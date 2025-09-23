@@ -12,7 +12,7 @@ use &apos;inlet_mul&apos; to time-scale the output.</sDescription>
          <bool32.rising name="reset" description="reset phase"/>
       </inlets>
       <outlets>
-         <frac32.positive name="wave" description="phase"/>
+         <frac32.positive name="wave" description="phase" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

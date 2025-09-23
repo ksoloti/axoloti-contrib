@@ -120,8 +120,8 @@ note: you can use as a single wave oscillator by just loadng 1 wave</sDescriptio
                   <frac32buffer name="freq" description="frequency"/>
                </inlets>
                <outlets>
-                  <frac32buffer name="o" description="wave"/>
-               </outlets>
+                  <frac32buffer name="o" description="wave" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" description="pitch" noLabel="true"/>
@@ -309,8 +309,8 @@ note: you can use as a single wave oscillator by just loadng 1 wave</sDescriptio
                   <frac32buffer name="freq" description="frequency"/>
                </inlets>
                <outlets>
-                  <frac32buffer name="o" description="wave"/>
-               </outlets>
+                  <frac32buffer name="o" description="wave" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" description="pitch" noLabel="true"/>
@@ -478,8 +478,8 @@ note: you can use as a single wave oscillator by just loadng 1 wave</sDescriptio
                   <frac32buffer name="freq" description="frequency"/>
                </inlets>
                <outlets>
-                  <frac32buffer name="o" description="wave"/>
-               </outlets>
+                  <frac32buffer name="o" description="wave" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" description="pitch" noLabel="true"/>
@@ -967,11 +967,11 @@ else {
          <author>Are Leistad</author>
          <license>BSD</license>
          <inlets>
-            <frac32.bipolar name="pitch" description="Pitch input"/>
-         </inlets>
+            <frac32.bipolar name="pitch" description="Pitch input" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32 name="out" description="Output"/>
-         </outlets>
+            <frac32 name="out" description="Output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.lfopitch name="pitch" description="Pitch" noLabel="false"/>
@@ -1083,11 +1083,11 @@ else {
          <author>Are Leistad</author>
          <license>BSD</license>
          <inlets>
-            <frac32.bipolar name="pitch" description="Pitch input"/>
-         </inlets>
+            <frac32.bipolar name="pitch" description="Pitch input" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32 name="out" description="Output"/>
-         </outlets>
+            <frac32 name="out" description="Output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.lfopitch name="pitch" description="Pitch" noLabel="false"/>
@@ -1199,11 +1199,11 @@ else {
          <author>Are Leistad</author>
          <license>BSD</license>
          <inlets>
-            <frac32.bipolar name="pitch" description="Pitch input"/>
-         </inlets>
+            <frac32.bipolar name="pitch" description="Pitch input" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32 name="out" description="Output"/>
-         </outlets>
+            <frac32 name="out" description="Output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.lfopitch name="pitch" description="Pitch" noLabel="false"/>
@@ -1315,11 +1315,11 @@ else {
          <author>Are Leistad</author>
          <license>BSD</license>
          <inlets>
-            <frac32.bipolar name="pitch" description="Pitch input"/>
-         </inlets>
+            <frac32.bipolar name="pitch" description="Pitch input" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32 name="out" description="Output"/>
-         </outlets>
+            <frac32 name="out" description="Output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.lfopitch name="pitch" description="Pitch" noLabel="false"/>

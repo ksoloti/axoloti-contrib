@@ -4,10 +4,10 @@
       <license>LGPL</license>
       <helpPatch>cymb2.axh</helpPatch>
       <inlets>
-         <bool32 name="newSeed"/>
+         <bool32 name="newSeed" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="out"/>
+         <frac32buffer.bipolar name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

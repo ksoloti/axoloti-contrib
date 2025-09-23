@@ -8,8 +8,8 @@
       <frac32buffer name="tmod" description="Delay time modulation"/>
     </inlets>
     <outlets>
-      <frac32buffer name="out" description="Delay output"/>
-    </outlets>
+      <frac32buffer name="out" description="Delay output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params>
       <frac32.u.map name="time" description="Delay time"/>

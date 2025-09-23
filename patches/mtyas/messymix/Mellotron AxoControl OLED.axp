@@ -74,8 +74,8 @@
                   <int32.positive name="index"/>
                </inlets>
                <outlets>
-                  <charptr32 name="out" description="string"/>
-               </outlets>
+                  <charptr32 name="out" description="string" noLabel="true"/>
+      </outlets>
                <displays/>
                <params/>
                <attribs/>

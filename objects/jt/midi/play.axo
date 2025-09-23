@@ -8,7 +8,7 @@ Can only start playback from the beginning of the midi file.</sDescription>
       <providesModulationSource>false</providesModulationSource>
       <rotatedParams>false</rotatedParams>
       <inlets>
-         <bool32 name="play" description="start on risign edge, stop on falling edge"/>
+         <bool32 name="play" description="start on risign edge, stop on falling edge" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays/>

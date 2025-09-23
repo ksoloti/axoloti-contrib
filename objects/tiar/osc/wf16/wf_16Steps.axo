@@ -6,7 +6,7 @@ Conveniently packs DISCONTINUOUS 16 steps in a &quot;audio rate output&quot;.</s
       <license>LGPL</license>
       <rotatedParams>true</rotatedParams>
       <inlets>
-         <bool32 name="update"/>
+         <bool32 name="update" noLabel="true"/>
       </inlets>
       <outlets>
          <frac32buffer.bipolar name="wf16"/>

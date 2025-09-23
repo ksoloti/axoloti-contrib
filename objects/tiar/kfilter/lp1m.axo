@@ -8,7 +8,7 @@
          <frac32.bipolar name="freq"/>
       </inlets>
       <outlets>
-         <frac32 name="out" description="output"/>
+         <frac32 name="out" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

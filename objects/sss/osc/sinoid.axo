@@ -18,7 +18,7 @@ An internal counter can switch the play-direction after x-amount of zero-crossin
          <bool32 name="rst"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="sine wave"/>
+         <frac32buffer.bipolar name="wave" description="sine wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

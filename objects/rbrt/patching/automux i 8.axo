@@ -15,7 +15,7 @@
          <int32 name="i7"/>
       </inlets>
       <outlets>
-         <int32 name="o"/>
+         <int32 name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

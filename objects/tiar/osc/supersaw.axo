@@ -12,7 +12,7 @@ compatible with the factory osc/supersaw
          <frac32.bipolar name="detune" description="detune"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="supersaw wave"/>
+         <frac32buffer.bipolar name="wave" description="supersaw wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

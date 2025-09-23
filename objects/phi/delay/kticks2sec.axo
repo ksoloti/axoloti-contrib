@@ -3,10 +3,10 @@
       <sDescription>description</sDescription>
       <license>GPL</license>
       <inlets>
-         <int32 name="kticks"/>
+         <int32 name="kticks" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32 name="sec"/>
+         <frac32 name="sec" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

@@ -10,7 +10,7 @@ Parts1 and parts2 get summed and this outcome divides part1. Internally in the d
          <int32 name="parts2"/>
       </inlets>
       <outlets>
-         <frac32 name="out" description="out"/>
+         <frac32 name="out" description="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

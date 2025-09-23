@@ -5,10 +5,10 @@
       <license>BSD</license>
       <helpPatch>pulse.axh</helpPatch>
       <inlets>
-         <frac32 name="trig"/>
+         <frac32 name="trig" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="out" description="lfs burst"/>
+         <frac32buffer.bipolar name="out" description="lfs burst" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

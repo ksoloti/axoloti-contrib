@@ -6,8 +6,8 @@
      <helpPatch>ctrl.axh</helpPatch>
      <inlets/>
      <outlets>
-       <frac32.bipolar name="out" description="output"/>
-     </outlets>
+       <frac32.bipolar name="out" description="output" noLabel="true"/>
+      </outlets>
      <displays/>
      <params>
        <frac32.s.map.pitch name="pitch" noLabel="true"/>
@@ -24,8 +24,8 @@
      <helpPatch>ctrl.axh</helpPatch>
      <inlets/>
      <outlets>
-       <frac32.bipolar name="out" description="output"/>
-     </outlets>
+       <frac32.bipolar name="out" description="output" noLabel="true"/>
+      </outlets>
      <displays/>
      <params>
        <frac32.s.map.lfopitch name="pitch" noLabel="true"/>

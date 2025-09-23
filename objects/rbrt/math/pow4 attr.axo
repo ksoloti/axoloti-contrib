@@ -5,10 +5,10 @@
       <license>BSD</license>
       <helpPatch>interpolations.axh</helpPatch>
       <inlets>
-         <frac32.positive name="in" description="input value"/>
+         <frac32.positive name="in" description="input value" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32.positive name="out" description="interpolated output"/>
+         <frac32.positive name="out" description="interpolated output" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

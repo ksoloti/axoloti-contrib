@@ -8,7 +8,7 @@ string/indexed</sDescription>
       <license>BSD</license>
       <helpPatch></helpPatch>
       <inlets>
-         <int32 name="index"/>
+         <int32 name="index" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays/>

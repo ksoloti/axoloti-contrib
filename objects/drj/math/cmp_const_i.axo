@@ -4,11 +4,11 @@
     <author>Are Leistad</author>
     <license>BSD</license>
     <inlets>
-      <int32 name="in" description="Input"/>
-    </inlets>
+      <int32 name="in" description="Input" noLabel="true"/>
+      </inlets>
     <outlets>
-      <bool32 name="out" description="Output"/>
-    </outlets>
+      <bool32 name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs>
@@ -23,11 +23,11 @@
     <author>Are Leistad</author>
     <license>BSD</license>
     <inlets>
-      <int32 name="in" description="Input"/>
-    </inlets>
+      <int32 name="in" description="Input" noLabel="true"/>
+      </inlets>
     <outlets>
-      <bool32 name="out" description="Output"/>
-    </outlets>
+      <bool32 name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs>
@@ -42,11 +42,11 @@
     <author>Are Leistad</author>
     <license>BSD</license>
     <inlets>
-      <int32 name="in" description="Input"/>
-    </inlets>
+      <int32 name="in" description="Input" noLabel="true"/>
+      </inlets>
     <outlets>
-      <bool32 name="out" description="Output"/>
-    </outlets>
+      <bool32 name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs>
@@ -61,11 +61,11 @@
     <author>Are Leistad</author>
     <license>BSD</license>
     <inlets>
-      <int32 name="in" description="Input"/>
-    </inlets>
+      <int32 name="in" description="Input" noLabel="true"/>
+      </inlets>
     <outlets>
-      <bool32 name="out" description="Output"/>
-    </outlets>
+      <bool32 name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs>

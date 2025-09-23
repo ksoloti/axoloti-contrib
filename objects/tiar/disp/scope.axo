@@ -6,7 +6,7 @@
       <helpPatch>scope.axh</helpPatch>
       <rotatedParams>true</rotatedParams>
       <inlets>
-         <frac32buffer.bipolar name="in" description="input"/>
+         <frac32buffer.bipolar name="in" description="input" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays>

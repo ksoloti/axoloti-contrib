@@ -11,7 +11,7 @@ brutally working at audio-rate.</sDescription>
          <bool32.rising name="trig" description="trigger"/>
       </inlets>
       <outlets>
-         <bool32.pulse name="done" description="operation done."/>
+         <bool32.pulse name="done" description="operation done." noLabel="true"/>
       </outlets>
       <displays/>
       <params>

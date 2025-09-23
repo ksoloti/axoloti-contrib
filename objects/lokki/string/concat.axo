@@ -10,7 +10,7 @@
          <charptr32 name="str4"/>
       </inlets>
       <outlets>
-         <charptr32 name="out" description="string"/>
+         <charptr32 name="out" description="string" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

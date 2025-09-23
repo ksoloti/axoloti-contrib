@@ -16,7 +16,7 @@ Note:
          <frac32.positive name="mEnv"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="selfPM wave"/>
+         <frac32buffer.bipolar name="wave" description="selfPM wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

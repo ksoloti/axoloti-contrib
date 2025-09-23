@@ -13,7 +13,7 @@ Features an FM-index input</sDescription>
          <frac32 name="FMW"/>
       </inlets>
       <outlets>
-         <frac32buffer.positive name="phasor" description="phasor wave"/>
+         <frac32buffer.positive name="phasor" description="phasor wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

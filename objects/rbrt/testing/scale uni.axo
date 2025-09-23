@@ -9,7 +9,7 @@
          <frac32.bipolar name="scale"/>
       </inlets>
       <outlets>
-         <frac32.bipolar name="out" description="Output"/>
+         <frac32.bipolar name="out" description="Output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

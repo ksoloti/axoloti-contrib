@@ -5,10 +5,10 @@
       <license>BSD</license>
       <helpPatch>logic.axh</helpPatch>
       <inlets>
-         <int32 name="i" description="input"/>
+         <int32 name="i" description="input" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="o" description="output"/>
+         <int32 name="o" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

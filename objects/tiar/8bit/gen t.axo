@@ -8,7 +8,7 @@
          <frac32 name="offset"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description=""/>
+         <frac32buffer.bipolar name="wave" description="" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -8,7 +8,7 @@ https://www.matrixsynth.com/2009/05/roland-100m-m185-mkii-sequencer.html</sDescr
       <license>BSD</license>
       <helpPatch>TM185Seq.axh</helpPatch>
       <inlets>
-         <bool32.rising name="trig" description="clock in"/>
+         <bool32.rising name="trig" description="clock in" noLabel="true"/>
       </inlets>
       <outlets>
          <bool32 name="trig"/>

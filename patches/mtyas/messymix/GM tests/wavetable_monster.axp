@@ -157,8 +157,8 @@ note: you can use as a single wave oscillator by just loadng 1 wave</sDescriptio
                   <frac32buffer name="freq" description="frequency"/>
                </inlets>
                <outlets>
-                  <frac32buffer name="o" description="wave"/>
-               </outlets>
+                  <frac32buffer name="o" description="wave" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" description="pitch" noLabel="true"/>
@@ -375,8 +375,8 @@ note: you can use as a single wave oscillator by just loadng 1 wave</sDescriptio
                   <frac32buffer name="freq" description="frequency"/>
                </inlets>
                <outlets>
-                  <frac32buffer name="o" description="wave"/>
-               </outlets>
+                  <frac32buffer name="o" description="wave" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" description="pitch" noLabel="true"/>
@@ -557,8 +557,8 @@ note: you can use as a single wave oscillator by just loadng 1 wave</sDescriptio
                   <frac32buffer name="freq" description="frequency"/>
                </inlets>
                <outlets>
-                  <frac32buffer name="o" description="wave"/>
-               </outlets>
+                  <frac32buffer name="o" description="wave" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" description="pitch" noLabel="true"/>

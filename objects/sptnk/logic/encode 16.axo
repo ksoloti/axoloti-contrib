@@ -23,7 +23,7 @@
          <bool32 name="sign" description="sign bit"/>
       </inlets>
       <outlets>
-         <int32 name="out" description="output"/>
+         <int32 name="out" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

@@ -11,7 +11,7 @@
          <bool32 name="Bipolar"/>
       </inlets>
       <outlets>
-         <frac32.positive name="wave" description="saw wave"/>
+         <frac32.positive name="wave" description="saw wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

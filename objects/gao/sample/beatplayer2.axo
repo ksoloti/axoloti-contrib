@@ -13,7 +13,7 @@ Play slice store in slicebuffer/sliceindex tables with beatslicer2 object.</sDes
          <bool32 name="retrig" description="If active and if trig on &quot;start&quot; input, play the slice. Else slice must be entirely played to be replayed."/>
       </inlets>
       <outlets>
-         <frac32buffer name="o" description="wave"/>
+         <frac32buffer name="o" description="wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

@@ -5,7 +5,7 @@
       <license>GPL</license>
       <inlets/>
       <outlets>
-         <int32.positive name="numVoices"/>
+         <int32.positive name="numVoices" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

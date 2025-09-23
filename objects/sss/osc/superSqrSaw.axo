@@ -15,7 +15,7 @@ base: when on, uses a sawwave as base instead of a squarewave</sDescription>
          <frac32 name="pw"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="supersaw wave"/>
+         <frac32buffer.bipolar name="wave" description="supersaw wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

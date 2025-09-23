@@ -15,7 +15,7 @@ Select pattern, offset &amp; length control for the pattern. 128 random values i
          <int32 name="off" description="offset"/>
       </inlets>
       <outlets>
-         <frac32 name="out" description="pattern out"/>
+         <frac32 name="out" description="pattern out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

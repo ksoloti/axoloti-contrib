@@ -18,7 +18,7 @@ Check the help patch!</sDescription>
          <frac32 name="z"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

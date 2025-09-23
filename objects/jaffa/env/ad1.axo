@@ -13,7 +13,7 @@
          <frac32.bipolar name="d" description="decay time modulation"/>
       </inlets>
       <outlets>
-         <frac32buffer name="o"/>
+         <frac32buffer name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

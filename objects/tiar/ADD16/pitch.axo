@@ -4,7 +4,7 @@
       <license>LGPL</license>
       <rotatedParams>true</rotatedParams>
       <inlets>
-         <frac32.bipolar name="pitch"/>
+         <frac32.bipolar name="pitch" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays/>

@@ -5,7 +5,7 @@
       <helpPatch>sentence1.axh</helpPatch>
       <inlets/>
       <outlets>
-         <int32 name="step"/>
+         <int32 name="step" noLabel="true"/>
       </outlets>
       <displays>
          <int32.label name="step" noLabel="true"/>

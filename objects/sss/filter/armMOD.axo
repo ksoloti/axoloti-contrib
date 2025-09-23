@@ -13,7 +13,7 @@ phase input reads from internal interpolated table so a waveform (eg. my complex
          <frac32 name="length" description="external control of table length in powers of 2 (same as knob)"/>
       </inlets>
       <outlets>
-         <frac32buffer name="o"/>
+         <frac32buffer name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

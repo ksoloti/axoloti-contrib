@@ -5,10 +5,10 @@
       <license>BSD</license>
       <helpPatch>constrain.axh</helpPatch>
       <inlets>
-         <frac32.bipolar name="in" description="input"/>
+         <frac32.bipolar name="in" description="input" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32.bipolar name="out" description="output"/>
+         <frac32.bipolar name="out" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

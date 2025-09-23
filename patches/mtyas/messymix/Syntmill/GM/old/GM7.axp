@@ -361,8 +361,8 @@ each waveform (except sine) is able to change its shape (e.g. square = pwm).</sD
                   <int32.positive name="wave" description="wave select"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32.vradio name="waveform" description="sine, triangle, saw, square" noLabel="false">
@@ -480,8 +480,8 @@ each waveform (except sine) is able to change its shape (e.g. square = pwm).</sD
                   <int32.positive name="wave" description="wave select"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32.vradio name="waveform" description="sine, triangle, saw, square" noLabel="false">
@@ -599,8 +599,8 @@ each waveform (except sine) is able to change its shape (e.g. square = pwm).</sD
                   <int32.positive name="wave" description="wave select"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32.vradio name="waveform" description="sine, triangle, saw, square" noLabel="false">
@@ -718,8 +718,8 @@ each waveform (except sine) is able to change its shape (e.g. square = pwm).</sD
                   <int32.positive name="wave" description="wave select"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32.vradio name="waveform" description="sine, triangle, saw, square" noLabel="false">
@@ -837,8 +837,8 @@ each waveform (except sine) is able to change its shape (e.g. square = pwm).</sD
                   <int32.positive name="wave" description="wave select"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32.vradio name="waveform" description="sine, triangle, saw, square" noLabel="false">
@@ -956,8 +956,8 @@ each waveform (except sine) is able to change its shape (e.g. square = pwm).</sD
                   <int32.positive name="wave" description="wave select"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32.vradio name="waveform" description="sine, triangle, saw, square" noLabel="false">
@@ -1367,8 +1367,8 @@ each waveform (except sine) is able to change its shape (e.g. square = pwm).</sD
                   <int32.positive name="wave" description="wave select"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32.vradio name="waveform" description="sine, triangle, saw, square" noLabel="false">
@@ -1486,8 +1486,8 @@ each waveform (except sine) is able to change its shape (e.g. square = pwm).</sD
                   <int32.positive name="wave" description="wave select"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32.vradio name="waveform" description="sine, triangle, saw, square" noLabel="false">
@@ -1605,8 +1605,8 @@ each waveform (except sine) is able to change its shape (e.g. square = pwm).</sD
                   <int32.positive name="wave" description="wave select"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32.vradio name="waveform" description="sine, triangle, saw, square" noLabel="false">
@@ -1724,8 +1724,8 @@ each waveform (except sine) is able to change its shape (e.g. square = pwm).</sD
                   <int32.positive name="wave" description="wave select"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32.vradio name="waveform" description="sine, triangle, saw, square" noLabel="false">
@@ -1843,8 +1843,8 @@ each waveform (except sine) is able to change its shape (e.g. square = pwm).</sD
                   <int32.positive name="wave" description="wave select"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32.vradio name="waveform" description="sine, triangle, saw, square" noLabel="false">
@@ -1962,8 +1962,8 @@ each waveform (except sine) is able to change its shape (e.g. square = pwm).</sD
                   <int32.positive name="wave" description="wave select"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32.vradio name="waveform" description="sine, triangle, saw, square" noLabel="false">
@@ -2354,8 +2354,8 @@ each waveform (except sine) is able to change its shape (e.g. square = pwm).</sD
                   <int32.positive name="wave" description="wave select"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32.vradio name="waveform" description="sine, triangle, saw, square" noLabel="false">
@@ -2473,8 +2473,8 @@ each waveform (except sine) is able to change its shape (e.g. square = pwm).</sD
                   <int32.positive name="wave" description="wave select"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32.vradio name="waveform" description="sine, triangle, saw, square" noLabel="false">
@@ -2596,8 +2596,8 @@ each waveform (except sine) is able to change its shape (e.g. square = pwm).</sD
                   <int32.positive name="wave" description="wave select"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32.vradio name="waveform" description="sine, triangle, saw, square" noLabel="false">
@@ -2801,8 +2801,8 @@ each waveform (except sine) is able to change its shape (e.g. square = pwm).</sD
                   <int32.positive name="wave" description="wave select"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32.vradio name="waveform" description="sine, triangle, saw, square" noLabel="false">
@@ -2920,8 +2920,8 @@ each waveform (except sine) is able to change its shape (e.g. square = pwm).</sD
                   <int32.positive name="wave" description="wave select"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32.vradio name="waveform" description="sine, triangle, saw, square" noLabel="false">
@@ -3047,8 +3047,8 @@ each waveform (except sine) is able to change its shape (e.g. square = pwm).</sD
                   <int32.positive name="wave" description="wave select"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32.vradio name="waveform" description="sine, triangle, saw, square" noLabel="false">

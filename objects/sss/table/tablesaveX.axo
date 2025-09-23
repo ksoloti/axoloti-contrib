@@ -10,7 +10,7 @@ Also has a length multiplier in case you need to store wavetables that use &quot
          <bool32.rising name="trig" description="trigger"/>
       </inlets>
       <outlets>
-         <bool32 name="ready"/>
+         <bool32 name="ready" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

@@ -9,7 +9,7 @@
          <int32 name="slength"/>
       </inlets>
       <outlets>
-         <frac32.bipolar name="phase"/>
+         <frac32.bipolar name="phase" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

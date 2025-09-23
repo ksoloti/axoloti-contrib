@@ -16,7 +16,7 @@ Wet controls the level of the effected audio.</sDescription>
          <frac32 name="wet"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

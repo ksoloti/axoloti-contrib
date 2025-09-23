@@ -13,7 +13,7 @@ filename is supplied as inlet, trig to load , check outlet to see if loaded succ
          <bool32.rising name="trig" description="trig to load"/>
       </inlets>
       <outlets>
-         <bool32 name="loaded" description="wavetable loaded successfully"/>
+         <bool32 name="loaded" description="wavetable loaded successfully" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

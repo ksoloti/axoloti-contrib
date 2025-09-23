@@ -89,8 +89,8 @@
             <int32 name="b"/>
          </inlets>
          <outlets>
-            <frac32.bipolar name="float"/>
-         </outlets>
+            <frac32.bipolar name="float" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs/>

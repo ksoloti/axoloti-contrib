@@ -12,7 +12,7 @@ note: you can use as a single wave oscillator by just loadng 1 wave</sDescriptio
          <frac32buffer name="freq" description="frequency"/>
       </inlets>
       <outlets>
-         <frac32buffer name="o" description="wave"/>
+         <frac32buffer name="o" description="wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

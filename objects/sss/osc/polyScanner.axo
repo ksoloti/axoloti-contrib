@@ -22,7 +22,7 @@ pairs really well with the 4RngCount2 module to provide note-inputs</sDescriptio
          <bool32 name="active"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

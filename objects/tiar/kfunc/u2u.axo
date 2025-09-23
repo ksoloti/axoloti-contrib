@@ -5,10 +5,10 @@
       <license>LGPL</license>
       <helpPatch>u2u.axh</helpPatch>
       <inlets>
-         <frac32 name="in"/>
+         <frac32 name="in" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32 name="out"/>
+         <frac32 name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

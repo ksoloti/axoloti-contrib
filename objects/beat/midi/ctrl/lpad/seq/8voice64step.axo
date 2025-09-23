@@ -8,7 +8,7 @@ Via the toggle button of the UI you can choose to sync to an extern midi clock.<
       <license>BSD</license>
       <helpPatch></helpPatch>
       <inlets>
-         <bool32.rising name="triggerIn" description="trigger next step"/>
+         <bool32.rising name="triggerIn" description="trigger next step" noLabel="true"/>
       </inlets>
       <outlets>
          <bool32 name="gateA"/>

@@ -4,10 +4,10 @@
       <author>Philoop</author>
       <license>BSD</license>
       <inlets>
-         <frac32 name="in" description="in"/>
+         <frac32 name="in" description="in" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32 name="out" description="out"/>
+         <frac32 name="out" description="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>
@@ -19,10 +19,10 @@
    <obj.normal id="-+c" uuid="df4659359ceb0bbf74263d97c4bb041f95r9c773">
       <sDescription>subtract/add constant</sDescription>
       <inlets>
-         <frac32buffer name="in" description="in"/>
+         <frac32buffer name="in" description="in" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="out"/>
+         <frac32buffer name="out" description="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

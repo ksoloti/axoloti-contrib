@@ -6,10 +6,10 @@
       <helpPatch>patching.axh</helpPatch>
       <rotatedParams>true</rotatedParams>
       <inlets>
-         <int32 name="in" description="offset inside the table"/>
+         <int32 name="in" description="offset inside the table" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="chain"/>
+         <int32 name="chain" noLabel="true"/>
       </outlets>
       <displays>
          <bool32 name="d0" noLabel="true"/>

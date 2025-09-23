@@ -8,7 +8,7 @@
          <frac32buffer.bipolar name="wf12" description="wf 12"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wf12" description="wf 12"/>
+         <frac32buffer.bipolar name="wf12" description="wf 12" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

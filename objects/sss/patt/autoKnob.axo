@@ -13,7 +13,7 @@ Use the max/min knobs to set your desired output scaling</sDescription>
          <bool32.rising name="RndPt"/>
       </inlets>
       <outlets>
-         <frac32.positive name="out" description="output"/>
+         <frac32.positive name="out" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

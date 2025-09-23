@@ -17,7 +17,7 @@
          <frac32 name="R3"/>
       </inlets>
       <outlets>
-         <frac32.positive name="out" description="output"/>
+         <frac32.positive name="out" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

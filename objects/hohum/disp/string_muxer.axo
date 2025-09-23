@@ -7,8 +7,8 @@
       <int32 name="index"/>
    </inlets>
    <outlets>
-      <charptr32 name="text" description="text"/>
-   </outlets>
+      <charptr32 name="text" description="text" noLabel="true"/>
+      </outlets>
    <displays/>
    <params/>
    <attribs>

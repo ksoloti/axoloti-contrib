@@ -377,8 +377,8 @@
                <helpPatch>ctrl.axh</helpPatch>
                <inlets/>
                <outlets>
-                  <int32.positive name="out5" description="output"/>
-               </outlets>
+                  <int32.positive name="out5" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32 name="value" noLabel="true">
@@ -428,8 +428,8 @@
                <helpPatch>ctrl.axh</helpPatch>
                <inlets/>
                <outlets>
-                  <int32.positive name="out8" description="output"/>
-               </outlets>
+                  <int32.positive name="out8" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32 name="value" noLabel="true">
@@ -999,8 +999,8 @@
                <helpPatch>ctrl.axh</helpPatch>
                <inlets/>
                <outlets>
-                  <int32.positive name="out5" description="output"/>
-               </outlets>
+                  <int32.positive name="out5" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32 name="value" noLabel="true">
@@ -1386,8 +1386,8 @@
                   <frac32buffer.bipolar name="sync" description="Phase reset input"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="Phasor output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="Phasor output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" noLabel="true"/>
@@ -1449,8 +1449,8 @@
                   <frac32buffer.bipolar name="sync" description="Phase reset input"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="Sine output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="Sine output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" noLabel="true"/>
@@ -1820,8 +1820,8 @@
                      <helpPatch>ctrl.axh</helpPatch>
                      <inlets/>
                      <outlets>
-                        <int32.positive name="out8" description="output"/>
-                     </outlets>
+                        <int32.positive name="out8" description="output" noLabel="true"/>
+      </outlets>
                      <displays/>
                      <params>
                         <int32 name="value" noLabel="true">
@@ -2230,8 +2230,8 @@
                <helpPatch>ctrl.axh</helpPatch>
                <inlets/>
                <outlets>
-                  <int32.positive name="out5" description="output"/>
-               </outlets>
+                  <int32.positive name="out5" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32 name="value" noLabel="true">
@@ -2281,8 +2281,8 @@
                <helpPatch>ctrl.axh</helpPatch>
                <inlets/>
                <outlets>
-                  <int32.positive name="out8" description="output"/>
-               </outlets>
+                  <int32.positive name="out8" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32 name="value" noLabel="true">
@@ -2565,8 +2565,8 @@
                <helpPatch>ctrl.axh</helpPatch>
                <inlets/>
                <outlets>
-                  <int32.positive name="out5" description="output"/>
-               </outlets>
+                  <int32.positive name="out5" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32 name="value" noLabel="true">
@@ -2616,8 +2616,8 @@
                <helpPatch>ctrl.axh</helpPatch>
                <inlets/>
                <outlets>
-                  <int32.positive name="out8" description="output"/>
-               </outlets>
+                  <int32.positive name="out8" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32 name="value" noLabel="true">
@@ -2926,8 +2926,8 @@
                <helpPatch>ctrl.axh</helpPatch>
                <inlets/>
                <outlets>
-                  <int32.positive name="out8" description="output"/>
-               </outlets>
+                  <int32.positive name="out8" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <int32 name="value" noLabel="true">
@@ -4124,8 +4124,8 @@
                   <bool32.rising name="reset" description="phase reset input"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="Phasor output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="Phasor output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" noLabel="true"/>
@@ -4204,8 +4204,8 @@
                   <bool32.rising name="reset" description="phase reset input"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="Phasor output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="Phasor output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" noLabel="true"/>
@@ -4284,8 +4284,8 @@
                   <bool32.rising name="reset" description="phase reset input"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="Phasor output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="Phasor output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" noLabel="true"/>
@@ -4364,8 +4364,8 @@
                   <bool32.rising name="reset" description="phase reset input"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="Phasor output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="Phasor output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" noLabel="true"/>
@@ -4465,8 +4465,8 @@
                   <bool32.rising name="reset" description="phase reset input"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="Phasor output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="Phasor output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" noLabel="true"/>
@@ -4545,8 +4545,8 @@
                   <bool32.rising name="reset" description="phase reset input"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="Phasor output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="Phasor output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" noLabel="true"/>
@@ -4625,8 +4625,8 @@
                   <bool32.rising name="reset" description="phase reset input"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="Phasor output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="Phasor output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" noLabel="true"/>
@@ -4705,8 +4705,8 @@
                   <bool32.rising name="reset" description="phase reset input"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="Phasor output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="Phasor output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" noLabel="true"/>
@@ -4786,8 +4786,8 @@
                   <bool32.rising name="reset" description="phase reset input"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="Sine output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="Sine output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" noLabel="true"/>
@@ -4869,8 +4869,8 @@
                   <bool32.rising name="reset" description="phase reset input"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="Sine output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="Sine output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" noLabel="true"/>
@@ -4952,8 +4952,8 @@
                   <bool32.rising name="reset" description="phase reset input"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="Sine output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="Sine output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" noLabel="true"/>
@@ -5035,8 +5035,8 @@
                   <bool32.rising name="reset" description="phase reset input"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="out" description="Sine output"/>
-               </outlets>
+                  <frac32buffer.bipolar name="out" description="Sine output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" noLabel="true"/>

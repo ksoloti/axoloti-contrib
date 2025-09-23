@@ -21,7 +21,7 @@ blocksize defines the size of the block of data linked to the sample slot.</sDes
          <bool32.rising name="clear" description="clear all data"/>
       </inlets>
       <outlets>
-         <bool32.pulse name="delete" description="pulse on delete"/>
+         <bool32.pulse name="delete" description="pulse on delete" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

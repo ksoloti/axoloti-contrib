@@ -9,7 +9,7 @@
          <frac32.bipolar name="symm" description="symmetry"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="asymetric triangle wave"/>
+         <frac32buffer.bipolar name="wave" description="asymetric triangle wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

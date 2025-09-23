@@ -4,10 +4,10 @@
       <author>Thierry Smashed Transistors</author>
       <license>LGPL</license>
       <inlets>
-         <bool32.rising name="in"/>
+         <bool32.rising name="in" noLabel="true"/>
       </inlets>
       <outlets>
-         <bool32.pulse name="trig"/>
+         <bool32.pulse name="trig" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

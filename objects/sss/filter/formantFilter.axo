@@ -31,7 +31,7 @@ If you have high volume problems, lower the volume of the input sound or add the
          <frac32.positive name="resonance"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

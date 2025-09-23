@@ -11,7 +11,7 @@ Second gate/trigger resets the internal counter and only generates a short trigg
          <int32 name="swing" description="sets swing position (the higher the value, the later the 2nd trigger will be generated)"/>
       </inlets>
       <outlets>
-         <bool32.pulse name="trigOut"/>
+         <bool32.pulse name="trigOut" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

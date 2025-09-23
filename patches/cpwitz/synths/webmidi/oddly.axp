@@ -979,8 +979,8 @@ Bandwith limited</sDescription>
                   <frac32buffer name="freq" description="fm"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="wave" description="saw wave, anti-aliased"/>
-               </outlets>
+                  <frac32buffer.bipolar name="wave" description="saw wave, anti-aliased" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" noLabel="true"/>
@@ -1050,8 +1050,8 @@ Bandwith limited</sDescription>
                   <frac32buffer name="freq"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="wave" description="pwm wave, anti-aliased"/>
-               </outlets>
+                  <frac32buffer.bipolar name="wave" description="pwm wave, anti-aliased" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" noLabel="true"/>
@@ -1147,8 +1147,8 @@ Sync resets oscillator phase on rising zero-crossing</sDescription>
                   <frac32buffer name="freq"/>
                </inlets>
                <outlets>
-                  <frac32buffer.bipolar name="wave" description="square wave, anti-aliased"/>
-               </outlets>
+                  <frac32buffer.bipolar name="wave" description="square wave, anti-aliased" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.s.map.pitch name="pitch" noLabel="true"/>

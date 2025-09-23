@@ -33,11 +33,11 @@ based on a three stage CIC filter</sDescription>
          <author>Johannes Taelman</author>
          <license>GPL</license>
          <inlets>
-            <frac32.bipolar name="pitch"/>
-         </inlets>
+            <frac32.bipolar name="pitch" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32buffer name="out"/>
-         </outlets>
+            <frac32buffer name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.pitch name="pitch"/>

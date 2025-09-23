@@ -574,8 +574,8 @@
                   <frac32.positive name="feedback" description="feedback mod"/>
                </inlets>
                <outlets>
-                  <frac32buffer name="out" description="oldest sample output"/>
-               </outlets>
+                  <frac32buffer name="out" description="oldest sample output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params>
                   <frac32.u.map name="feedback"/>
@@ -769,11 +769,11 @@
          <license>GPL</license>
          <helpPatch>class a.axh</helpPatch>
          <inlets>
-            <frac32buffer name="in" description="input"/>
-         </inlets>
+            <frac32buffer name="in" description="input" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32buffer name="out" description="output"/>
-         </outlets>
+            <frac32buffer name="out" description="output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.u.map name="drive" description="overdrivel level" noLabel="true"/>
@@ -856,11 +856,11 @@ for(i=0;i<BUFSIZE;i++) {
          <license>GPL</license>
          <helpPatch>class a.axh</helpPatch>
          <inlets>
-            <frac32buffer name="in" description="input"/>
-         </inlets>
+            <frac32buffer name="in" description="input" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32buffer name="out" description="output"/>
-         </outlets>
+            <frac32buffer name="out" description="output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.u.map name="drive" description="overdrivel level" noLabel="true"/>

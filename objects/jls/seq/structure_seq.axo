@@ -10,7 +10,7 @@
          <bool32.rising name="rst" description="reset"/>
       </inlets>
       <outlets>
-         <frac32.positive name="out" description="wave"/>
+         <frac32.positive name="out" description="wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

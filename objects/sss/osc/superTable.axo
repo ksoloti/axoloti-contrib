@@ -21,7 +21,7 @@ With 7 voices, it asks about 12% (5% more then the 7-voice supersaw).</sDescript
          <int32 name="harmstep"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="sine wave"/>
+         <frac32buffer.bipolar name="wave" description="sine wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

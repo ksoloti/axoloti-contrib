@@ -18,7 +18,7 @@ Bandwith limited</sDescription>
          <frac32 name="self"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="triangle wave, anti-aliased"/>
+         <frac32buffer.bipolar name="wave" description="triangle wave, anti-aliased" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

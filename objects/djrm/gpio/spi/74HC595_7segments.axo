@@ -5,8 +5,7 @@
       <helpPatch>74HC_7seg.axh</helpPatch>
       <license></license>
       <inlets>
-		 <int32 name="in" description="chain in i"/>
-        
+		 <int32 name="in" description="chain in i" noLabel="true"/>
       </inlets>
       <outlets>
          <int32 name="outi" description="out"/>

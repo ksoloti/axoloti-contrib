@@ -14,7 +14,7 @@
          <frac32 name="wave"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave"/>
+         <frac32buffer.bipolar name="wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

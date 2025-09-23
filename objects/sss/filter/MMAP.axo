@@ -12,7 +12,7 @@ As the basis is an allpass filter, the cutoff frequency will fold back if it goe
          <frac32 name="width"/>
       </inlets>
       <outlets>
-         <frac32buffer name="o1"/>
+         <frac32buffer name="o1" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

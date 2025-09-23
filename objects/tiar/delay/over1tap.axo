@@ -10,7 +10,7 @@ Useful for choruses</sDescription>
          <frac32 name="d1"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out1"/>
+         <frac32buffer name="out1" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

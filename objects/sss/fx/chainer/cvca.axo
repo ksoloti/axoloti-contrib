@@ -5,7 +5,7 @@ Controls can easily be editted for external control</sDescription>
       <author>Remco van der Most</author>
       <license>BSD</license>
       <inlets>
-         <frac32 name="volume"/>
+         <frac32 name="volume" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays/>

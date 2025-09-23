@@ -4,7 +4,7 @@
       <author>Remco van der Most</author>
       <license>BSD</license>
       <inlets>
-         <int32 name="preset"/>
+         <int32 name="preset" noLabel="true"/>
       </inlets>
       <outlets>
          <int32 name="startsample"/>

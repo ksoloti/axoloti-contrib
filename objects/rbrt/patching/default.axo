@@ -2,10 +2,10 @@
    <obj.normal id="default" uuid="01184768-c508-4a26-9bba-a47e9f88dee9">
       <license>GPL</license>
       <inlets>
-         <bool32.rising name="trig"/>
+         <bool32.rising name="trig" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="test"/>
+         <int32 name="test" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

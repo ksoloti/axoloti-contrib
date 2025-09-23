@@ -5,8 +5,8 @@
     <author>Are Leistad</author>
     <license>BSD</license>
     <inlets>
-      <bool32.rising name="trig" description="Trigger input"/>
-    </inlets>
+      <bool32.rising name="trig" description="Trigger input" noLabel="true"/>
+      </inlets>
     <outlets>
       <bool32.pulse    name="trig"   description="Trigger output"/>
       <frac32.positive name="volume" description="Volume fade out/in"/>

@@ -11,7 +11,7 @@ All the generated notes will be scaled to the selected scale. 46! scales are inc
          <int32 name="key"/>
       </inlets>
       <outlets>
-         <frac32 name="note"/>
+         <frac32 name="note" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

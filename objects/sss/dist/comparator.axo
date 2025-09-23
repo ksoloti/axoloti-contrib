@@ -11,7 +11,7 @@ mode 2: quantizer</sDescription>
          <frac32buffer name="treshold" description="trigger input, triggers on rising zero-crossing"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="out" description="audio output"/>
+         <frac32buffer.bipolar name="out" description="audio output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

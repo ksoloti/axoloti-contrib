@@ -13,7 +13,7 @@ Set &quot;Number of Modulation Sources&quot; and &quot;Number of Targets per Sou
          <string>source3</string>
       </ModulationSources>
       <inlets>
-         <frac32 name="1" description="value"/>
+         <frac32 name="1" description="value" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays/>

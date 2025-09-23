@@ -11,7 +11,7 @@ enter the midiCC (0-127), midiChannel(1-16) and maximum value(0-127) in the list
       <helpPatch>midi_in.axh</helpPatch>
       <inlets/>
       <outlets>
-         <int32.positive name="value" description="midi CC value 0..127"/>
+         <int32.positive name="value" description="midi CC value 0..127" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

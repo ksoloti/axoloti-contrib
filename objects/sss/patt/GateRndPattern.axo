@@ -13,7 +13,7 @@ REPEAT sets an euclidian division over the entire length. The smaller the value,
          <bool32.rising name="rnd"/>
       </inlets>
       <outlets>
-         <bool32 name="rand"/>
+         <bool32 name="rand" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

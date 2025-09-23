@@ -15,7 +15,7 @@ use &apos;note play&apos; to play the sequence.</sDescription>
          <int32.positive name="index"/>
       </inlets>
       <outlets>
-         <int32 name="length" description="length of recording in k-ticks"/>
+         <int32 name="length" description="length of recording in k-ticks" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

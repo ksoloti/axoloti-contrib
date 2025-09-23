@@ -11,7 +11,7 @@ Pairs very well with the sss/edrum/DR5 module!</sDescription>
          <frac32buffer name="in4" description="input 4"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="mix out"/>
+         <frac32buffer name="out" description="mix out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

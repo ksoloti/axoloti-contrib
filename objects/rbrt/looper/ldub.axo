@@ -11,7 +11,7 @@
          <frac32.positive name="feedback" description="feedback amount"/>
       </inlets>
       <outlets>
-         <bool32 name="fade" description="recording state,post - fadeout"/>
+         <bool32 name="fade" description="recording state,post - fadeout" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

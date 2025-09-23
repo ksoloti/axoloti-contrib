@@ -11,7 +11,7 @@
          <int32 name="i3"/>
       </inlets>
       <outlets>
-         <int32 name="o"/>
+         <int32 name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

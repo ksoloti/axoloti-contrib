@@ -237,8 +237,8 @@ array[15] = param_b15;
             <int32 name="value"/>
          </inlets>
          <outlets>
-            <int32 name="test"/>
-         </outlets>
+            <int32 name="test" noLabel="true"/>
+      </outlets>
          <displays>
             <int8array128.vbar name="scope"/>
          </displays>
@@ -279,11 +279,11 @@ int i;]]></code.declaration>
          <license>BSD</license>
          <rotatedParams>true</rotatedParams>
          <inlets>
-            <bool32.rising name="trig"/>
-         </inlets>
+            <bool32.rising name="trig" noLabel="true"/>
+      </inlets>
          <outlets>
-            <int32 name="test"/>
-         </outlets>
+            <int32 name="test" noLabel="true"/>
+      </outlets>
          <displays>
             <frac32.vbar name="d0" noLabel="true"/>
             <frac32.vbar name="d1" noLabel="true"/>
@@ -419,11 +419,11 @@ disp_d15 = (array [15] >> 1) + (1 << 26);]]></code.krate>
          <license>BSD</license>
          <rotatedParams>true</rotatedParams>
          <inlets>
-            <bool32.rising name="trig"/>
-         </inlets>
+            <bool32.rising name="trig" noLabel="true"/>
+      </inlets>
          <outlets>
-            <int32 name="test"/>
-         </outlets>
+            <int32 name="test" noLabel="true"/>
+      </outlets>
          <displays>
             <frac32.vbar name="d0" noLabel="true"/>
             <frac32.vbar name="d1" noLabel="true"/>
@@ -631,8 +631,8 @@ disp_d31 = (array [31] >> 1) + (1 << 26);]]></code.krate>
          <helpPatch>ctrl.axh</helpPatch>
          <inlets/>
          <outlets>
-            <frac32.positive name="out" description="output"/>
-         </outlets>
+            <frac32.positive name="out" description="output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map name="p1"/>
@@ -672,11 +672,11 @@ works as wavetable-oscillator as well.</sDescription>
          <helpPatch>shaper.axh</helpPatch>
          <rotatedParams>true</rotatedParams>
          <inlets>
-            <frac32buffer.bipolar name="in"/>
-         </inlets>
+            <frac32buffer.bipolar name="in" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32buffer.bipolar name="out"/>
-         </outlets>
+            <frac32buffer.bipolar name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.mapvsl name="b0" noLabel="true">
@@ -876,11 +876,11 @@ works as wavetable-oscillator as well.</sDescription>
          <helpPatch>shaper.axh</helpPatch>
          <rotatedParams>true</rotatedParams>
          <inlets>
-            <frac32buffer.bipolar name="in"/>
-         </inlets>
+            <frac32buffer.bipolar name="in" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32buffer.bipolar name="out"/>
-         </outlets>
+            <frac32buffer.bipolar name="out" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map name="p1"/>

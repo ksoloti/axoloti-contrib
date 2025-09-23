@@ -11,7 +11,7 @@
          <frac32 name="i3"/>
       </inlets>
       <outlets>
-         <frac32 name="o"/>
+         <frac32 name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

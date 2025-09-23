@@ -11,7 +11,7 @@
          <frac32.bipolar name="i4"/>
       </inlets>
       <outlets>
-         <frac32.bipolar name="o"/>
+         <frac32.bipolar name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

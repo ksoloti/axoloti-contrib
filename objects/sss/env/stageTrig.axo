@@ -10,7 +10,7 @@ To be used together with the ahdsr2v module.</sDescription>
          <bool32 name="trg" description="input 2"/>
       </inlets>
       <outlets>
-         <bool32 name="o" description="output"/>
+         <bool32 name="o" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

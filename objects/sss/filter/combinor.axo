@@ -31,7 +31,7 @@ The filter resonance can be added to two positions:
          <frac32 name="cut"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

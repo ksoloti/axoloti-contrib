@@ -6,10 +6,10 @@
       <helpPatch>table.axh</helpPatch>
       <rotatedParams>true</rotatedParams>
       <inlets>
-         <int32 name="i1"/>
+         <int32 name="i1" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="o1"/>
+         <int32 name="o1" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

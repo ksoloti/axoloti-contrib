@@ -3,7 +3,7 @@
       <license>GPL</license>
       <inlets/>
       <outlets>
-         <charptr32 name="o1"/>
+         <charptr32 name="o1" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

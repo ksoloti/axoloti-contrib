@@ -5,10 +5,10 @@
       <sDescription>one line script taking integer as output, and outputs float</sDescription>
       <helpPatch>script.axh</helpPatch>
       <inlets>
-         <int32 name="in" description="in"/>
+         <int32 name="in" description="in" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32 name="out" description="out"/>
+         <frac32 name="out" description="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

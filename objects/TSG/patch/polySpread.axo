@@ -5,7 +5,7 @@
       <license>GPL</license>
       <inlets/>
       <outlets>
-         <frac32.bipolar name="spread"/>
+         <frac32.bipolar name="spread" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

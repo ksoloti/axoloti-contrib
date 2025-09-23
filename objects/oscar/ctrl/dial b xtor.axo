@@ -7,7 +7,7 @@ Write the name of an xtor manager to add preset capabilities to this control.</s
       <license>BSD</license>
       <inlets/>
       <outlets>
-         <frac32.bipolar name="out" description="output"/>
+         <frac32.bipolar name="out" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

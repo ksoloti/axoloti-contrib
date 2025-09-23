@@ -9,7 +9,7 @@
          <int32.positive name="div"/>
       </inlets>
       <outlets>
-         <frac32.bipolar name="wave" description="sine wave"/>
+         <frac32.bipolar name="wave" description="sine wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

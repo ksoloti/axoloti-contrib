@@ -15,8 +15,8 @@
          <helpPatch>ctrl.axh</helpPatch>
          <inlets/>
          <outlets>
-            <int32.positive name="out" description="output"/>
-         </outlets>
+            <int32.positive name="out" description="output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <int32 name="value" noLabel="true">

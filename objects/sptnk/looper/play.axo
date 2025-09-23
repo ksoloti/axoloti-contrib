@@ -5,7 +5,7 @@
       <license>BSD</license>
       <helpPatch>4x8bit looper.axh</helpPatch>
       <inlets>
-         <frac32buffer.positive name="pos" description="use looper/pos to drive this input"/>
+         <frac32buffer.positive name="pos" description="use looper/pos to drive this input" noLabel="true"/>
       </inlets>
       <outlets>
          <frac32buffer name="o1" description="track 1 output"/>

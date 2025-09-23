@@ -8,7 +8,7 @@
          <frac32.bipolar name="mod"/>
       </inlets>
       <outlets>
-         <frac32buffer.positive name="out"/>
+         <frac32buffer.positive name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

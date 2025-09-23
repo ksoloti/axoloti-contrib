@@ -8,7 +8,7 @@
          <frac32.bipolar name="In2"/>
       </inlets>
       <outlets>
-         <frac32.bipolar name="Out"/>
+         <frac32.bipolar name="Out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

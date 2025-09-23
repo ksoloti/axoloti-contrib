@@ -58,8 +58,8 @@
       <attribs/>
       <object id="patch/object" uuid="aaa2d1b7-5d2a-42f7-931e-2fa8fca242a5">
          <inlets>
-            <frac32.positive name="value"/>
-         </inlets>
+            <frac32.positive name="value" noLabel="true"/>
+      </inlets>
          <outlets>
             <frac32.positive name="msb"/>
             <frac32.positive name="lsb"/>
@@ -94,8 +94,8 @@ outlet_lsb = temp<<7;]]></code.krate>
       <attribs/>
       <object id="patch/object" uuid="aaa2d1b7-5d2a-42f7-931e-2fa8fca242a5">
          <inlets>
-            <frac32.positive name="value"/>
-         </inlets>
+            <frac32.positive name="value" noLabel="true"/>
+      </inlets>
          <outlets>
             <frac32.positive name="msb"/>
             <frac32.positive name="lsb"/>
@@ -211,8 +211,8 @@ outlet_lsb = temp<<7;]]></code.krate>
       <attribs/>
       <object id="patch/object" uuid="aaa2d1b7-5d2a-42f7-931e-2fa8fca242a5">
          <inlets>
-            <frac32.positive name="value"/>
-         </inlets>
+            <frac32.positive name="value" noLabel="true"/>
+      </inlets>
          <outlets>
             <frac32.positive name="msb"/>
             <frac32.positive name="lsb"/>
@@ -247,8 +247,8 @@ outlet_lsb = temp<<7;]]></code.krate>
       <attribs/>
       <object id="patch/object" uuid="aaa2d1b7-5d2a-42f7-931e-2fa8fca242a5">
          <inlets>
-            <frac32.positive name="value"/>
-         </inlets>
+            <frac32.positive name="value" noLabel="true"/>
+      </inlets>
          <outlets>
             <frac32.positive name="msb"/>
             <frac32.positive name="lsb"/>
@@ -290,8 +290,8 @@ outlet_lsb = temp<<7;]]></code.krate>
       <attribs/>
       <object id="patch/object" uuid="aaa2d1b7-5d2a-42f7-931e-2fa8fca242a5">
          <inlets>
-            <frac32.positive name="value"/>
-         </inlets>
+            <frac32.positive name="value" noLabel="true"/>
+      </inlets>
          <outlets>
             <frac32.positive name="msb"/>
             <frac32.positive name="lsb"/>
@@ -318,8 +318,8 @@ outlet_lsb = temp<<7;]]></code.krate>
          <license>BSD</license>
          <helpPatch>midi_out.axh</helpPatch>
          <inlets>
-            <frac32.positive name="v" description="value"/>
-         </inlets>
+            <frac32.positive name="v" description="value" noLabel="true"/>
+      </inlets>
          <outlets/>
          <displays/>
          <params/>
@@ -368,8 +368,8 @@ int timer;
       <attribs/>
       <object id="patch/object" uuid="aaa2d1b7-5d2a-42f7-931e-2fa8fca242a5">
          <inlets>
-            <frac32.positive name="value"/>
-         </inlets>
+            <frac32.positive name="value" noLabel="true"/>
+      </inlets>
          <outlets>
             <frac32.positive name="msb"/>
             <frac32.positive name="lsb"/>
@@ -396,8 +396,8 @@ outlet_lsb = temp<<7;]]></code.krate>
       <attribs/>
       <object id="patch/object" uuid="aaa2d1b7-5d2a-42f7-931e-2fa8fca242a5">
          <inlets>
-            <frac32.positive name="value"/>
-         </inlets>
+            <frac32.positive name="value" noLabel="true"/>
+      </inlets>
          <outlets>
             <frac32.positive name="msb"/>
             <frac32.positive name="lsb"/>
@@ -424,8 +424,8 @@ outlet_lsb = temp<<7;]]></code.krate>
       <attribs/>
       <object id="patch/object" uuid="aaa2d1b7-5d2a-42f7-931e-2fa8fca242a5">
          <inlets>
-            <frac32.positive name="value"/>
-         </inlets>
+            <frac32.positive name="value" noLabel="true"/>
+      </inlets>
          <outlets>
             <frac32.positive name="msb"/>
             <frac32.positive name="lsb"/>

@@ -342,8 +342,8 @@ outlet_diff = diff;]]></code.krate>
             <bool32 name="reverse"/>
          </inlets>
          <outlets>
-            <frac32buffer name="o" description="wave"/>
-         </outlets>
+            <frac32buffer name="o" description="wave" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs>

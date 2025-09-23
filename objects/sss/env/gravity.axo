@@ -7,7 +7,7 @@ throw sets the starting speed of the ball when a trigger is received in the trig
       <author>Remco van der Most</author>
       <license>BSD</license>
       <inlets>
-         <bool32 name="trig"/>
+         <bool32 name="trig" noLabel="true"/>
       </inlets>
       <outlets>
          <frac32 name="out"/>

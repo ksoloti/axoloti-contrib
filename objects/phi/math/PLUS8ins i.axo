@@ -12,7 +12,7 @@
          <int32 name="i8"/>
       </inlets>
       <outlets>
-         <int32 name="o1"/>
+         <int32 name="o1" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

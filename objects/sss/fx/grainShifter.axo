@@ -9,7 +9,7 @@ Feed the audio to be recorded into the carrier input and the &quot;phase&quot; i
          <frac32buffer.positive name="Modulator"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="oldest sample output"/>
+         <frac32buffer name="out" description="oldest sample output" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

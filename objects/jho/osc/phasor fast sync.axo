@@ -9,7 +9,7 @@
          <frac32buffer.bipolar name="sync" description="phase reset"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave" description="saw wave, non-anti-aliased"/>
+         <frac32buffer.bipolar name="wave" description="saw wave, non-anti-aliased" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -4,7 +4,7 @@
       <license>LGPL</license>
       <helpPatch>Median.axh</helpPatch>
       <inlets>
-         <frac32 name="in" description="input"/>
+         <frac32 name="in" description="input" noLabel="true"/>
       </inlets>
       <outlets>
          <frac32 name="med" description="output"/>

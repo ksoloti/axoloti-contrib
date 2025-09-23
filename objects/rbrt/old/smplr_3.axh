@@ -122,11 +122,11 @@
          <license>BSD</license>
          <helpPatch>math.axh</helpPatch>
          <inlets>
-            <frac32 name="a" description="a"/>
-         </inlets>
+            <frac32 name="a" description="a" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32.positive name="b" description="quant(a)"/>
-         </outlets>
+            <frac32.positive name="b" description="quant(a)" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs/>
@@ -229,8 +229,8 @@ outlet_b = v;]]></code.krate>
             <bool32.rising name="reset" description="reset phase"/>
          </inlets>
          <outlets>
-            <frac32.positive name="wave" description="saw wave"/>
-         </outlets>
+            <frac32.positive name="wave" description="saw wave" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs/>
@@ -648,8 +648,8 @@ if (recstate) {
                         <frac32.positive name="pos" description="position to reach"/>
                      </inlets>
                      <outlets>
-                        <bool32.pulse name="trig" description="pulse when phase == pos"/>
-                     </outlets>
+                        <bool32.pulse name="trig" description="pulse when phase == pos" noLabel="true"/>
+      </outlets>
                      <displays/>
                      <params/>
                      <attribs/>

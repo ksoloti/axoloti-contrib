@@ -9,7 +9,7 @@
          <frac32 name="b" description="input"/>
       </inlets>
       <outlets>
-         <frac32 name="result" description="output"/>
+         <frac32 name="result" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

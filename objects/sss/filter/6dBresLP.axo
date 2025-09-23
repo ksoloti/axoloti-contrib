@@ -15,7 +15,7 @@ Seperate inputs for pitch, envelope and lfo are added to allow for different res
          <frac32 name="LFO"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="output"/>
+         <frac32buffer name="out" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

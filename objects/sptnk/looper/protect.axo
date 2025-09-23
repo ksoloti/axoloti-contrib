@@ -12,7 +12,7 @@
          <bool32 name="i4" description="protect track 4 (on/off)"/>
       </inlets>
       <outlets>
-         <int32 name="protect" description="protected bits encoded in int32_t variable"/>
+         <int32 name="protect" description="protected bits encoded in int32_t variable" noLabel="true"/>
       </outlets>
       <displays>
          <bool32 name="d1" description="protect track 1 (on/off)"/>

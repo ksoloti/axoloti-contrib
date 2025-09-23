@@ -12,7 +12,7 @@ if the element &gt; 0 ,the element is set to 0.</sDescription>
          <frac32.positive name="value" description="value if index is set to &apos;high&apos;"/>
       </inlets>
       <outlets>
-         <bool32 name="state" description="state of the step at index"/>
+         <bool32 name="state" description="state of the step at index" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

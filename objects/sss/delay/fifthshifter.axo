@@ -11,7 +11,7 @@ Mostly usable for drony stuff.</sDescription>
          <frac32 name="crossover"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

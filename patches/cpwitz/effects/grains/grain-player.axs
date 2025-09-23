@@ -25,8 +25,8 @@
             <frac32 name="dcy"/>
          </inlets>
          <outlets>
-            <frac32.positive name="env" description="envelope output"/>
-         </outlets>
+            <frac32.positive name="env" description="envelope output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs/>
@@ -88,8 +88,8 @@ outlet_env = val>>4;
             <frac32.positive name="length"/>
          </inlets>
          <outlets>
-            <frac32buffer name="out" description="wave"/>
-         </outlets>
+            <frac32buffer name="out" description="wave" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs>

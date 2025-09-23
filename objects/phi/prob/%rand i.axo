@@ -5,10 +5,10 @@
       <license>GPL</license>
       <helpPatch>prob.axh</helpPatch>
       <inlets>
-         <bool32 name="trig"/>
+         <bool32 name="trig" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="o"/>
+         <int32 name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

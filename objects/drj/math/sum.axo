@@ -9,8 +9,8 @@
       <frac32.bipolar name="in3" description="Input 3"/>
     </inlets>
     <outlets>
-      <frac32.bipolar name="out" description="Output"/>
-    </outlets>
+      <frac32.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -29,8 +29,8 @@
       <frac32.bipolar name="in4" description="Input 4"/>
     </inlets>
     <outlets>
-      <frac32.bipolar name="out" description="Output"/>
-    </outlets>
+      <frac32.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -50,8 +50,8 @@
       <frac32.bipolar name="in5" description="Input 5"/>
     </inlets>
     <outlets>
-      <frac32.bipolar name="out" description="Output"/>
-    </outlets>
+      <frac32.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -72,8 +72,8 @@
       <frac32.bipolar name="in6" description="Input 6"/>
     </inlets>
     <outlets>
-      <frac32.bipolar name="out" description="Output"/>
-    </outlets>
+      <frac32.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -95,8 +95,8 @@
       <frac32.bipolar name="in7" description="Input 7"/>
     </inlets>
     <outlets>
-      <frac32.bipolar name="out" description="Output"/>
-    </outlets>
+      <frac32.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -119,8 +119,8 @@
       <frac32.bipolar name="in8" description="Input 8"/>
     </inlets>
     <outlets>
-      <frac32.bipolar name="out" description="Output"/>
-    </outlets>
+      <frac32.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -138,8 +138,8 @@
       <frac32buffer.bipolar name="in3" description="Input 3"/>
     </inlets>
     <outlets>
-      <frac32buffer.bipolar name="out" description="Output"/>
-    </outlets>
+      <frac32buffer.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -158,8 +158,8 @@
       <frac32buffer.bipolar name="in4" description="Input 4"/>
     </inlets>
     <outlets>
-      <frac32buffer.bipolar name="out" description="Output"/>
-    </outlets>
+      <frac32buffer.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -179,8 +179,8 @@
       <frac32buffer.bipolar name="in5" description="Input 5"/>
     </inlets>
     <outlets>
-      <frac32buffer.bipolar name="out" description="Output"/>
-    </outlets>
+      <frac32buffer.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -201,8 +201,8 @@
       <frac32buffer.bipolar name="in6" description="Input 6"/>
     </inlets>
     <outlets>
-      <frac32buffer.bipolar name="out" description="Output"/>
-    </outlets>
+      <frac32buffer.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -224,8 +224,8 @@
       <frac32buffer.bipolar name="in7" description="Input 7"/>
     </inlets>
     <outlets>
-      <frac32buffer.bipolar name="out" description="Output"/>
-    </outlets>
+      <frac32buffer.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -248,8 +248,8 @@
       <frac32buffer.bipolar name="in8" description="Input 8"/>
     </inlets>
     <outlets>
-      <frac32buffer.bipolar name="out" description="Output"/>
-    </outlets>
+      <frac32buffer.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -267,8 +267,8 @@
       <int32.bipolar name="in3" description="Input 3"/>
     </inlets>
     <outlets>
-      <int32.bipolar name="out" description="Output"/>
-    </outlets>
+      <int32.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -287,8 +287,8 @@
       <int32.bipolar name="in4" description="Input 4"/>
     </inlets>
     <outlets>
-      <int32.bipolar name="out" description="Output"/>
-    </outlets>
+      <int32.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -308,8 +308,8 @@
       <int32.bipolar name="in5" description="Input 5"/>
     </inlets>
     <outlets>
-      <int32.bipolar name="out" description="Output"/>
-    </outlets>
+      <int32.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -330,8 +330,8 @@
       <int32.bipolar name="in6" description="Input 6"/>
     </inlets>
     <outlets>
-      <int32.bipolar name="out" description="Output"/>
-    </outlets>
+      <int32.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -353,8 +353,8 @@
       <int32.bipolar name="in7" description="Input 7"/>
     </inlets>
     <outlets>
-      <int32.bipolar name="out" description="Output"/>
-    </outlets>
+      <int32.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>
@@ -377,8 +377,8 @@
       <int32.bipolar name="in8" description="Input 8"/>
     </inlets>
     <outlets>
-      <int32.bipolar name="out" description="Output"/>
-    </outlets>
+      <int32.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params/>
     <attribs/>

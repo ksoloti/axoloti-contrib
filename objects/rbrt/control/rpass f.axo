@@ -6,7 +6,7 @@ otherwise,the last input within range is held.</sDescription>
       <license>BSD</license>
       <helpPatch>math.axh</helpPatch>
       <inlets>
-         <frac32.bipolar name="in"/>
+         <frac32.bipolar name="in" noLabel="true"/>
       </inlets>
       <outlets>
          <frac32.bipolar name="out"/>

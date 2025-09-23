@@ -5,10 +5,10 @@
       <license>BSD</license>
       <helpPatch>waveshapers.axh</helpPatch>
       <inlets>
-         <frac32buffer name="in" description="input"/>
+         <frac32buffer name="in" description="input" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="output, bound to normal range"/>
+         <frac32buffer name="out" description="output, bound to normal range" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

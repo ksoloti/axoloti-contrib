@@ -11,7 +11,7 @@ Linear frequency scaling. The object is based on Johannes dist/samplehold cheap 
          <frac32 name="scaling"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="out" description="output"/>
+         <frac32buffer.bipolar name="out" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

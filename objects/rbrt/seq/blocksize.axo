@@ -5,10 +5,10 @@
       <license>BSD</license>
       <helpPatch>step_seq.axh</helpPatch>
       <inlets>
-         <int32 name="in" description="step"/>
+         <int32 name="in" description="step" noLabel="true"/>
       </inlets>
       <outlets>
-         <int32 name="out" description="block start"/>
+         <int32 name="out" description="block start" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

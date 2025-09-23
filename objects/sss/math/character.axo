@@ -21,7 +21,7 @@ The gain control nicely warps this distortion-character up the frequency spectru
          <frac32 name="quant"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="output"/>
+         <frac32buffer name="out" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

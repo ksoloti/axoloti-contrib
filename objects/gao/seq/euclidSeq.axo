@@ -6,10 +6,10 @@ https://en.wikipedia.org/wiki/Euclidean_rhythm</sDescription>
       <license>BSD</license>
       <helpPatch>euclidSeq.axh</helpPatch>
       <inlets>
-         <bool32.rising name="trig"/>
+         <bool32.rising name="trig" noLabel="true"/>
       </inlets>
       <outlets>
-         <bool32.pulse name="trig" description="bang"/>
+         <bool32.pulse name="trig" description="bang" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

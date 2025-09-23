@@ -6,10 +6,10 @@
       <license>LGPL</license>
       <helpPatch>fractalI.axh</helpPatch>
       <inlets>
-         <frac32buffer.bipolar name="in"/>
+         <frac32buffer.bipolar name="in" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="out"/>
+         <frac32buffer name="out" description="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

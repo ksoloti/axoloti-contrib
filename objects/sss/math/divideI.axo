@@ -9,7 +9,7 @@
          <int32 name="divide" description="input"/>
       </inlets>
       <outlets>
-         <int32 name="result" description="output"/>
+         <int32 name="result" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

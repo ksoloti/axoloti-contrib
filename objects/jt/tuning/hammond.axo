@@ -6,7 +6,7 @@ This does NOT follow the tuning deviation of the upper 7 tonewheels of the B3 as
       <license>BSD</license>
       <helpPatch>tuning.axh</helpPatch>
       <inlets>
-         <frac32 name="detune" description="in semitones"/>
+         <frac32 name="detune" description="in semitones" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays/>

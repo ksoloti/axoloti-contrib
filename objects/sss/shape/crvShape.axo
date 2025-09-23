@@ -24,7 +24,7 @@ offset adds an offset to the output, eg. to offset the phase.</sDescription>
          <frac32 name="offset"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -15,7 +15,7 @@
          <int32.positive name="mode"/>
       </inlets>
       <outlets>
-         <int32.positive name="playmode" description="playmode"/>
+         <int32.positive name="playmode" description="playmode" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

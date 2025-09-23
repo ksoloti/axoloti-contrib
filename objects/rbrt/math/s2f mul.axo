@@ -10,7 +10,7 @@ the result is multiplied with inle &apos;mul&apos;.</sDescription>
          <frac32 name="mul" description="multiplier"/>
       </inlets>
       <outlets>
-         <frac32 name="freq" description="frequency out "/>
+         <frac32 name="freq" description="frequency out " noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

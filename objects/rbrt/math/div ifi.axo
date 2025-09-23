@@ -9,7 +9,7 @@
          <frac32 name="b"/>
       </inlets>
       <outlets>
-         <int32 name="int"/>
+         <int32 name="int" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

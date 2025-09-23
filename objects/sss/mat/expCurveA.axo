@@ -10,7 +10,7 @@ exp parameter below zero is inverse exponential curve</sDescription>
          <frac32 name="exp"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

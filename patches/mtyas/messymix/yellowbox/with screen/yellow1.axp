@@ -124,8 +124,8 @@
                         <bool32 name="Bipolar"/>
                      </inlets>
                      <outlets>
-                        <bool32 name="wave"/>
-                     </outlets>
+                        <bool32 name="wave" noLabel="true"/>
+      </outlets>
                      <displays/>
                      <params/>
                      <attribs/>
@@ -223,8 +223,8 @@ int32_t wave;
                         <bool32 name="Bipolar"/>
                      </inlets>
                      <outlets>
-                        <bool32 name="wave"/>
-                     </outlets>
+                        <bool32 name="wave" noLabel="true"/>
+      </outlets>
                      <displays/>
                      <params/>
                      <attribs/>

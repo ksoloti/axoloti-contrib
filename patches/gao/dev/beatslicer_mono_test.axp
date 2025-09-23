@@ -40,8 +40,8 @@
          <license>BSD</license>
          <helpPatch>turing.axh</helpPatch>
          <inlets>
-            <bool32.rising name="trig" description=""/>
-         </inlets>
+            <bool32.rising name="trig" description="" noLabel="true"/>
+      </inlets>
          <outlets>
             <int32 name="buffer"/>
             <frac32.bipolar name="note"/>
@@ -230,8 +230,8 @@ timeconstant = 175.f;
             <bool32.rising name="reset"/>
          </inlets>
          <outlets>
-            <bool32 name="detection"/>
-         </outlets>
+            <bool32 name="detection" noLabel="true"/>
+      </outlets>
          <displays>
             <bool32 name="detection"/>
             <int32.label name="n"/>
@@ -472,8 +472,8 @@ outlet_detection = detect;]]></code.krate>
             <bool32 name="retrig"/>
          </inlets>
          <outlets>
-            <frac32buffer name="o" description="wave"/>
-         </outlets>
+            <frac32buffer name="o" description="wave" noLabel="true"/>
+      </outlets>
          <displays/>
          <params/>
          <attribs>

@@ -7,7 +7,7 @@
       <helpPatch>wave creator.axh</helpPatch>
       <rotatedParams>true</rotatedParams>
       <inlets>
-         <int32 name="offset"/>
+         <int32 name="offset" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays/>

@@ -11,10 +11,10 @@ Damp controls the cutoff of a filter that then damps the linearly clipped signal
       <author>Remco van der Most</author>
       <license>BSD</license>
       <inlets>
-         <frac32buffer name="in"/>
+         <frac32buffer name="in" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

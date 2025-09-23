@@ -27,7 +27,7 @@ NOTE! harmshift is still based on the incoming signal and not depending on the s
          <int32 name="samplelength"/>
       </inlets>
       <outlets>
-         <frac32buffer name="HQ"/>
+         <frac32buffer name="HQ" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

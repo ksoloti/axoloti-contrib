@@ -9,7 +9,7 @@
          <bool32.rising name="rst" description="reset"/>
       </inlets>
       <outlets>
-         <int32 name="o"/>
+         <int32 name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

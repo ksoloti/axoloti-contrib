@@ -28,7 +28,7 @@ Using a &quot;fatbasterd&quot; (distortion folder) before the throat input helps
          <frac32 name="gain5"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

@@ -4,11 +4,11 @@
     <author>Are Leistad</author>
     <license>BSD</license>
     <inlets>
-      <bool32.rising  name="clk" description="Clock input"/>
-    </inlets>
+      <bool32.rising  name="clk" description="Clock input" noLabel="true"/>
+      </inlets>
     <outlets>
-      <bool32.pulse   name="clk" description="Clock output"/>
-    </outlets>
+      <bool32.pulse   name="clk" description="Clock output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params>
       <int32 name="clockdiv" noLabel="false">
@@ -56,8 +56,8 @@
       <bool32.rising  name="r" description="Reset input"/>
     </inlets>
     <outlets>
-      <bool32.pulse   name="clk" description="Clock output"/>
-    </outlets>
+      <bool32.pulse   name="clk" description="Clock output" noLabel="true"/>
+      </outlets>
     <displays/>
     <params>
       <int32 name="clockdiv" noLabel="false">

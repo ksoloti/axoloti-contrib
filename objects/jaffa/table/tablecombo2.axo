@@ -9,10 +9,10 @@ This version has also got Dr. Justice deglitcher implemented, which mutes all so
       <author>Jaffasplaffa</author>
       <license>BSD</license>
       <inlets>
-         <int32 name="index"/>
+         <int32 name="index" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32.positive name="volume"/>
+         <frac32.positive name="volume" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

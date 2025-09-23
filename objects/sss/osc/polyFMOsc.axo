@@ -39,7 +39,7 @@ Glide generates a portamento for each oscillator, changing to another note.
          <bool32 name="active"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

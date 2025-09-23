@@ -12,7 +12,7 @@ Range-control is bipolar, so the exponential and inverted exponential shaping pr
          <frac32buffer name="aRange"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

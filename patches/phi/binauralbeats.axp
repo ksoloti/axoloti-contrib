@@ -28,8 +28,8 @@
          <author>Sptnk</author>
          <license>GPL</license>
          <inlets>
-            <frac32.positive name="freq" description="linear frequency inlet (like sine/lin)"/>
-         </inlets>
+            <frac32.positive name="freq" description="linear frequency inlet (like sine/lin)" noLabel="true"/>
+      </inlets>
          <outlets/>
          <displays>
             <int32.label name="Hz" noLabel="true"/>
@@ -68,8 +68,8 @@
          <author>Sptnk</author>
          <license>GPL</license>
          <inlets>
-            <frac32.positive name="freq" description="linear frequency inlet (like sine/lin)"/>
-         </inlets>
+            <frac32.positive name="freq" description="linear frequency inlet (like sine/lin)" noLabel="true"/>
+      </inlets>
          <outlets/>
          <displays>
             <int32.label name="Hz" noLabel="true"/>
@@ -106,8 +106,8 @@
          <author>Sptnk</author>
          <license>GPL</license>
          <inlets>
-            <frac32.positive name="freq" description="linear frequency inlet (like sine/lin)"/>
-         </inlets>
+            <frac32.positive name="freq" description="linear frequency inlet (like sine/lin)" noLabel="true"/>
+      </inlets>
          <outlets/>
          <displays>
             <int32.label name="Hz" noLabel="true"/>

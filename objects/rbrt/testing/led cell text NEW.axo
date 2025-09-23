@@ -7,7 +7,7 @@
          <bool32.rising name="mute"/>
       </inlets>
       <outlets>
-         <int32 name="test"/>
+         <int32 name="test" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

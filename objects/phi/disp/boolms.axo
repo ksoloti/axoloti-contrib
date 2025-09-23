@@ -5,7 +5,7 @@
       <license>BSD</license>
       <helpPatch>pulselength.axh</helpPatch>
       <inlets>
-         <bool32.rising name="trig" description="trigger"/>
+         <bool32.rising name="trig" description="trigger" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays>

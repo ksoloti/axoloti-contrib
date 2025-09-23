@@ -10,7 +10,7 @@
 		 <int32 name="gen nb"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="wave"/>
+         <frac32buffer.bipolar name="wave" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

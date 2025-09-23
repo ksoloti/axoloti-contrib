@@ -8,7 +8,7 @@
          <int32 name="offset" description="sets an offset for writing to the table"/>
       </inlets>
       <outlets>
-         <int32 name="v0"/>
+         <int32 name="v0" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

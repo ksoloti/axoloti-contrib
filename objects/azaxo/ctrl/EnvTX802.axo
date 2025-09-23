@@ -4,10 +4,10 @@
       <author>Albert van der Zee</author>
       <license>GPL</license>
       <inlets>
-         <bool32.risingfalling name="Trigger"/>
+         <bool32.risingfalling name="Trigger" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32.positive name="o"/>
+         <frac32.positive name="o" noLabel="true"/>
       </outlets>
       <displays>
          <int32.label name="stage"/>

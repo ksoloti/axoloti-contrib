@@ -16,7 +16,7 @@ See puredata help patch B14.sampler.rockafella.pd.</sDescription>
          <bool32 name="retrig"/>
       </inlets>
       <outlets>
-         <frac32buffer name="o"/>
+         <frac32buffer name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

@@ -4,7 +4,7 @@
       <author>Sputnki</author>
       <license>BSD</license>
       <inlets>
-         <frac32buffer.bipolar name="in"/>
+         <frac32buffer.bipolar name="in" noLabel="true"/>
       </inlets>
       <outlets>
          <int32 name="smp" description="number of samples at s-rate sample rate"/>

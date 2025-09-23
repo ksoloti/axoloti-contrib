@@ -116,11 +116,11 @@
          <license>LGPL</license>
          <helpPatch>DP2Saw.axh</helpPatch>
          <inlets>
-            <frac32.bipolar name="pitch" description="pitch"/>
-         </inlets>
+            <frac32.bipolar name="pitch" description="pitch" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32buffer.bipolar name="wave" description="selfPM wave"/>
-         </outlets>
+            <frac32buffer.bipolar name="wave" description="selfPM wave" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <frac32.s.map.pitch name="pitch" noLabel="true"/>

@@ -6,10 +6,10 @@ It does direction compression, that means, no attack/release or envelope functio
       <license>BSD</license>
       <helpPatch>comp.axh</helpPatch>
       <inlets>
-         <frac32buffer name="in"/>
+         <frac32buffer name="in" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

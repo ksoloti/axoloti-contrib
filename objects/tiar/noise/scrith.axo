@@ -4,10 +4,10 @@
       <license>LGPL</license>
       <helpPatch>scrith.axh</helpPatch>
       <inlets>
-         <frac32 name="bright"/>
+         <frac32 name="bright" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="out"/>
+         <frac32buffer.bipolar name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -5,7 +5,7 @@
       <license>BSD</license>
       <inlets/>
       <outlets>
-         <frac32.positive name="cv1"/>
+         <frac32.positive name="cv1" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

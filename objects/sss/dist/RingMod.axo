@@ -19,7 +19,7 @@ Ringlvl is the wet-level of the ringmodulated signal</sDescription>
          <frac32buffer name="b" description="input"/>
       </inlets>
       <outlets>
-         <frac32buffer name="result" description="output"/>
+         <frac32buffer name="result" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

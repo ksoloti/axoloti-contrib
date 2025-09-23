@@ -11,7 +11,7 @@ the piano-control adds a frequency offset to each next note, starting from middl
          <int32 name="root"/>
       </inlets>
       <outlets>
-         <frac32 name="scaled"/>
+         <frac32 name="scaled" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

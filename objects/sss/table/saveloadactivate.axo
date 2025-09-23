@@ -11,7 +11,7 @@ also features:
       <license>BSD</license>
       <helpPatch>ctrl.axh</helpPatch>
       <inlets>
-         <bool32.rising name="load"/>
+         <bool32.rising name="load" noLabel="true"/>
       </inlets>
       <outlets>
          <bool32 name="save" description="output"/>

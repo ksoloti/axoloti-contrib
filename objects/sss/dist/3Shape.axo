@@ -27,7 +27,7 @@ mode=7 : triangle bounce-&gt;mod controls gain, the higher, the faster the trian
          <frac32 name="mod3"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -13,7 +13,7 @@
          <frac32 name="gain" description="gain input"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out" description="output"/>
+         <frac32buffer name="out" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

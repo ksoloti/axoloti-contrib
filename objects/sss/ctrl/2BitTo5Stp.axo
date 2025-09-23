@@ -7,7 +7,7 @@ Order of inputting the bits sets whether last step is 3 or 4 (when b2 is already
       <helpPatch>ctrl.axh</helpPatch>
       <inlets/>
       <outlets>
-         <int32 name="o"/>
+         <int32 name="o" noLabel="true"/>
       </outlets>
       <displays>
          <bool32 name="d1"/>

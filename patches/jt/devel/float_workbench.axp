@@ -25,11 +25,11 @@
       <object id="patch/object" uuid="a4ec8e3f-0c24-4fad-b6ea-7bbd60455d1b">
          <sDescription>description</sDescription>
          <inlets>
-            <frac32buffer name="inlet1"/>
-         </inlets>
+            <frac32buffer name="inlet1" noLabel="true"/>
+      </inlets>
          <outlets>
-            <frac32buffer name="outlet1"/>
-         </outlets>
+            <frac32buffer name="outlet1" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <bool32.tgl name="intrinsic"/>

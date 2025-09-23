@@ -19,7 +19,7 @@ mod# will apply an amount of the mode-effect.</sDescription>
          <frac32 name="mod3"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

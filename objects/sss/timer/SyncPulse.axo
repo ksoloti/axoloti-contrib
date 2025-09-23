@@ -7,10 +7,10 @@ The length-control sets the amount of the time in-between triggers that the puls
       <license>BSD</license>
       <helpPatch>pulselength.axh</helpPatch>
       <inlets>
-         <bool32.rising name="trig" description="trigger"/>
+         <bool32.rising name="trig" description="trigger" noLabel="true"/>
       </inlets>
       <outlets>
-         <bool32 name="out" description="pulse output"/>
+         <bool32 name="out" description="pulse output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

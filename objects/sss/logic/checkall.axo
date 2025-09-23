@@ -16,7 +16,7 @@ If you want to use less inputs, just connect the last used one to the remaining 
          <bool32 name="i8"/>
       </inlets>
       <outlets>
-         <bool32.pulse name="trg"/>
+         <bool32.pulse name="trg" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

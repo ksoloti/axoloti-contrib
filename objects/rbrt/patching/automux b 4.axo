@@ -11,7 +11,7 @@
          <bool32 name="i3"/>
       </inlets>
       <outlets>
-         <bool32 name="o"/>
+         <bool32 name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

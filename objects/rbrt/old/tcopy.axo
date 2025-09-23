@@ -14,7 +14,7 @@ if &apos;splat&apos; is enabled,tcopy will prevserve the original contents of th
          <bool32.rising name="trig" description="start copying"/>
       </inlets>
       <outlets>
-         <bool32.pulse name="done" description="operation done."/>
+         <bool32.pulse name="done" description="operation done." noLabel="true"/>
       </outlets>
       <displays/>
       <params>

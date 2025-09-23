@@ -21,7 +21,7 @@ on request of axoman I added a modulation that enables a curved response of the 
          <bool32 name="AutoGain" description="adds gain in respect to the treshold, the lower the treshold, the more post-gain is added."/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

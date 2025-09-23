@@ -6,7 +6,7 @@
       <helpPatch>kscope 128 b sl.axh</helpPatch>
       <rotatedParams>true</rotatedParams>
       <inlets>
-         <frac32.positive name="in" description="input"/>
+         <frac32.positive name="in" description="input" noLabel="true"/>
       </inlets>
       <outlets/>
       <displays>

@@ -6,10 +6,10 @@ Range -64..64</sDescription>
       <license>LGPL</license>
       <helpPatch>Geiger.axh</helpPatch>
       <inlets>
-         <frac32.bipolar name="density"/>
+         <frac32.bipolar name="density" noLabel="true"/>
       </inlets>
       <outlets>
-         <frac32buffer.bipolar name="out" description="impulses"/>
+         <frac32buffer.bipolar name="out" description="impulses" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -14,7 +14,7 @@
          <bool32 name="OS" description="x2 oversampling *on is adviced for more clarity"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

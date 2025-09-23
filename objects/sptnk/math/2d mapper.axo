@@ -8,7 +8,7 @@
          <frac32buffer name="y" description="y coordinate input"/>
       </inlets>
       <outlets>
-         <frac32buffer name="z" description="z output"/>
+         <frac32buffer name="z" description="z output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

@@ -623,8 +623,8 @@
                   <frac32.bipolar name="scale"/>
                </inlets>
                <outlets>
-                  <frac32.bipolar name="out" description="Output"/>
-               </outlets>
+                  <frac32.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params/>
                <attribs/>
@@ -696,8 +696,8 @@
                   <frac32.bipolar name="scale"/>
                </inlets>
                <outlets>
-                  <frac32.bipolar name="out" description="Output"/>
-               </outlets>
+                  <frac32.bipolar name="out" description="Output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params/>
                <attribs/>
@@ -776,8 +776,8 @@
                   <frac32.positive name="falltime"/>
                </inlets>
                <outlets>
-                  <frac32 name="out" description="output"/>
-               </outlets>
+                  <frac32 name="out" description="output" noLabel="true"/>
+      </outlets>
                <displays/>
                <params/>
                <attribs/>

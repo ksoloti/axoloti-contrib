@@ -3,10 +3,10 @@
       <author>Smashed Transistors</author>
       <license>LGPL</license>
       <inlets>
-         <int32.bipolar name="i"/>
+         <int32.bipolar name="i" noLabel="true"/>
       </inlets>
       <outlets>
-         <charptr32 name="o"/>
+         <charptr32 name="o" noLabel="true"/>
       </outlets>
       <displays/>
       <params/>

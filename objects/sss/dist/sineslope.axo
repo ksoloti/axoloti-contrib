@@ -11,7 +11,7 @@ The &quot;clip&quot; value will determine whether the output&apos;s behavior wil
          <frac32 name="strength"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

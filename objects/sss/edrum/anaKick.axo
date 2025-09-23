@@ -13,7 +13,7 @@ Tail is the resonance of the filter, which is set to a really low damping for a 
          <int32 name="burst"/>
       </inlets>
       <outlets>
-         <frac32buffer name="out"/>
+         <frac32buffer name="out" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

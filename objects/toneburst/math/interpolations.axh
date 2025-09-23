@@ -66,8 +66,8 @@
          <helpPatch>ctrl.axh</helpPatch>
          <inlets/>
          <outlets>
-            <int32.positive name="out" description="output"/>
-         </outlets>
+            <int32.positive name="out" description="output" noLabel="true"/>
+      </outlets>
          <displays/>
          <params>
             <int32.vradio name="value" noLabel="true">

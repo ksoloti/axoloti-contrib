@@ -4,7 +4,7 @@
       <author>Simon Iten</author>
       <license>BSD</license>
       <inlets>
-         <int32.bipolar name="in"/>
+         <int32.bipolar name="in" noLabel="true"/>
       </inlets>
       <outlets>
          <int32.bipolar name="out"/>
