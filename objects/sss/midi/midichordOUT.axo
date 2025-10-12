@@ -57,12 +57,15 @@ MidiSend3((midi_device_t) attr_device , MIDI_PITCH_BEND + (attr_channel-1),(tmp>
 
 int32_t out;
 int32_t LOG(int32_t in){
+   if (in == 0) {
+		return 0;
+	}
 	Float_t f;
 f.f = in;
 int32_t r1 = ((f.parts.exponent&0x7F)-18) << 24;
 int32_t r3 = logt[f.parts.mantissa>>15]<<10;
 out = r1 + r3;
-
+return out;
 }
 
 int32_t FTOM(int32_t freq){

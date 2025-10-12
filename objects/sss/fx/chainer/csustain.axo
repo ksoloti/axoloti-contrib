@@ -34,6 +34,9 @@ int32_t gnR;
 int32_t hpL;
 int32_t hpR;
 int32_t LOG(int32_t in){
+   if (in == 0) {
+		return 0;
+	}
 	Float_t f;
 f.f = in;
 int32_t r1 = ((f.parts.exponent&0x7F)-18) << 24;

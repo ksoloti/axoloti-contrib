@@ -23,13 +23,15 @@ This version should take care of some alliasing issues at steady tempo while sti
 int32_t DO;
 
 int32_t LOG(int32_t in){
+	if (in == 0) {
+		return 0;
+	}
 	Float_t f;
 f.f = in;
 int32_t r1 = ((f.parts.exponent&0x7F)-18) << 24;
 int32_t r3 = logt[f.parts.mantissa>>15]<<10;
 r1 += r3;
 return r1;
-
 }
 
 
