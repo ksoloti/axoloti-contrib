@@ -34,7 +34,7 @@ speeddown = (float) (134217728/(rangedown+1));// add one to prevent divide by ze
 }
 if (!(inlet_Trigger>0)) {ntrig=0;}
 
-float reduced = inlet_i -latch;
+float reduced = inlet_In - latch;
 if(reduced>0) {out = (float) (reduced * speedup);}
 if(!(reduced>0)) {out = (float) (reduced * speeddown);}
 
