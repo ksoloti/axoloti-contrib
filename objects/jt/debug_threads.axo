@@ -35,9 +35,9 @@ if (param_dump & !p){
 			nfree++;
 			stk++;
 		}
-		LogTextMessage("%-16s%-16s%-6d",name,states[thd->p_state],nfree);
+		LogTextMessage("%-16s%-16s%-6d",name,states[thd->state],nfree);
 #else
-		LogTextMessage("%-16s%-16s",name,states[thd->p_state]);
+		LogTextMessage("%-16s%-16s",name,states[thd->state]);
 #endif
 
 		thd = chRegNextThread(thd);
