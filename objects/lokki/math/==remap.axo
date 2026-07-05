@@ -26,22 +26,34 @@
       <code.init><![CDATA[outValue = 0;]]></code.init>
       <code.krate><![CDATA[switch (inlet_in) {
 
+#if attr_in0 != attr_out0
 case attr_in0:
 outlet_hit = true;
 outValue = attr_out0;
 break;
+#endif
+
+#if attr_in1 != attr_out1
 case attr_in1:
 outlet_hit = true;
 outValue = attr_out1;
 break;
+#endif
+
+#if attr_in2 != attr_out2
 case attr_in2:
 outlet_hit = true;
 outValue = attr_out2;
 break;
+#endif
+
+#if attr_in3 != attr_out3
 case attr_in3:
 outlet_hit = true;
 outValue = attr_out3;
 break;
+#endif
+
 default:
 outlet_hit = false;
 }
