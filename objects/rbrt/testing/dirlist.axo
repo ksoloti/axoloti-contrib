@@ -58,10 +58,8 @@ strncpy (&wrk[2],&att[3],1);]]></code.init>
     FILINFO fno;
     DIR dir;
 
-        #if _USE_LFN
-    fno.lfname = 0;
-    fno.lfsize = 0;
-    #endif
+    fno.fname = 0;
+    fno.fsize = 0;
         
 if ((inlet_getDir && !trig )|| redraw){
 	memset (&fout[0],0,512);

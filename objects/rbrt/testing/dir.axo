@@ -52,10 +52,8 @@ for(i=0;i<1024;i++) fout[i]=0;]]></code.init>
     FILINFO fno;
     DIR dir;
 
-        #if _USE_LFN
-    fno.lfname = 0;
-    fno.lfsize = 0;
-    #endif
+    fno.fname = 0;
+    fno.fsize = 0;
         
 if (inlet_getDir && !trig){
 	trig = 1;
