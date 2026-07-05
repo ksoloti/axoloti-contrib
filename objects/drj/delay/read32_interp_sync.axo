@@ -186,7 +186,7 @@
       // Use preset time until synced
       if( start_sequence == 0 && clock_source != CLOCK_SOURCE_internal )
         {
-          sync_time = param_time;
+          // sync_time = param_time;
           start_sequence++;
         }
 
